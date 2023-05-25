@@ -1,2 +1,246 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="download_management">Zarządzanie pobieraniem</string>
+    <string name="select_response">Wybierz odpowiedź</string>
+    <string name="show_open_traps">Pokaż otwarte pułapki</string>
+    <string name="title_warning">Ostrzeżenie</string>
+    <string name="title_complete_walkpath">Kompletna ścieżka spacerowa</string>
+    <string name="msg_clear_walk_path">Spowoduje to usunięcie wszystkich danych o lokalizacji wraz z zebranymi rekordami terenowymi\? Jesteś pewien, że chcesz kontynuować\?</string>
+    <string name="msg_complete_walk_path">To dopełni twój wysiłek chodzenia, Czy chcesz kontynuować\?</string>
+    <string name="show_altitude">Pokaż wysokość</string>
+    <string name="switch_on_setting_to_see_altitude">Włącz to ustawienie, aby zobaczyć wysokość</string>
+    <string name="title_error_file_not_found">Brakuje wymaganych plików</string>
+    <string name="message_error_file_not_found">Prosimy o kontakt z tablicami Diversity, aby uzyskać prawidłowy plik Ecologue.</string>
+    <string name="warning_previous_data_will_delete">Jeśli będziesz kontynuować poprzednie dane zostaną usunięte.</string>
+    <string name="import_successful">Importuj pomyślnie</string>
+    <string name="message_can_start_using_app">Teraz możesz zacząć korzystać z aplikacji z nowym projektem</string>
+    <string name="barcode">Kod kreskowy</string>
+    <string name="select">Wybierz</string>
+    <string name="msg_scan_barcode_before_selecting">Proszę zeskanować kod kreskowy przed wybraniem</string>
+    <string name="capture_image">Uchwyć</string>
+    <string name="scanned_barcode">Zeskanowany kod kreskowy</string>
+    <string name="image_capture_result">Wynik przechwytywania obrazu</string>
+    <string name="close">Zamknij</string>
+    <string name="app_name">EcoLogue</string>
+    <string name="mapbox_access_token">PL.EYJ1iJoiZGfUbnLkYXj0iiWiySi6iMnRzJi1bXk4bZAWAGCYdGxnNgVqngDyb3oiFq.teh-eb2b-hwfo6qnszooYw</string>
+    <string name="error_load_mbtiles">Nie znaleziono pliku mapy mbtiles w folderze dokumenty/ecocorer</string>
+    <string name="add_a_new_marker">Dodaj nowy znacznik</string>
+    <string name="confirm">Potwierdź</string>
+    <string name="data">Rekordy terenowe</string>
+    <string name="settings">Ustawienia</string>
+    <string name="add_trap">Dodaj pułapkę</string>
+    <string name="add_effort">Dodaj wysiłek</string>
+    <string name="add_survey">Dodaj ankietę</string>
+    <string name="download_project_information">Pobierz informacje o projekcie</string>
+    <string name="download_project_information_description">Skonfiguruj dane przed wyjazdem</string>
+    <string name="upload_data">Prześlij dane</string>
+    <string name="upload_data_description">Prześlij dane lokalne do OneDart</string>
+    <string name="projects">Projekty</string>
+    <string name="fail_to_get_location">Nie udało się uzyskać lokalizacji.</string>
+    <string name="description_map_service">Oferuje nagrywanie map i ścieżek spacerowych</string>
+    <string name="notification_title">EcoLogue działa</string>
+    <string name="notification_message">Do nagrywania ścieżki spacerowej</string>
+    <string name="record_walk_path">Rekordowa ścieżka spacerowa</string>
+    <string name="stop_record_walk_path">Zatrzymaj nagrywanie ścieżki spacerowej</string>
+    <string name="data_management">Zarządzanie danymi</string>
+    <string name="shapefiles">Shapefiles</string>
+    <string name="shapefiles_description">Wybierz pokazyj/ukryć lub zmienić kolejność wyświetlania</string>
+    <string name="trap_type">Typ pułapki</string>
+    <string name="trap_type_with_for">Typ pułapki dla %1$s</string>
+    <string name="latitude">Szerokość geograficzna</string>
+    <string name="longitude">Długość geograficzna</string>
+    <string name="altitude">Wysokość</string>
+    <string name="start_date">Data rozpoczęcia</string>
+    <string name="end_date">Data zakończenia</string>
+    <string name="start_time">Czas rozpoczęcia</string>
+    <string name="end_time">Czas zakończenia</string>
+    <string name="start_date_on_after">Data rozpoczęcia dnia lub później</string>
+    <string name="end_date_on_before">Data zakończenia dnia lub wcześniej</string>
+    <string name="habitat">Siedlisko</string>
+    <string name="notes">Uwagi</string>
+    <string name="save">Zapisz</string>
+    <string name="invalid_end_date">Nieprawidłowa data zakończenia</string>
+    <string name="target_group">Grupa docelowa</string>
+    <string name="select_target_group">Wybierz grupę docelową</string>
+    <string name="logout">Wyloguj</string>
+    <string name="login">Zaloguj</string>
+    <string name="login_and_select_project">Zaloguj się i wybierz projekt w ustawieniach</string>
+    <string name="title_target_groups">Grupa docelowa</string>
+    <string name="cancel">Anuluj</string>
+    <string name="title">Tytuł</string>
+    <string name="value">Wartość</string>
+    <string name="description">Opis</string>
+    <string name="internal_error">Błąd wewnętrzny</string>
+    <string name="error_encode_metadata_failed">Nie udało się zakodować metadanych</string>
+    <string name="error_add_source_mapbox_mbtiles">Nie można dodać źródła do mapy po załadowaniu mbtiles</string>
+    <string name="error">Błąd</string>
+    <string name="dismiss">Odrzucić</string>
+    <string name="permission_needed">Potrzebne pozwolenie</string>
+    <string name="permission_denied">Odmowa uprawnień</string>
+    <string name="location_explain">EcoLogue musi wykorzystać dane o lokalizacji urządzenia, aby pokazać, gdzie się znajdujesz na mapie. Możesz później dostosować te uprawnienia w ustawieniach urządzenia.</string>
+    <string name="external_storage_not_granted">Ta aplikacja potrzebuje pozwolenia na przechowywanie do ładowania lokalnego pliku mapy mbtiles</string>
+    <string name="permission_explain">Dlaczego potrzebujemy tego pozwolenia\?</string>
+    <string name="custom_map_not_found">Nie znaleziono niestandardowego pliku mapy</string>
+    <string name="downloading_dot_dot_dot">Pobieranie…</string>
+    <string name="downloading">Pobieranie</string>
+    <string name="connecting">Podłączanie…</string>
+    <string name="dialog_description_download_map_res">Zamierzasz pobrać podstawowe zasoby mapy, takie jak adnotacja, pliki kształtów i otwarta mapa satelitarna ulic do użytku offline. Do pobrania jest około 111739 zasobów, może zająć około godziny, w zależności od sieci.</string>
+    <string name="sites">Witryny</string>
+    <string name="site">Site</string>
+    <string name="download_offline_map">Pobierz mapę offline</string>
+    <string name="download_offline_map_description">Pobierz niestandardowe obrazy lotnicze (plik.mbtiles)</string>
+    <string name="download_basic_map_res">Pobierz podstawowy zasób mapy</string>
+    <string name="download_map_res_description">Adnotacje wysp Barrow i pliki kształtów do użytku offline</string>
+    <string name="field_number">Numer pola</string>
+    <string name="import_local_project">Importuj projekt lokalny</string>
+    <string name="import_local_project_description">Importowanie projektu bez łączenia się z bazą danych</string>
+    <string name="stop">Przestań</string>
+    <string name="start">Start</string>
+    <string name="download_offline_map_detail_description">Pobierz spersonalizowany plik mapy MBTiles z niestandardowymi obrazami lotniczymi na wielu poziomach powiększenia.</string>
+    <string name="download_map_res_detail_description">Pobierz plik zasobów mapy, który zawiera szczegóły mapy, takie jak pliki kształtów, drogi, punkty orientacyjne i nazwy na mapie.</string>
+    <string name="mbtiles_file_title">Pobieranie pliku MBTiles</string>
+    <string name="mbtiles_file_message">MBTiles to duży plik, który może potrwać do 4 godzin do pobrania z szybkim Internetem.
+\n 
+\nRozmiar pobierania dla tego pliku Mbtiles to %1$s</string>
+    <string name="available_storage">Dostępne miejsce do przechowywania</string>
+    <string name="insufficient_storage_on_device">Dostępna pamięć masowa na urządzeniu to %1$s
+\nRozmiar pobierania dla tego pliku Mbtiles to %2$s
+\nTen plik do pobrania wymaga więcej miejsca</string>
+    <string name="upload_not_synced_with_database">Dane nie są synchronizowane</string>
+    <string name="not_synced_data">Aplikacja nie pozwala na przełączanie się między projektami, dopóki wszystkie dane nie zostaną zsynchronizowane z serwerem.
+\n
+\nAktualnie posiadasz %1$s nie przesłany na serwer</string>
+    <plurals name="upload_data_points">
+        <item quantity="one">%d punkt danych</item>
+        <item quantity="few"></item>
+        <item quantity="many">%d punkty danych</item>
+        <item quantity="other">%d punkty danych</item>
+    </plurals>
+    <string name="upload_data_to_server">Prześlij swoje dane na serwer.</string>
+    <string name="message_uploading_data">Przesyłanie %1$s</string>
+    <string name="uploading">Przesyłanie…</string>
+    <string name="msg_all_traps_are_uploaded">Wszystkie Twoje rekordy terenowe są już zsynchronizowane z serwerem</string>
+    <string name="switch_server">Skonfiguruj serwer</string>
+    <string name="switch_server_description">Konfigurowanie serwera do pobierania projektów</string>
+    <string name="https">https://</string>
+    <string name="api">/api</string>
+    <string name="login_and_add_server">Zaloguj się i dodaj serwer</string>
+    <string name="add_a_new_server">Dodawanie nowej konfiguracji serwera</string>
+    <string name="previously_configured_servers">Wcześniej skonfigurowane serwery</string>
+    <string name="server">Serwer</string>
+    <string name="select_value_from_the_list">Wybierz wartość z listy</string>
+    <string name="species_name">Nazwa gatunku</string>
+    <string name="genus">Rodzaj</string>
+    <string name="author">Autor</string>
+    <string name="select_a_species">Wybierz gatunek</string>
+    <string name="info">Generał</string>
+    <string name="about_us">O nas</string>
+    <string name="licenses_developers">Informacje o firmie, licencji i deweloperach</string>
+    <string name="all_about_text">"
+\n        Nazwa produktu: EcoLogue
+\n Wersja: %1$s
+\n
+\n Copyright © 2021 Technologia macierzy różnorodności
+\n (Dart)
+\n
+\n E-mail: ecologue@diversityarrays.com
+\n
+\n Deweloperzy:
+\n - Manil Chaudhary
+\n - Danny Feng
+\n - Michał Kirk
+\n - Taylor Policja
+\n
+\n Zastrzeżenie: OPROGRAMOWANIE JEST DOSTARCZANE „AS IS”, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ LUB DOROZUMIANEJ.
+\n
+\n W ŻADNYM WYPADKU AUTORZY ANI ORGANIZACJE WNOSZĄCE WKŁAD NIE PONOSZĄ ODPOWIEDZIALNOŚCI ZA JAKIEKOLWIEK BEZPOŚREDNIE, POŚREDNIE, PRZYPADKOWE, SPECJALNE, WZOROWE LUB WTÓRNE SZKODY (W TYM MIĘDZY INNYMI UTRATĘ UŻYTKOWANIA, DANYCH, ZYSKÓW LUB PRZERWY W DZIAŁALNOŚCI), NIEZALEŻNIE OD TEGO, CZY SĄ SPOWODOWANE JAKĄKOLWIEK TEORIĄ ODPOWIEDZIALNOŚCI, CZY TO W RAMACH UMOWY, ODPOWIEDZIALNOŚCI ŚCISŁEJ LUB CZYNU NIEDOZWOLONEGO (W TYM ZANIEDBANIA LUB W INNY SPOSÓB) WYNIKAJĄCYCH W JAKIKOLWIEK SPOSÓB Z KORZYSTANIA Z TEGO OPROGRAMOWANIA, NAWET JEŚLI POINFORMOWANO O MOŻLIWOŚCI TAKIEGO USZKODZENIA.
+\n
+\n -----------
+\n Rozmiar ekranu: NORMALNY
+\n -----------
+\n
+\n Lokalizacje plików:
+\n Dla Androida 11+: /Storage/emulated/0/Android/Data/com.diversityarrays.ecologue/pliki/dokumenty
+\n Dla Androida 10 i nowszych: /Storage/Emulated/0/Dokumenty/Ecologue"</string>
+    <string name="about">O nas</string>
+    <string name="server_address">Adres serwera</string>
+    <string name="new_server_address">Nowy adres serwera</string>
+    <string name="msg_active_url">"Aktywny adres URL: "</string>
+    <string name="msg_configure_your_server_first">Najpierw skonfiguruj swój serwer</string>
+    <string name="title_configure_server">Skonfiguruj serwer</string>
+    <string name="cant_switch_server">Nie można zmienić serwera</string>
+    <string name="field_records_are_not_uploaded">Wszystkie Twoje rekordy terenowe nie są synchronizowane z serwerem</string>
+    <string name="stopped">zatrzymał się</string>
+    <string name="error_cannot_stop_report_to_dart">Nie mogę tego powstrzymać, zgłoś się do Dart</string>
+    <string name="starting_download_please_wait">Rozpoczynając pobieranie, proszę czekać…</string>
+    <string name="stopping_download_please_wait">Zatrzymując pobieranie, proszę czekać…</string>
+    <string name="dialog_description_login_to_download">Jesteś wylogowany. Zaloguj się przed pobraniem.</string>
+    <string name="done">Gotowe</string>
+    <string name="dialog_title_edit_field_record">Edytuj rekord pola</string>
+    <string name="dialog_description_cant_edit_uploaded_field_record">Nie można edytować przesłanego rekordu pola.</string>
+    <string name="error_message_readonly_fieldrecord">Ten rekord pola jest tylko do odczytu, ponieważ został przesłany na serwer.</string>
+    <string name="title_location_permission">Użyj swojej lokalizacji</string>
+    <string name="permission_denied_location_permission_explaination">EcoLogue musi wykorzystać dane o lokalizacji urządzenia, aby pokazać, gdzie się znajdujesz na mapie. Jeśli chcesz korzystać z tej funkcji w przyszłości, możesz przejść do ustawień urządzenia i włączyć lokalizację dla ecoLogue.</string>
+    <string name="list_view">Widok listy</string>
+    <string name="map_view">Widok mapy</string>
+    <string name="empty_bracket">(Puste)</string>
+    <string name="end_date_colon">Data zakończenia:</string>
+    <string name="start_date_colon">Data rozpoczęcia:</string>
+    <string name="field_number_colon">Numer pola:</string>
+    <string name="trap_type_colon">Typ pułapki:</string>
+    <string name="location">Lokalizacja</string>
+    <string name="collector">Kolektor</string>
+    <string name="trap_collected">Zgromadzona pułapka</string>
+    <string name="trap_exposed">Pułapka odsłonięta</string>
+    <string name="filter_results">Filtruj wyniki</string>
+    <string name="msg_any_selection">Dowolny</string>
+    <string name="reset">Resetuj</string>
+    <string name="filter">Filtruj</string>
+    <string name="select_trap_type">Wybierz typ pułapki</string>
+    <string name="select_site">Wybierz witrynę</string>
+    <string name="select_start_date">Wybierz datę rozpoczęcia</string>
+    <string name="select_end_date">Wybierz datę zakończenia</string>
+    <string name="enter_field_number">Wprowadź numer pola</string>
+    <string name="submit">Zatwierdź</string>
+    <string name="clear">Wyczyść</string>
+    <string name="mtrl_picker_cancel" description="Material design filter screen Cancel button" translatable="false">Wyczyść</string>
+    <string name="debug_generic_item">Ustawienia debugowania</string>
+    <string name="debug_generic_item_description">Proszę kopię zapasową/przesłać dane</string>
+    <string name="use_debug_database">Użyj bazy danych testowych</string>
+    <string name="nuke_database">Baza danych atomowych</string>
+    <string name="use_test_database">Użyj bazy danych testowych</string>
+    <string name="switch_on_test_database">Włącz testową bazę danych do testowania</string>
+    <string name="reset_test_database">Resetuj bazę danych testowych</string>
+    <string name="reinitialize_database">Ponowna inicjalizacja bazy danych</string>
+    <string name="msg_want_to_reset_test_database">Czy na pewno chcesz zresetować testową bazę danych\? nie wpłynie to na twoją bazę danych produkcyjnych.</string>
+    <string name="msg_only_test_database_reset">Można zresetować tylko bazę danych testowych</string>
+    <string name="error_dialog">Błąd serwera</string>
+    <string name="msg_error_dialog">Wystąpił błąd serwera. Spróbuj ponownie lub skontaktuj się z naszym zespołem pod adresem ecologue@diversityarrays.com</string>
+    <string name="title_no_field_record">Umm.. Nie znaleziono pułapek</string>
+    <string name="msg_no_field_record">Zmień filtry lub przenieś mapę, aby uwzględnić pułapki</string>
+    <string name="field_records">Rekordy terenowe</string>
+    <string name="collectors">Kolekcjonerzy</string>
+    <string name="expand_the_list">Rozwiń listę, aby uzyskać więcej informacji</string>
+    <string name="add_efforts">Dodaj wysiłek</string>
+    <string name="efforts">Wysiłki</string>
+    <string name="button_text_add">DODAJ</string>
+    <string name="field_record">Rekord terenowy</string>
+    <string name="search">Szukaj</string>
+    <string name="add_collectors">Dodaj kolekcjonerów</string>
+    <string name="responses">Odpowiedzi</string>
+    <string name="traps">Pułapki</string>
+    <string name="effort_details">Szczegóły wysiłku</string>
+    <string name="open">Otwórz</string>
+    <string name="field_record_details">Szczegóły rekordu pola</string>
+    <string name="number_of_efforts">Liczba wysiłków:</string>
+    <string name="msg_at_least_one_collector_is_needed">Potrzebny jest co najmniej jeden kolektor, aby zwiększyć wysiłek</string>
+    <string name="msg_effort_already_synced">Ten wysiłek jest już zsynchronizowany</string>
+    <string name="msg_at_least_one_collector_is_needed_survey">Do dodania ankiety potrzebny jest co najmniej jeden kolektor</string>
+    <string name="msg_at_least_one_extra_must_have_value">%1$s należy wybrać przed zapisaniem</string>
+    <string name="msg_start_date_must_be_before_end_date">Czas rozpoczęcia powinien być przed czasem zakończenia</string>
+    <string name="title_are_you_sure">Usuwasz zasób.</string>
+    <string name="msg_delete_picture">Usuń zdjęcie %1$s</string>
+    <string name="title_surveys">Ankiety</string>
+    <string name="survey_details">Szczegóły ankiety</string>
+    <string name="update">AKTUALIZACJA</string>
+</resources>
