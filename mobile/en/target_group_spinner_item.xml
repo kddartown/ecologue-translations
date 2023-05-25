@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- target_group_array -->
+    <string name="target_group_array_0">Vertebrate</string>
+    <string name="target_group_array_1">Invertebrate</string>
+    <string name="target_group_array_2">Marine</string>
+    <string name="target_group_array_3">Vegetation</string>
+    <string name="target_group_array_4">All</string>
+    
+    <string-array name="target_group_array">
+        <item>@string/target_group_array_0</item>
+        <item>@string/target_group_array_1</item>
+        <item>@string/target_group_array_2</item>
+        <item>@string/target_group_array_3</item>
+        <item>@string/target_group_array_4</item>
+    </string-array>
+</resources>
