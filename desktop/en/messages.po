@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-05-25 15:07+1000\n"
+"POT-Creation-Date: 2023-05-25 15:13+1000\n"
 "PO-Revision-Date: 2023-05-17 12:02+1000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -80,14 +80,14 @@ msgstr ""
 
 #: templates/list_container.jinja2:13 templates/list_container.jinja2:20
 msgid "Containers"
-msgstr "Containers"
+msgstr ""
 
 #: templates/list_container.jinja2:21 templates/list_dart-plate.jinja2:21
 #: templates/list_dart-submission.jinja2:21 templates/list_effort.jinja2:27
 #: templates/list_field.jinja2:36 templates/list_genus.jinja2:21
 #: templates/list_identification.jinja2:27 templates/list_institution.jinja2:21
 msgid "Short description here"
-msgstr "Short description here"
+msgstr ""
 
 #: templates/list_container.jinja2:23
 msgid "Use the search bar below to filter the displayed containers"
@@ -141,9 +141,8 @@ msgstr ""
 #: templates/list_multimedia.jinja2:27 templates/list_response.jinja2:21
 #: templates/list_species.jinja2:21 templates/list_traptype.jinja2:21
 #: templates/plate-wells-table.jinja2:15
-#, fuzzy
 msgid "Short description here."
-msgstr "Short description here"
+msgstr ""
 
 #: templates/list_identification-otu.jinja2:23
 msgid "Use the search bar below to filter the displayed Identification OTUs"
@@ -234,20 +233,19 @@ msgid "Plate wells"
 msgstr ""
 
 #~ msgid "DArT Plates"
-#~ msgstr ""
+#~ msgstr "DArT Plates"
 
 #~ msgid "Use the search bar below to filter the displayed plates"
-#~ msgstr ""
+#~ msgstr "Use the search bar below to filter the displayed plates"
 
 #~ msgid "Sites"
-#~ msgstr ""
+#~ msgstr "Sites"
 
 #~ msgid "Use the search bar below to filter the displayed sites."
-#~ msgstr ""
+#~ msgstr "Use the search bar below to filter the displayed sites."
 
 #~ msgid "Account Details for"
-#~ msgstr ""
+#~ msgstr "Account Details for"
 
 #~ msgid "how can we help"
-#~ msgstr ""
-
+#~ msgstr "how can we help"
