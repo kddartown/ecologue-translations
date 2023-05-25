@@ -1,8 +1,239 @@
-<resources
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:ignore="MissingTranslation" >
+<resources>
+    <string name="app_name">EcoLogue</string>
+    <string name="mapbox_access_token">sk.eyJ1IjoiZGFubnlkYXJ0IiwiYSI6ImNrZjI1bXk4bzAwaGcydGxnNGVqNGdyb3oifQ.tEh-Eb2b-hWfo6qnSzooyw</string>
+    <string name="error_load_mbtiles">No mbtiles map file found in documents/ecocorer folder</string>
+    <string name="add_a_new_marker">Add a new marker</string>
+    <string name="confirm">Confirm</string>
+    <string name="data">Field Records</string>
+    <string name="settings">Settings</string>
+    <string name="add_trap">Add Trap</string>
+    <string name="add_effort">Add Effort</string>
+    <string name="add_survey">Add Survey</string>
+    <string name="download_project_information">Download project information</string>
+    <string name="download_project_information_description">Setup the data before you go</string>
+    <string name="upload_data">Upload data</string>
+    <string name="upload_data_description">Upload local data to OneDArT</string>
+    <string name="projects">Projects</string>
+    <string name="fail_to_get_location">Failed to get location. </string>
+    <string name="description_map_service">Offers map and walk path recording</string>
+    <string name="notification_title">EcoLogue is running</string>
+    <string name="notification_message">For recording your walk path</string>
+    <string name="record_walk_path">Record walking path</string>
+    <string name="stop_record_walk_path">Stop walking path recording</string>
+    <string name="data_management">Data Management</string>
+    <string name="shapefiles">Shapefiles</string>
+    <string name="shapefiles_description">Choose to show/hide or change its display order</string>
+    <string name="trap_type">Trap Type</string>
+    <string name="trap_type_with_for">Trap Type for %1$s</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="altitude">Altitude</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="start_date_on_after">Start Date on or after</string>
+    <string name="end_date_on_before">End Date on or before</string>
+    <string name="habitat">Habitat</string>
+    <string name="notes">Notes</string>
+    <string name="save">Save</string>
+    <string name="invalid_end_date">Invalid end date</string>
+    <string name="target_group">Target Group</string>
+    <string name="select_target_group">Select target group</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="login_and_select_project">Login and select a project in settings</string>
+    <string name="title_target_groups">Target Group</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">Title</string>
+    <string name="value">Value</string>
+    <string name="description">Description</string>
+    <string name="internal_error">Internal Error</string>
+    <string name="error_encode_metadata_failed">Failed to encode metadata</string>
+    <string name="error_add_source_mapbox_mbtiles">Cannot add source to map after loading mbtiles</string>
+    <string name="error">Error</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="permission_needed">Permission Needed</string>
+    <string name="permission_denied">Permissions Denied</string>
+    <string name="location_explain">EcoLogue needs to use your device location data to show you where you are on the map. You can adjust these permissions in your device settings later.</string>
+    <string name="external_storage_not_granted">This APP needs the storage permission for loading local mbtiles map file</string>
+    <string name="permission_explain">Why we need this permission?</string>
+    <string name="custom_map_not_found">Custom map file not found</string>
+    <string name="downloading_dot_dot_dot">Downloading…</string>
+    <string name="downloading">Downloading</string>
+    <string name="connecting">Connecting…</string>
+    <string name="dialog_description_download_map_res">You are going to download basic map resource like annotation, shapefiles, and open street satellite map for offline usage. There is about 111739 resource to download, might take about an hour depends on your network.</string>
+    <string name="sites">Sites</string>
+    <string name="site">Site</string>
+    <string name="download_offline_map">Download offline map</string>
+    <string name="download_offline_map_description">Download custom aerial images (.mbtiles file)</string>
+    <string name="download_basic_map_res">Download basic map resource</string>
+    <string name="download_map_res_description">Barrow island annotations and shapefiles for offline use</string>
+    <string name="field_number">Field number</string>
+    <string name="download_management">Download Management</string>
+    <string name="import_local_project">Import local project</string>
+    <string name="import_local_project_description">Import a project without connecting to database</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="download_offline_map_detail_description">Download your personalised MBTiles map file with customised aerial images in multiple zoom levels.</string>
+    <string name="download_map_res_detail_description">Download the map resource file which includes map details such as shapefiles, roads, landmarks, and names on the map.</string>
+    <string name="mbtiles_file_title">Downloading MBtiles file</string>
+    <string name="mbtiles_file_message">"MBTiles is a large file, which might take up to 4 hours to download with fast speed internet.
+        \nDownload size for this Mbtiles file is %1$s"</string>
+    <string name="available_storage">Available storage</string>
+    <string name="insufficient_storage_on_device">"Available storage on device is %1$s \nDownload size of for this Mbtiles file is %2$s \nThis download needs more storage</string>
+    <string name="upload_not_synced_with_database">Data are not synced</string>
+    <string name="not_synced_data">"App doesn\'t allow switching between projects until all your data are synced with the server. \n\nYou currently have %1$s not uploaded to the server"</string>
+    <plurals name="upload_data_points">
+        <item quantity="one">%d data point</item>
+        <item quantity="other">%d data points</item>
+    </plurals>
+    <string name="upload_data_to_server">Upload your data to the server.</string>
+    <string name="message_uploading_data">Uploading %1$s</string>
+    <string name="uploading">Uploading…</string>
+    <string name="msg_all_traps_are_uploaded">All your field records are already synced with the server</string>
+    <string name="switch_server">Configure server</string>
+    <string name="switch_server_description">Configure server to fetch projects</string>
+    <string name="https">https://</string>
+    <string name="api">/api</string>
+    <string name="login_and_add_server">Login and add server</string>
+    <string name="add_a_new_server">Add a new server config</string>
+    <string name="previously_configured_servers">Previously configured servers</string>
+    <string name="server">Server</string>
+    <string name="select_value_from_the_list">Select value from the list</string>
+    <string name="species_name">Species Name</string>
+    <string name="genus">Genus</string>
+    <string name="author">Author</string>
+    <string name="select_a_species">Select a species</string>
+    <string name="info">General</string>
+    <string name="about_us">About us</string>
+    <string name="licenses_developers">Information about company, licence and developers</string>
+    <string name="all_about_text">"
+        Product Name: EcoLogue
+        Version: %1$s
 
-    <!-- TODO Add more strings -->
-    <string name="title_app_name">Ecologue Mobile</string>
+        Copyright © 2021 Diversity Arrays Technology
+        (DArT)
+
+        Email: ecologue@diversityarrays.com
+
+        Developers:
+        - Manil Chaudhary
+        - Danny Feng
+        - Michael Kirk
+        - Taylor Politch
+
+        Disclaimer: THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+        IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTING ORGANISATIONS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO LOSS OF USE, DATA, PROFITS, OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED ON THE POSSIBILITY OF SUCH DAMAGE.
+
+        -----------
+        ScreenSize: NORMAL
+        -----------
+
+        File Locations:
+        For Android 11+: /storage/emulated/0/Android/data/com.diversityarrays.ecologue/files/Documents
+        For Android 10 and below: /storage/emulated/0/Documents/EcoLogue"</string>
+    <string name="about">About</string>
+    <string name="server_address">Server address</string>
+    <string name="new_server_address">New server address</string>
+    <string name="msg_active_url">"Active Url: "</string>
+    <string name="msg_configure_your_server_first">Please configure your server first</string>
+    <string name="title_configure_server">Configure server</string>
+    <string name="cant_switch_server">Cannot switch server</string>
+    <string name="field_records_are_not_uploaded">All your field records are not synced with the server</string>
+    <string name="stopped">Stopped</string>
+    <string name="error_cannot_stop_report_to_dart">Can\'t stop it, please report to DArT</string>
+    <string name="starting_download_please_wait">Starting the download, please wait…</string>
+    <string name="stopping_download_please_wait">Stopping the download, please wait…</string>
+    <string name="dialog_description_login_to_download">You are logged out. Please login before download.</string>
+    <string name="done">Done</string>
+    <string name="dialog_title_edit_field_record">Edit Field Record</string>
+    <string name="dialog_description_cant_edit_uploaded_field_record">You can\'t edit an uploaded field record.</string>
+    <string name="error_message_readonly_fieldrecord">This field record is read-only because it has been uploaded to the server.</string>
+    <string name="title_location_permission">Use Your Location</string>
+    <string name="permission_denied_location_permission_explaination">EcoLogue needs to use your device location data to show you where you are on the map. If you wish to use this feature in the future, you can go to your device settings and enable location for EcoLogue.</string>
+    <string name="list_view">List View</string>
+    <string name="map_view">Map View</string>
+    <string name="empty_bracket">(Empty)</string>
+    <string name="end_date_colon">End Date:</string>
+    <string name="start_date_colon">Start Date:</string>
+    <string name="field_number_colon">Field Number:</string>
+    <string name="trap_type_colon">Trap Type:</string>
+    <string name="location">Location</string>
+    <string name="collector">Collector</string>
+    <string name="trap_collected">Trap Collected</string>
+    <string name="trap_exposed">Trap Exposed</string>
+    <string name="filter_results">Filter Results</string>
+    <string name="msg_any_selection">Any</string>
+    <string name="reset">Reset</string>
+    <string name="filter">Filter</string>
+    <string name="select_trap_type">Select trap type</string>
+    <string name="select_site">Select Site</string>
+    <string name="select_start_date">Select start date</string>
+    <string name="select_end_date">Select end date</string>
+    <string name="enter_field_number">Enter field number</string>
+    <string name="submit">Submit</string>
+    <string name="clear">Clear</string>
+    <string name="mtrl_picker_cancel" description="Material design filter screen Cancel button" translatable="false">Clear</string>
+    <string name="debug_generic_item">Debug Settings</string>
+    <string name="debug_generic_item_description">Please backup/upload data</string>
+    <string name="use_debug_database">Use test database</string>
+    <string name="nuke_database">Nuke database</string>
+    <string name="use_test_database">Use Test Database</string>
+    <string name="switch_on_test_database">Switch on test database for testing</string>
+    <string name="reset_test_database">Reset Test Database</string>
+    <string name="reinitialize_database">Reinitialise database</string>
+    <string name="msg_want_to_reset_test_database">Are you sure you want to reset test database? it will not affect your production database.</string>
+    <string name="msg_only_test_database_reset">Only test database can be reset</string>
+    <string name="error_dialog">Server Error</string>
+    <string name="msg_error_dialog">You have encountered a server error. Please try again, or contact our team at ecologue@diversityarrays.com</string>
+    <string name="title_no_field_record">Umm.. No traps found</string>
+    <string name="msg_no_field_record">Please change your filters or move map to include traps</string>
+    <string name="field_records">Field Records</string>
+    <string name="collectors">Collectors</string>
+    <string name="expand_the_list">Expand the list for more details</string>
+    <string name="add_efforts">Add Effort</string>
+    <string name="efforts">Efforts</string>
+    <string name="button_text_add">ADD</string>
+    <string name="field_record">Field Record</string>
+    <string name="search">Search</string>
+    <string name="add_collectors">Add Collectors</string>
+    <string name="responses">Responses</string>
+    <string name="traps">Traps</string>
+    <string name="effort_details">Effort Details</string>
+    <string name="open">Open</string>
+    <string name="field_record_details">Field Record Details</string>
+    <string name="number_of_efforts">Number of efforts:</string>
+    <string name="msg_at_least_one_collector_is_needed">At least one collector is needed to add effort</string>
+    <string name="msg_effort_already_synced">This effort is already synced</string>
+    <string name="msg_at_least_one_collector_is_needed_survey">At least one collector is needed to add survey</string>
+    <string name="msg_at_least_one_extra_must_have_value">%1$s must be chosen before saving</string>
+    <string name="msg_start_date_must_be_before_end_date">Start time should be before end time</string>
+    <string name="select_response">Select response</string>
+    <string name="show_open_traps">Show open traps</string>
+    <string name="title_warning">Warning</string>
+    <string name="title_complete_walkpath">Complete walk path</string>
+    <string name="msg_clear_walk_path">This will clear all location data along with collected field records? Are you sure you want to proceed?</string>
+    <string name="msg_complete_walk_path">This will complete your walking effort, Do you wish to proceed?</string>
+    <string name="show_altitude">Show Altitude</string>
+    <string name="switch_on_setting_to_see_altitude">Switch on this setting to see altitude</string>
+    <string name="title_error_file_not_found">Required files missing</string>
+    <string name="message_error_file_not_found">Please contact Diversity arrays for a valid Ecologue file.</string>
+    <string name="warning_previous_data_will_delete">If you proceed previous data will be deleted.</string>
+    <string name="import_successful">Import Successful</string>
+    <string name="message_can_start_using_app">You can now start using the app with your new project</string>
+    <string name="barcode">Barcode</string>
+    <string name="select">Select</string>
+    <string name="msg_scan_barcode_before_selecting">Please scan barcode before selecting</string>
+    <string name="capture_image">Capture</string>
+    <string name="scanned_barcode">Scanned Barcode</string>
+    <string name="image_capture_result">Image Capture Result</string>
+    <string name="close">Close</string>
+    <string name="title_are_you_sure">You are deleting an asset.</string>
+    <string name="msg_delete_picture">Delete picture %1$s</string>
+    <string name="title_surveys">Surveys</string>
+    <string name="survey_details">Survey Details</string>
+    <string name="update">UPDATE</string>
 
 </resources>
