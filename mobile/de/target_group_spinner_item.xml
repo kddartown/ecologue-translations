@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="target_group_array_0">Wirbeltier</string>
+    <string name="target_group_array_1">Wirbelloses Tier</string>
+    <string name="target_group_array_2">Marine</string>
+    <string name="target_group_array_3">Bewuchs</string>
+    <string name="target_group_array_4">Alle</string>
+</resources>
