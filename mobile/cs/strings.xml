@@ -1,2 +1,245 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="permission_denied">Oprávnění odepřena</string>
+    <string name="downloading_dot_dot_dot">Stahování…</string>
+    <string name="title_surveys">Průzkumy</string>
+    <string name="survey_details">Podrobnosti průzkumu</string>
+    <string name="update">AKTUALIZOVAT</string>
+    <string name="app_name">eCologue</string>
+    <string name="mapbox_access_token">sk.eyj1ijoizgfubnlkyxj0iiwiysi6imnrzji1bxk4bzawagcydgxnngvqngdyb3oifq.teh-eb2b-hwfo6qnszooyw</string>
+    <string name="error_load_mbtiles">Ve složce Dokumenty/ecocorer nebyl nalezen mapový soubor mbtiles</string>
+    <string name="add_a_new_marker">Přidání nové značky</string>
+    <string name="confirm">Potvrdit</string>
+    <string name="data">Polní záznamy</string>
+    <string name="settings">Nastavení</string>
+    <string name="add_trap">Přidat trap</string>
+    <string name="add_effort">Přidat úsilí</string>
+    <string name="add_survey">Přidat průzkum</string>
+    <string name="download_project_information">Stáhněte si informace o projektu</string>
+    <string name="download_project_information_description">Nastavte data dříve, než půjdete</string>
+    <string name="upload_data">Nahrát data</string>
+    <string name="upload_data_description">Nahrát místní data do OneDart</string>
+    <string name="projects">Projektuje</string>
+    <string name="fail_to_get_location">Nepodařilo se získat polohu.</string>
+    <string name="description_map_service">Nabízí nahrávání mapy a cesty chůze</string>
+    <string name="notification_title">eCoLogue běží</string>
+    <string name="notification_message">Pro nahrávání vaší pěší cesty</string>
+    <string name="record_walk_path">záznam, chůze, cesta</string>
+    <string name="stop_record_walk_path">Zastavte nahrávání pěší cesty</string>
+    <string name="data_management">Správa dat</string>
+    <string name="shapefiles">Shapefiles</string>
+    <string name="shapefiles_description">Vyberte, zda chcete zobrazit/skrýt nebo změnit pořadí zobrazení</string>
+    <string name="trap_type">Typ pasti</string>
+    <string name="trap_type_with_for">Typ pasti pro %1$s</string>
+    <string name="latitude">Zeměpisná šířka</string>
+    <string name="longitude">Zeměpisná délka</string>
+    <string name="altitude">Nadmořská výška</string>
+    <string name="start_date">Datum zahájení</string>
+    <string name="end_date">Datum ukončení</string>
+    <string name="start_time">Počáteční čas</string>
+    <string name="end_time">Čas ukončení</string>
+    <string name="start_date_on_after">Datum zahájení dne nebo později</string>
+    <string name="end_date_on_before">Datum ukončení dříve nebo dříve</string>
+    <string name="habitat">Stanoviště</string>
+    <string name="notes">Poznámky</string>
+    <string name="save">Uložit</string>
+    <string name="invalid_end_date">Neplatné datum ukončení</string>
+    <string name="target_group">Cílová skupina</string>
+    <string name="select_target_group">Vyberte cílovou skupinu</string>
+    <string name="logout">Odhlášení</string>
+    <string name="login">Přihlášení</string>
+    <string name="login_and_select_project">Přihlaste se a vyberte projekt v nastavení</string>
+    <string name="title_target_groups">Cílová skupina</string>
+    <string name="cancel">Zrušit</string>
+    <string name="title">Titul</string>
+    <string name="value">Hodnota</string>
+    <string name="description">Popis</string>
+    <string name="internal_error">Vnitřní chyba</string>
+    <string name="error_encode_metadata_failed">Nepodařilo se zakódovat metadata</string>
+    <string name="error_add_source_mapbox_mbtiles">Po načtení mbtiles nelze přidat zdroj do mapy</string>
+    <string name="error">Chyba</string>
+    <string name="dismiss">Odmítnout</string>
+    <string name="permission_needed">Potřebné povolení</string>
+    <string name="location_explain">eCologue potřebuje použít údaje o poloze vašeho zařízení, aby vám ukázal, kde jste na mapě. Tato oprávnění můžete upravit v nastavení zařízení později.</string>
+    <string name="external_storage_not_granted">Tato aplikace potřebuje oprávnění úložiště pro načítání místního mapového souboru mbtiles</string>
+    <string name="permission_explain">Proč potřebujeme toto povolení\?</string>
+    <string name="custom_map_not_found">Vlastní mapový soubor nebyl nalezen</string>
+    <string name="downloading">Stahování</string>
+    <string name="connecting">Připojení…</string>
+    <string name="dialog_description_download_map_res">Chystáte se stáhnout základní mapový zdroj, jako je anotace, shapefiles, a otevřená satelitní mapa ulice pro offline použití. K dispozici je asi 111739 zdroj ke stažení, může trvat asi hodinu závisí na vaší síti.</string>
+    <string name="sites">Stránky</string>
+    <string name="site">Site</string>
+    <string name="download_offline_map">Stáhnout offline mapu</string>
+    <string name="download_offline_map_description">Stáhněte si vlastní letecké snímky (soubor.mbtiles)</string>
+    <string name="download_basic_map_res">Stáhněte si základní zdroj mapy</string>
+    <string name="download_map_res_description">Anotace ostrova Barrow a shapefiles pro offline použití</string>
+    <string name="field_number">Číslo pole</string>
+    <string name="download_management">Správa stahování</string>
+    <string name="import_local_project">Importovat místní projekt</string>
+    <string name="import_local_project_description">Importovat projekt bez připojení k databázi</string>
+    <string name="stop">Zastavit</string>
+    <string name="start">Start</string>
+    <string name="download_offline_map_detail_description">Stáhněte si svůj přizpůsobený mapový soubor MBtiles s přizpůsobenými leteckými snímky ve více úrovních přiblížení.</string>
+    <string name="download_map_res_detail_description">Stáhněte soubor zdrojů mapy, který obsahuje podrobnosti mapy, jako jsou shapefiles, silnice, orientační body, a jména na mapě.</string>
+    <string name="mbtiles_file_title">Stahování souboru MBtiles</string>
+    <string name="mbtiles_file_message">MBTiles je velký soubor, což může trvat až 4 hodiny ke stažení s rychlým internetem.
+\n 
+\nVelikost stahování tohoto souboru Mbtiles je %1$s</string>
+    <string name="available_storage">Dostupné úložiště</string>
+    <string name="insufficient_storage_on_device">Dostupné úložiště v zařízení je %1$s
+\nVelikost stahování tohoto souboru Mbtiles je %2$s
+\nToto stahování vyžaduje více úložiště</string>
+    <string name="upload_not_synced_with_database">Data nejsou synchronizována</string>
+    <string name="not_synced_data">Aplikace neumožňuje přepínání mezi projekty, dokud nebudou všechna data synchronizována se serverem.
+\n
+\nMomentálně máte %1$s nenahrán na server</string>
+    <plurals name="upload_data_points">
+        <item quantity="one">%d datový bod</item>
+        <item quantity="few"></item>
+        <item quantity="other">%d datové body</item>
+    </plurals>
+    <string name="upload_data_to_server">Nahrajte svá data na server.</string>
+    <string name="message_uploading_data">Nahrávání %1$s</string>
+    <string name="uploading">Nahrávání…</string>
+    <string name="msg_all_traps_are_uploaded">Všechny záznamy z polí jsou již synchronizovány se serverem</string>
+    <string name="switch_server">Konfigurace serveru</string>
+    <string name="switch_server_description">Konfigurace serveru pro načítání projektů</string>
+    <string name="https">https://</string>
+    <string name="api">/api</string>
+    <string name="login_and_add_server">Přihlášení a přidání serveru</string>
+    <string name="add_a_new_server">Přidání nové konfigurace serveru</string>
+    <string name="previously_configured_servers">Dříve nakonfigurované servery</string>
+    <string name="server">Serverů</string>
+    <string name="select_value_from_the_list">Vyberte hodnotu ze seznamu</string>
+    <string name="species_name">Název druhu</string>
+    <string name="genus">Rod</string>
+    <string name="author">Autor</string>
+    <string name="select_a_species">Vyberte druh</string>
+    <string name="info">generál</string>
+    <string name="about_us">O nás</string>
+    <string name="licenses_developers">Informace o společnosti, licenci a vývojáři</string>
+    <string name="all_about_text">"
+\n        Název produktu: eCologue
+\n Verze: %1$s
+\n
+\n Copyright © 2021 Technologie diverzitních polí
+\n (Šípka)
+\n
+\n E-mail: ecologue@diversityarrays.com
+\n
+\n Vývojáři:
+\n - Manil Chaudhary
+\n - Danny Feng
+\n - Michael Kirk
+\n - Taylor Politch
+\n
+\n Zřeknutí se odpovědnosti: SOFTWARE JE POSKYTOVÁN „TAK, JAK JE“, BEZ ZÁRUKY JAKÉHOKOLI DRUHU, VÝSLOVNÉ NEBO PŘEDPOKLÁDANÉ.
+\n
+\n AUTOŘI NEBO PŘISPÍVAJÍCÍ ORGANIZACE V ŽÁDNÉM PŘÍPADĚ NENESE ODPOVĚDNOST ZA JAKÉKOLI PŘÍMÉ, NEPŘÍMÉ, NÁHODNÉ, ZVLÁŠTNÍ, PŘÍKLADNÉ NEBO NÁSLEDNÉ ŠKODY (VČETNĚ MIMO JINÉ ZTRÁTY POUŽITÍ, ÚDAJŮ, ZISKŮ NEBO PŘERUŠENÍ PODNIKÁNÍ), JAKKOLI ZPŮSOBENÉ, A ZA JAKOUKOLI TEORII ODPOVĚDNOSTI, AŤ UŽ VE SMLOUVĚ, OBJEKTIVNÍ ODPOVĚDNOSTI NEBO DELIKTU (VČETNĚ NEDBALOSTI NEBO JINAK) VZNIKLÉ JAKÝMKOLI ZPŮSOBEM Z POUŽÍVÁNÍ TOHOTO SOFTWARU, I KDYŽ SE DOPORUČUJE O MOŽNOSTI TAKOVÉHO POŠKOZENÍ.
+\n
+\n --------------
+\n ScreenSize: NORMÁLNÍ
+\n --------------
+\n
+\n Umístění souborů:
+\n Pro Android 11+: /Storage/Emulated/0/Android/data/com.diversityarrays.ecologue/files/Documents
+\n Pro Android 10 a níže: /Storage/Emulated/0/Dokumenty/eCologue"</string>
+    <string name="about">O</string>
+    <string name="server_address">Adresa serveru</string>
+    <string name="new_server_address">Nová adresa serveru</string>
+    <string name="msg_active_url">"Aktivní adresa URL: "</string>
+    <string name="msg_configure_your_server_first">Nejprve prosím nakonfigurujte svůj server</string>
+    <string name="title_configure_server">Konfigurace serveru</string>
+    <string name="cant_switch_server">Nelze přepnout server</string>
+    <string name="field_records_are_not_uploaded">Všechny záznamy z polí nejsou synchronizovány se serverem</string>
+    <string name="stopped">Zastaveno</string>
+    <string name="error_cannot_stop_report_to_dart">Nemůžu to zastavit, prosím, nahlaste se na DART</string>
+    <string name="starting_download_please_wait">Spuštění stahování, prosím čekejte…</string>
+    <string name="stopping_download_please_wait">Zastavení stahování, prosím čekejte…</string>
+    <string name="dialog_description_login_to_download">Jste odhlášeni. Před stažením se prosím přihlaste.</string>
+    <string name="done">Hotovo</string>
+    <string name="dialog_title_edit_field_record">Upravit záznam pole</string>
+    <string name="dialog_description_cant_edit_uploaded_field_record">Nahraný záznam pole nelze upravovat.</string>
+    <string name="error_message_readonly_fieldrecord">Tento záznam pole je pouze pro čtení, protože byl nahrán na server.</string>
+    <string name="title_location_permission">Použít svou polohu</string>
+    <string name="permission_denied_location_permission_explaination">eCologue potřebuje použít údaje o poloze vašeho zařízení, aby vám ukázal, kde jste na mapě. Pokud si přejete tuto funkci používat v budoucnu, můžete přejít do nastavení zařízení a povolit umístění pro eCologue.</string>
+    <string name="list_view">Zobrazení seznamu</string>
+    <string name="map_view">Zobrazení mapy</string>
+    <string name="empty_bracket">(Prázdný)</string>
+    <string name="end_date_colon">Datum ukončení:</string>
+    <string name="start_date_colon">Datum zahájení:</string>
+    <string name="field_number_colon">Číslo pole:</string>
+    <string name="trap_type_colon">Typ pasti:</string>
+    <string name="location">Lokace</string>
+    <string name="collector">Sběratel</string>
+    <string name="trap_collected">Shromážděné pasti</string>
+    <string name="trap_exposed">Past vystavena</string>
+    <string name="filter_results">Filtrovat výsledky</string>
+    <string name="msg_any_selection">Jakékoliv</string>
+    <string name="reset">Resetovat</string>
+    <string name="filter">Filtr</string>
+    <string name="select_trap_type">Vyberte typ pasti</string>
+    <string name="select_site">Vyberte web</string>
+    <string name="select_start_date">Vyberte datum zahájení</string>
+    <string name="select_end_date">Vyberte datum ukončení</string>
+    <string name="enter_field_number">Zadejte číslo pole</string>
+    <string name="submit">Předložit</string>
+    <string name="clear">Průhledná</string>
+    <string name="mtrl_picker_cancel" description="Material design filter screen Cancel button" translatable="false">Průhledná</string>
+    <string name="debug_generic_item">Nastavení ladění</string>
+    <string name="debug_generic_item_description">Prosím zálohujte a nahrajte data</string>
+    <string name="use_debug_database">Použít testovací databázi</string>
+    <string name="nuke_database">Databáze Nuke</string>
+    <string name="use_test_database">Použít testovací databázi</string>
+    <string name="switch_on_test_database">Zapnutí testovací databáze pro testování</string>
+    <string name="reset_test_database">Obnovit testovací databázi</string>
+    <string name="reinitialize_database">Znovu inicializovat databázi</string>
+    <string name="msg_want_to_reset_test_database">Opravdu chcete resetovat testovací databázi\? nebude mít vliv na vaši produkční databázi.</string>
+    <string name="msg_only_test_database_reset">Resetovat lze pouze testovací databázi</string>
+    <string name="error_dialog">Chyba serveru</string>
+    <string name="msg_error_dialog">Došlo k chybě serveru. Zkuste to prosím znovu, nebo kontaktujte náš tým na ecologue@diversityarrays.com</string>
+    <string name="title_no_field_record">Hm.. Nebyly nalezeny žádné pasti</string>
+    <string name="msg_no_field_record">Změňte prosím filtry nebo přesuňte mapu tak, aby obsahovaly pasti</string>
+    <string name="field_records">Polní záznamy</string>
+    <string name="collectors">Sběratelé</string>
+    <string name="expand_the_list">Rozbalte seznam pro více podrobností</string>
+    <string name="add_efforts">Přidat úsilí</string>
+    <string name="efforts">Úsilí</string>
+    <string name="button_text_add">PŘIDAT</string>
+    <string name="field_record">Polní záznam</string>
+    <string name="search">Vyhledávání</string>
+    <string name="add_collectors">Přidat sběratele</string>
+    <string name="responses">Odpovědi</string>
+    <string name="traps">Pasti</string>
+    <string name="effort_details">Podrobnosti o úsilí</string>
+    <string name="open">Otevřeno</string>
+    <string name="field_record_details">Podrobnosti o polním záznamu</string>
+    <string name="number_of_efforts">Počet úsilí:</string>
+    <string name="msg_at_least_one_collector_is_needed">Pro přidání úsilí je zapotřebí alespoň jeden sběratel</string>
+    <string name="msg_effort_already_synced">Toto úsilí je již synchronizováno</string>
+    <string name="msg_at_least_one_collector_is_needed_survey">K přidání průzkumu je zapotřebí alespoň jeden kolektor</string>
+    <string name="msg_at_least_one_extra_must_have_value">%1$s musí být vybrán před uložením</string>
+    <string name="msg_start_date_must_be_before_end_date">Čas zahájení by měl být před časem ukončení</string>
+    <string name="select_response">Vyberte odpověď</string>
+    <string name="show_open_traps">Zobrazit otevřené pasti</string>
+    <string name="title_warning">Varování</string>
+    <string name="title_complete_walkpath">Kompletní stezka</string>
+    <string name="msg_clear_walk_path">Tím se vymaže všechna data o poloze spolu se shromážděnými záznamy v polích\? Opravdu chcete pokračovat\?</string>
+    <string name="msg_complete_walk_path">Tím se dokončí vaše úsilí při chůzi, Přejete si pokračovat\?</string>
+    <string name="show_altitude">Zobrazit nadmořskou výšku</string>
+    <string name="switch_on_setting_to_see_altitude">Chcete-li zobrazit nadmořskou výšku, zapněte toto nastavení</string>
+    <string name="title_error_file_not_found">Chybí požadované soubory</string>
+    <string name="message_error_file_not_found">Ohledně platného souboru Ecologue kontaktujte pole Diversity.</string>
+    <string name="warning_previous_data_will_delete">Pokud budete pokračovat, předchozí data budou smazána.</string>
+    <string name="import_successful">Import byl úspěšný</string>
+    <string name="message_can_start_using_app">Nyní můžete začít používat aplikaci s novým projektem</string>
+    <string name="barcode">Čárový kód</string>
+    <string name="select">Vybrat</string>
+    <string name="msg_scan_barcode_before_selecting">Před výběrem prosím naskenujte čárový kód</string>
+    <string name="capture_image">Zachytit</string>
+    <string name="scanned_barcode">Naskenovaný čárový kód</string>
+    <string name="image_capture_result">Výsledek zachycení obrazu</string>
+    <string name="close">Zavřít</string>
+    <string name="title_are_you_sure">Odstraňujete datový zdroj.</string>
+    <string name="msg_delete_picture">Smazat obrázek %1$s</string>
+</resources>
