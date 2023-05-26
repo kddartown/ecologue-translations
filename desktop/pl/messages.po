@@ -1,0 +1,250 @@
+# Translations template for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-05-25 15:13+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: templates/account.jinja2:13
+msgid "Account"
+msgstr ""
+
+#: templates/account.jinja2:25
+msgid "Account Details for:"
+msgstr ""
+
+#: templates/account.jinja2:34
+msgid "Personal Details"
+msgstr ""
+
+#: templates/account.jinja2:38
+msgid "Personal Institution Settings"
+msgstr ""
+
+#: templates/account.jinja2:42
+msgid "Personal Notification Settings"
+msgstr ""
+
+#: templates/base.jinja2:35
+msgid "Base"
+msgstr ""
+
+#: templates/field.jinja2:4
+msgid "Field Lot"
+msgstr ""
+
+#: templates/form.jinja2:97
+msgid "Are you sure you want to delete this record?"
+msgstr ""
+
+#: templates/form.jinja2:101
+msgid "Record deleted"
+msgstr ""
+
+#: templates/form.jinja2:104
+msgid "Failed to delete record. Reason: "
+msgstr ""
+
+#: templates/help.jinja2:3
+msgid "Help"
+msgstr ""
+
+#: templates/help.jinja2:6
+msgid "Hello"
+msgstr ""
+
+#: templates/help.jinja2:6
+msgid " how can we help "
+msgstr ""
+
+#: templates/home.jinja2:3
+msgid "Home"
+msgstr ""
+
+#: templates/home.jinja2:6
+msgid "Select a project"
+msgstr ""
+
+#: templates/list_container.jinja2:13 templates/list_container.jinja2:20
+msgid "Containers"
+msgstr ""
+
+#: templates/list_container.jinja2:21 templates/list_dart-plate.jinja2:21
+#: templates/list_dart-submission.jinja2:21 templates/list_effort.jinja2:27
+#: templates/list_field.jinja2:36 templates/list_genus.jinja2:21
+#: templates/list_identification.jinja2:27 templates/list_institution.jinja2:21
+msgid "Short description here"
+msgstr ""
+
+#: templates/list_container.jinja2:23
+msgid "Use the search bar below to filter the displayed containers"
+msgstr ""
+
+#: templates/list_dart-plate.jinja2:13 templates/list_dart-plate.jinja2:20
+msgid "DArT Plates"
+msgstr ""
+
+#: templates/list_dart-plate.jinja2:23
+msgid "Use the search bar below to filter the displayed plates"
+msgstr ""
+
+#: templates/list_dart-submission.jinja2:20
+msgid "DArT Submissions"
+msgstr ""
+
+#: templates/list_dart-submission.jinja2:23
+msgid "Use the search bar below to filter the displayed DArT Submissions"
+msgstr ""
+
+#: templates/list_effort.jinja2:19 templates/list_effort.jinja2:26
+msgid "Efforts"
+msgstr ""
+
+#: templates/list_effort.jinja2:29
+msgid "Use the search bar below to filter the displayed efforts"
+msgstr ""
+
+#: templates/list_field.jinja2:28 templates/list_field.jinja2:35
+msgid "Field records"
+msgstr ""
+
+#: templates/list_field.jinja2:38
+msgid "Use the search bar below to filter the displayed field records"
+msgstr ""
+
+#: templates/list_genus.jinja2:20
+msgid "Genera"
+msgstr ""
+
+#: templates/list_genus.jinja2:23
+msgid "Use the search bar below to filter the displayed genera"
+msgstr ""
+
+#: templates/list_identification-otu.jinja2:13
+msgid "Identification OTUs"
+msgstr ""
+
+#: templates/list_identification-otu.jinja2:21
+#: templates/list_multimedia.jinja2:27 templates/list_response.jinja2:21
+#: templates/list_species.jinja2:21 templates/list_traptype.jinja2:21
+#: templates/plate-wells-table.jinja2:15
+msgid "Short description here."
+msgstr ""
+
+#: templates/list_identification-otu.jinja2:23
+msgid "Use the search bar below to filter the displayed Identification OTUs"
+msgstr ""
+
+#: templates/list_identification.jinja2:26
+msgid "Identifications"
+msgstr ""
+
+#: templates/list_identification.jinja2:29
+msgid "Use the search bar below to filter the displayed identifications"
+msgstr ""
+
+#: templates/list_institution.jinja2:13 templates/list_institution.jinja2:20
+msgid "Institutions"
+msgstr ""
+
+#: templates/list_institution.jinja2:23
+msgid "Use the search bar below to filter the displayed institutions"
+msgstr ""
+
+#: templates/list_multimedia.jinja2:19 templates/list_multimedia.jinja2:26
+msgid "Multimedia"
+msgstr ""
+
+#: templates/list_multimedia.jinja2:29
+msgid "Use the search bar below to filter the displayed multimedia."
+msgstr ""
+
+#: templates/list_multimedia.jinja2:31
+msgid "Import Multimedia"
+msgstr ""
+
+#: templates/list_multimedia.jinja2:52
+msgid "\"Uploading multimedia records is not availble in the current build.\""
+msgstr ""
+
+#: templates/list_multimedia.jinja2:55
+msgid "\"Are you sure you want to upload this record?\""
+msgstr ""
+
+#: templates/list_multimedia.jinja2:100
+msgid "\"Failed to find Field record.\""
+msgstr ""
+
+#: templates/list_multimedia.jinja2:120
+msgid "\"Successfully uploaded records: \""
+msgstr ""
+
+#: templates/list_multimedia.jinja2:120
+msgid "\"Unsuccessfully uploaded records: \""
+msgstr ""
+
+#: templates/list_multimedia.jinja2:124
+msgid "\"Failed to link Field and Multimedia record.\""
+msgstr ""
+
+#: templates/list_response.jinja2:13 templates/list_response.jinja2:20
+msgid "Responses"
+msgstr ""
+
+#: templates/list_response.jinja2:23
+msgid "Use the search bar below to filter the displayed responses."
+msgstr ""
+
+#: templates/list_species.jinja2:13 templates/list_species.jinja2:20
+msgid "Species"
+msgstr ""
+
+#: templates/list_species.jinja2:23
+msgid "Use the search bar below to filter the displayed species."
+msgstr ""
+
+#: templates/list_traptype.jinja2:13 templates/list_traptype.jinja2:20
+msgid "Trap types"
+msgstr ""
+
+#: templates/list_traptype.jinja2:27
+msgid "\"Search trap types\""
+msgstr ""
+
+#: templates/map.jinja2:8
+msgid "Project map"
+msgstr ""
+
+#: templates/plate-wells-table.jinja2:9 templates/plate-wells-table.jinja2:14
+msgid "Plate wells"
+msgstr ""
+
+#~ msgid "DArT Plates"
+#~ msgstr "DArT Plates"
+
+#~ msgid "Use the search bar below to filter the displayed plates"
+#~ msgstr "Use the search bar below to filter the displayed plates"
+
+#~ msgid "Sites"
+#~ msgstr "Sites"
+
+#~ msgid "Use the search bar below to filter the displayed sites."
+#~ msgstr "Use the search bar below to filter the displayed sites."
+
+#~ msgid "Account Details for"
+#~ msgstr "Account Details for"
+
+#~ msgid "how can we help"
+#~ msgstr "how can we help"
