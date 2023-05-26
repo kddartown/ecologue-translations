@@ -1,2 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="uploading">Uploader…</string>
+    <string name="collectors">Samlere</string>
+    <string name="image_capture_result">Billede Capture Resultat</string>
+    <string name="close">Luk</string>
+    <string name="title_are_you_sure">Du sletter et aktiv.</string>
+    <string name="msg_delete_picture">Slet billede %1$s</string>
+    <string name="title_surveys">Undersøgelser</string>
+    <string name="survey_details">Undersøgelse Detaljer</string>
+    <string name="update">OPDATERING</string>
+    <string name="app_name">EcoLogue</string>
+    <string name="mapbox_access_token">Sk.eyj1ijoiZgfubnLkYXj0iiWiYSI6iMnrzji1bxk4bzaWAGcYdGxnngvqngDyB3oifq.teh-EB2B-hwfo6qNszooyw</string>
+    <string name="error_load_mbtiles">Ingen mbtiles kort fil fundet i dokumenter/ecocorer mappe</string>
+    <string name="add_a_new_marker">Tilføj en ny markør</string>
+    <string name="confirm">Bekræft</string>
+    <string name="data">Felt Records</string>
+    <string name="settings">Indstillinger</string>
+    <string name="add_trap">Tilføj diffusering</string>
+    <string name="add_effort">Tilføj indsats</string>
+    <string name="add_survey">Tilføj undersøgelse</string>
+    <string name="download_project_information">Download projektoplysninger</string>
+    <string name="download_project_information_description">Opsæt dataene, inden du går</string>
+    <string name="upload_data">Upload data</string>
+    <string name="upload_data_description">Upload lokale data til OneDart</string>
+    <string name="projects">Projicerer</string>
+    <string name="fail_to_get_location">Kunne ikke hente placering.</string>
+    <string name="description_map_service">Tilbyder kort- og gangsti-optagelse</string>
+    <string name="notification_title">EcoLogue kører</string>
+    <string name="notification_message">Til optagelse af din gangsti</string>
+    <string name="record_walk_path">Optag gangsti</string>
+    <string name="stop_record_walk_path">Stop optagelse af gangstier</string>
+    <string name="data_management">Administration af data</string>
+    <string name="shapefiles">Shapefiles</string>
+    <string name="shapefiles_description">Vælg at vise/skjule eller ændre visningsrækkefølgen</string>
+    <string name="trap_type">Fældetype</string>
+    <string name="trap_type_with_for">Diffuseringstype til %1$s</string>
+    <string name="latitude">Breddegrad</string>
+    <string name="longitude">Længdegrad</string>
+    <string name="altitude">Højde</string>
+    <string name="start_date">Start dato</string>
+    <string name="end_date">Slut dato</string>
+    <string name="start_time">Start tid</string>
+    <string name="end_time">Slut tid</string>
+    <string name="start_date_on_after">Startdato på eller efter</string>
+    <string name="end_date_on_before">Slutdato på eller før</string>
+    <string name="habitat">Habitat</string>
+    <string name="notes">Noter</string>
+    <string name="save">Gemme</string>
+    <string name="invalid_end_date">Ugyldig slutdato</string>
+    <string name="target_group">Målgruppe</string>
+    <string name="select_target_group">Vælg målgruppe</string>
+    <string name="logout">Log ud</string>
+    <string name="login">Log ind</string>
+    <string name="login_and_select_project">Log ind og vælg et projekt i indstillinger</string>
+    <string name="title_target_groups">Målgruppe</string>
+    <string name="cancel">Annuller</string>
+    <string name="title">Titel</string>
+    <string name="value">Værdi</string>
+    <string name="description">Beskrivelse</string>
+    <string name="internal_error">Intern fejl</string>
+    <string name="error_encode_metadata_failed">Det lykkedes ikke at kode metadata</string>
+    <string name="error_add_source_mapbox_mbtiles">Kan ikke tilføje kilde til kort efter indlæsning af mbtiles</string>
+    <string name="error">Fejl</string>
+    <string name="dismiss">Afskedige</string>
+    <string name="permission_needed">Tilladelse nødvendig</string>
+    <string name="permission_denied">Tilladelser nægtet</string>
+    <string name="location_explain">Ecologue skal bruge din enheds placeringsdata for at vise dig, hvor du er på kortet. Du kan justere disse tilladelser i dine enhedsindstillinger senere.</string>
+    <string name="external_storage_not_granted">Denne APP har brug for lagringstilladelse til indlæsning af lokal mbtiles-kortfil</string>
+    <string name="permission_explain">Hvorfor har vi brug for denne tilladelse\?</string>
+    <string name="custom_map_not_found">Brugerdefineret kortfil blev ikke fundet</string>
+    <string name="downloading_dot_dot_dot">Downloader…</string>
+    <string name="downloading">Downloader</string>
+    <string name="connecting">Tilslutning…</string>
+    <string name="dialog_description_download_map_res">Du vil downloade grundlæggende kortressource som kommentar, shapefiles, og åben gade-satellitkort til offline brug. Der er omkring 111739 ressource at downloade, kan tage omkring en time afhænger af dit netværk.</string>
+    <string name="sites">Sites</string>
+    <string name="site">Site</string>
+    <string name="download_offline_map">Download offline kort</string>
+    <string name="download_offline_map_description">Download brugerdefinerede luftbilleder (.mbtiles fil)</string>
+    <string name="download_basic_map_res">Download grundlæggende kortressource</string>
+    <string name="download_map_res_description">Barrow ø-anmærkninger og shapefiles til offline brug</string>
+    <string name="field_number">Felt nummer</string>
+    <string name="download_management">Download Management</string>
+    <string name="import_local_project">Importér lokalt projekt</string>
+    <string name="import_local_project_description">Importér et projekt uden at oprette forbindelse til databasen</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="download_offline_map_detail_description">Download din personlige MBties-kortfil med tilpassede luftbilleder i flere zoomniveauer.</string>
+    <string name="download_map_res_detail_description">Download kortressourcefilen, der indeholder kortoplysninger såsom shapefiles, veje, vartegn, og navne på kortet.</string>
+    <string name="mbtiles_file_title">Downloader MBtiles-fil</string>
+    <string name="mbtiles_file_message">MBtiles er en stor fil, som kan tage op til 4 timer at downloade med hurtig hastighed internet.
+\n 
+\nDownload størrelse for denne Mbtiles fil er %1$s</string>
+    <string name="available_storage">Tilgængelig opbevaring</string>
+    <string name="insufficient_storage_on_device">Tilgængelig lagerplads på enheden er %1$s
+\nDownload størrelse for denne Mbtiles fil er %2$s
+\nDenne download kræver mere lagerplads</string>
+    <string name="upload_not_synced_with_database">Data synkroniseres ikke</string>
+    <string name="not_synced_data">App tillader ikke skift mellem projekter, før alle dine data er synkroniseret med serveren.
+\n
+\nDu har i øjeblikket %1$s ikke uploadet til serveren</string>
+    <plurals name="upload_data_points">
+        <item quantity="one">%d datapunkt</item>
+        <item quantity="other">%d datapunkter</item>
+    </plurals>
+    <string name="upload_data_to_server">Upload dine data til serveren.</string>
+    <string name="message_uploading_data">Uploader %1$s</string>
+    <string name="msg_all_traps_are_uploaded">Alle dine feltposter er allerede synkroniseret med serveren</string>
+    <string name="switch_server">Konfigurer server</string>
+    <string name="switch_server_description">Konfigurer server til at hente projekter</string>
+    <string name="https">https://</string>
+    <string name="api">/api</string>
+    <string name="login_and_add_server">Log ind og tilføj server</string>
+    <string name="add_a_new_server">Tilføj en ny serverkonfiguration</string>
+    <string name="previously_configured_servers">Tidligere konfigurerede servere</string>
+    <string name="server">Server</string>
+    <string name="select_value_from_the_list">Vælg værdi fra listen</string>
+    <string name="species_name">Artens navn</string>
+    <string name="genus">Slægt</string>
+    <string name="author">Forfatter</string>
+    <string name="select_a_species">Vælg en art</string>
+    <string name="info">Generel</string>
+    <string name="about_us">Om os</string>
+    <string name="licenses_developers">Oplysninger om virksomhed, licens og udviklere</string>
+    <string name="all_about_text">"
+\n        Produktnavn: EcoLogue
+\n Version: %1$s
+\n
+\n Ophavsret © 2021 Mangfoldighed Arrays Teknologi
+\n (Dart)
+\n
+\n E-mail: ecologue@diversityarrays.com
+\n
+\n Udviklere:
+\n - Manil Chaudhary
+\n - Danny Feng
+\n - Michael Kirk
+\n - Taylor Politch
+\n
+\n Ansvarsfraskrivelse: SOFTWAREN LEVERES „SOM DEN ER“ UDEN GARANTI AF NOGEN ART, UDTRYKKELIGT ELLER UNDERFORSTÅET.
+\n
+\n FORFATTERNE ELLER DE BIDRAGENDE ORGANISATIONER ER UNDER INGEN OMSTÆNDIGHEDER ANSVARLIGE FOR DIREKTE, INDIREKTE, TILFÆLDIGE, SPECIELLE, EKSEMPLARISKE ELLER FØLGESKADER (HERUNDER, MEN IKKE BEGRÆNSET TIL TAB AF BRUG, DATA, FORTJENESTE ELLER FORRETNINGSAFBRYDELSE), UANSET OM DE ER FORÅRSAGET, OG FOR ENHVER TEORI OM ANSVAR, HVAD ENTEN DET ER I KONTRAKT, OBJEKTIVT ANSVAR ELLER ERSTATNINGSRET (HERUNDER UAGTSOMHED ELLER PÅ ANDEN MÅDE), DER OPSTÅR PÅ NOGEN MÅDE UD AF BRUGEN AF DENNE SOFTWARE, SELV HVIS RÅDGIVET OM MULIGHEDEN FOR EN SÅDAN SKADE.
+\n
+\n ----------
+\n Skærmstørrelse: Normal
+\n ----------
+\n
+\n Fil placeringer:
+\n Til Android 11+: /opbevaring/emuleret/0/Android/data/com.diversityarrays.ecologue/filer/dokumenter
+\n Til Android 10 og derunder: /Opbevaring/Emuleret/0/Dokumenter/Ecologue"</string>
+    <string name="about">Om</string>
+    <string name="server_address">Server-adresse</string>
+    <string name="new_server_address">Ny serveradresse</string>
+    <string name="msg_active_url">"Aktiv URL: "</string>
+    <string name="msg_configure_your_server_first">Konfigurer din server først</string>
+    <string name="title_configure_server">Konfigurer server</string>
+    <string name="cant_switch_server">Kan ikke skifte server</string>
+    <string name="field_records_are_not_uploaded">Alle dine feltposter synkroniseres ikke med serveren</string>
+    <string name="stopped">Stoppet</string>
+    <string name="error_cannot_stop_report_to_dart">Kan ikke stoppe det, bedes du rapportere til dART</string>
+    <string name="starting_download_please_wait">Start af download, vent venligst…</string>
+    <string name="stopping_download_please_wait">Stop download, vent venligst…</string>
+    <string name="dialog_description_login_to_download">Du er logget ud. Log ind inden download.</string>
+    <string name="done">Udført</string>
+    <string name="dialog_title_edit_field_record">Rediger feltpost</string>
+    <string name="dialog_description_cant_edit_uploaded_field_record">Du kan ikke redigere en uploadet feltpost.</string>
+    <string name="error_message_readonly_fieldrecord">Denne feltpost er skrivebeskyttet, fordi den er uploadet til serveren.</string>
+    <string name="title_location_permission">Brug din placering</string>
+    <string name="permission_denied_location_permission_explaination">Ecologue skal bruge din enheds placeringsdata for at vise dig, hvor du er på kortet. Hvis du ønsker at bruge denne funktion i fremtiden, kan du gå til dine enhedsindstillinger og aktivere placering for Ecologue.</string>
+    <string name="list_view">List View</string>
+    <string name="map_view">Vis kort</string>
+    <string name="empty_bracket">(Tom)</string>
+    <string name="end_date_colon">Slutdato:</string>
+    <string name="start_date_colon">Start dato:</string>
+    <string name="field_number_colon">Felt nummer:</string>
+    <string name="trap_type_colon">Fælde Type:</string>
+    <string name="location">Beliggenhed</string>
+    <string name="collector">Samler</string>
+    <string name="trap_collected">Fælde indsamlet</string>
+    <string name="trap_exposed">Udsat fælde</string>
+    <string name="filter_results">Filtrer resultater</string>
+    <string name="msg_any_selection">Enhver</string>
+    <string name="reset">Nulstil</string>
+    <string name="filter">Filtrer</string>
+    <string name="select_trap_type">Vælg diffuseringstype</string>
+    <string name="select_site">Vælg websted</string>
+    <string name="select_start_date">Vælg startdato</string>
+    <string name="select_end_date">Vælg slutdato</string>
+    <string name="enter_field_number">Indtast feltnummer</string>
+    <string name="submit">Indsend</string>
+    <string name="clear">Ryd</string>
+    <string name="mtrl_picker_cancel" description="Material design filter screen Cancel button" translatable="false">Ryd</string>
+    <string name="debug_generic_item">Fejlfindingsindstillinger</string>
+    <string name="debug_generic_item_description">Sikkerhedskopiering/upload data</string>
+    <string name="use_debug_database">Brug testdatabase</string>
+    <string name="nuke_database">Nuke-databasen</string>
+    <string name="use_test_database">Brug Test Database</string>
+    <string name="switch_on_test_database">Slå testdatabase til test</string>
+    <string name="reset_test_database">Nulstil testdatabase</string>
+    <string name="reinitialize_database">Geninitialiser databasen</string>
+    <string name="msg_want_to_reset_test_database">Er du sikker på, at du vil nulstille testdatabasen\? det vil ikke påvirke din produktionsdatabase.</string>
+    <string name="msg_only_test_database_reset">Kun testdatabase kan nulstilles</string>
+    <string name="error_dialog">Server Fejl</string>
+    <string name="msg_error_dialog">Du er stødt på en serverfejl. Prøv igen, eller kontakt vores team på ecologue@diversityarrays.com</string>
+    <string name="title_no_field_record">Umm.. Ingen fælder fundet</string>
+    <string name="msg_no_field_record">Skift dine filtre eller flyt kort for at inkludere fælder</string>
+    <string name="field_records">Felt Records</string>
+    <string name="expand_the_list">Udvid listen for flere detaljer</string>
+    <string name="add_efforts">Tilføj indsats</string>
+    <string name="efforts">Indsatsen</string>
+    <string name="button_text_add">TILFØJE</string>
+    <string name="field_record">Felt Record</string>
+    <string name="search">Søg</string>
+    <string name="add_collectors">Tilføj samlere</string>
+    <string name="responses">Svar</string>
+    <string name="traps">Fælder</string>
+    <string name="effort_details">Indsats Detaljer</string>
+    <string name="open">Åben</string>
+    <string name="field_record_details">Oplysninger om feltpost</string>
+    <string name="number_of_efforts">Antal anstrengelser:</string>
+    <string name="msg_at_least_one_collector_is_needed">Mindst en samler er nødvendig for at tilføje indsats</string>
+    <string name="msg_effort_already_synced">Denne indsats er allerede synkroniseret</string>
+    <string name="msg_at_least_one_collector_is_needed_survey">Mindst en samler er nødvendig for at tilføje undersøgelse</string>
+    <string name="msg_at_least_one_extra_must_have_value">%1$s skal vælges, før du gemmer</string>
+    <string name="msg_start_date_must_be_before_end_date">Starttidspunktet skal være før sluttidspunktet</string>
+    <string name="select_response">Vælg svar</string>
+    <string name="show_open_traps">Vis åbne fælder</string>
+    <string name="title_warning">Advarsel</string>
+    <string name="title_complete_walkpath">Komplet gangsti</string>
+    <string name="msg_clear_walk_path">Dette vil rydde alle placeringsdata sammen med indsamlede feltregistre\? Er du sikker på, at du vil fortsætte\?</string>
+    <string name="msg_complete_walk_path">Dette vil fuldføre din gåindsats, Ønsker du at fortsætte\?</string>
+    <string name="show_altitude">Vis højde</string>
+    <string name="switch_on_setting_to_see_altitude">Slå denne indstilling til for at se højden</string>
+    <string name="title_error_file_not_found">Nødvendige filer mangler</string>
+    <string name="message_error_file_not_found">Kontakt Diversity arrays for en gyldig Ecologue-fil.</string>
+    <string name="warning_previous_data_will_delete">Hvis du fortsætter tidligere data vil blive slettet.</string>
+    <string name="import_successful">Import Vellykket</string>
+    <string name="message_can_start_using_app">Du kan nu begynde at bruge appen med dit nye projekt</string>
+    <string name="barcode">Stregkode</string>
+    <string name="select">Vælg</string>
+    <string name="msg_scan_barcode_before_selecting">Scan stregkode, før du vælger</string>
+    <string name="capture_image">Fange</string>
+    <string name="scanned_barcode">Scannet stregkode</string>
+</resources>
