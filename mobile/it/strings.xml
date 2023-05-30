@@ -1,2 +1,245 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="title_are_you_sure">Stai eliminando una risorsa.</string>
+    <string name="warning_previous_data_will_delete">Se si procede, i dati precedenti verranno eliminati.</string>
+    <string name="import_successful">Importazione completata</string>
+    <string name="message_can_start_using_app">Ora puoi iniziare a usare l\'app con il tuo nuovo progetto</string>
+    <string name="barcode">Codice a barre</string>
+    <string name="select">Seleziona</string>
+    <string name="msg_scan_barcode_before_selecting">Scansiona il codice a barre prima di selezionare</string>
+    <string name="capture_image">Cattura</string>
+    <string name="scanned_barcode">Codice a barre scansionato</string>
+    <string name="image_capture_result">Risultato dell\'acquisizione dell\'immagine</string>
+    <string name="close">Chiudi</string>
+    <string name="msg_delete_picture">Elimina immagine %1$s</string>
+    <string name="title_surveys">Sondaggi</string>
+    <string name="survey_details">Dettagli del sondaggio</string>
+    <string name="update">AGGIORNAMENTO</string>
+    <string name="app_name">EcoGue</string>
+    <string name="mapbox_access_token">SK.eyj1ijoiZgfuBNLKYXJ0iiwiysi6iMnRzji1BXK4BzAwAgcyDGxNgVqngdyB3oifq.teh-eb2b-hwfo6qnsZooyw</string>
+    <string name="error_load_mbtiles">Nessun file di mappa mbtiles trovato nella cartella documents/ecocorer</string>
+    <string name="add_a_new_marker">Aggiungi un nuovo marcatore</string>
+    <string name="confirm">Confermare</string>
+    <string name="data">Record sul campo</string>
+    <string name="settings">Impostazioni</string>
+    <string name="add_trap">Aggiungi trappola</string>
+    <string name="add_effort">Aggiungi impegno</string>
+    <string name="add_survey">Aggiungi sondaggio</string>
+    <string name="download_project_information">Scarica le informazioni sul progetto</string>
+    <string name="download_project_information_description">Configura i dati prima di partire</string>
+    <string name="upload_data">Caricare dati</string>
+    <string name="upload_data_description">Carica dati locali su OneDart</string>
+    <string name="projects">Progetti</string>
+    <string name="fail_to_get_location">Impossibile ottenere la posizione.</string>
+    <string name="description_map_service">Offre la registrazione di mappe e percorsi pedonali</string>
+    <string name="notification_title">EcoGue è in funzione</string>
+    <string name="notification_message">Per registrare il percorso pedonale</string>
+    <string name="record_walk_path">Percorso pedonale da record</string>
+    <string name="stop_record_walk_path">Interrompi la registrazione del percorso</string>
+    <string name="data_management">Gestione dei dati</string>
+    <string name="shapefiles">Shape file</string>
+    <string name="shapefiles_description">Scegli di mostrare/nascondere o modificare l\'ordine di visualizzazione</string>
+    <string name="trap_type">Tipo di trappola</string>
+    <string name="trap_type_with_for">Tipo di trappola per %1$s</string>
+    <string name="latitude">Latitudine</string>
+    <string name="longitude">Longitudine</string>
+    <string name="altitude">Altitudine</string>
+    <string name="start_date">Data di inizio</string>
+    <string name="end_date">Data di fine</string>
+    <string name="start_time">Ora di inizio</string>
+    <string name="end_time">Ora di fine</string>
+    <string name="start_date_on_after">Data di inizio successiva o successiva</string>
+    <string name="end_date_on_before">Data di fine uguale o precedente</string>
+    <string name="habitat">Habitat</string>
+    <string name="notes">Appunti</string>
+    <string name="save">Salva</string>
+    <string name="invalid_end_date">Data di fine non valida</string>
+    <string name="target_group">Gruppo target</string>
+    <string name="select_target_group">Seleziona il gruppo target</string>
+    <string name="logout">Disconnettersi</string>
+    <string name="login">Accedi</string>
+    <string name="login_and_select_project">Accedi e seleziona un progetto nelle impostazioni</string>
+    <string name="title_target_groups">Gruppo target</string>
+    <string name="cancel">Annulla</string>
+    <string name="title">Titolo</string>
+    <string name="value">Valore</string>
+    <string name="description">Descrizione</string>
+    <string name="internal_error">Errore interno</string>
+    <string name="error_encode_metadata_failed">Impossibile codificare i metadati</string>
+    <string name="error_add_source_mapbox_mbtiles">Impossibile aggiungere la fonte alla mappa dopo aver caricato mbtiles</string>
+    <string name="error">Errore</string>
+    <string name="dismiss">Licenziare</string>
+    <string name="permission_needed">Autorizzazione necessaria</string>
+    <string name="permission_denied">Autorizzazioni negate</string>
+    <string name="location_explain">EcoGue deve utilizzare i dati sulla posizione del dispositivo per mostrarti dove ti trovi sulla mappa. Puoi modificare queste autorizzazioni nelle impostazioni del tuo dispositivo in un secondo momento.</string>
+    <string name="external_storage_not_granted">Questa APP richiede l\'autorizzazione di archiviazione per caricare il file di mappa mbtiles locale</string>
+    <string name="permission_explain">Perché abbiamo bisogno di questo permesso\?</string>
+    <string name="custom_map_not_found">File di mappa personalizzato non trovato</string>
+    <string name="downloading_dot_dot_dot">Sto scaricando…</string>
+    <string name="downloading">Scaricamento</string>
+    <string name="connecting">Connessione…</string>
+    <string name="dialog_description_download_map_res">Stai per scaricare risorse cartografiche di base come annotazioni, shapefile e mappa satellitare open street per l\'utilizzo offline. Ci sono circa 111739 risorse da scaricare, potrebbe richiedere circa un\'ora a seconda della rete.</string>
+    <string name="sites">Siti</string>
+    <string name="site">Sito</string>
+    <string name="download_offline_map">Scarica la mappa offline</string>
+    <string name="download_offline_map_description">Scarica immagini aeree personalizzate (file.mbtiles)</string>
+    <string name="download_basic_map_res">Scarica la risorsa cartografica di base</string>
+    <string name="download_map_res_description">Annotazioni e shapefile di Barrow Island per l\'uso offline</string>
+    <string name="field_number">Numero di campo</string>
+    <string name="download_management">Gestione dei download</string>
+    <string name="import_local_project">Importa progetto locale</string>
+    <string name="import_local_project_description">Importa un progetto senza connetterti al database</string>
+    <string name="stop">Stop</string>
+    <string name="start">Inizio</string>
+    <string name="download_offline_map_detail_description">Scarica il tuo file di mappa MBTiles personalizzato con immagini aeree personalizzate con più livelli di zoom.</string>
+    <string name="download_map_res_detail_description">Scarica il file di risorse della mappa che include dettagli della mappa come shapefile, strade, punti di riferimento e nomi sulla mappa.</string>
+    <string name="mbtiles_file_title">Scaricamento del file MBTiles</string>
+    <string name="mbtiles_file_message">mBTiles è un file di grandi dimensioni, che potrebbe richiedere fino a 4 ore per essere scaricato con Internet ad alta velocità.
+\n 
+\nLa dimensione di download per questo file Mbtiles è %1$s</string>
+    <string name="available_storage">Spazio di archiviazione disponibile</string>
+    <string name="insufficient_storage_on_device">Lo spazio di archiviazione disponibile sul dispositivo è %1$s
+\nLa dimensione di download di per questo file Mbtiles è %2$s
+\nQuesto download richiede più spazio di archiviazione</string>
+    <string name="upload_not_synced_with_database">I dati non sono sincronizzati</string>
+    <string name="not_synced_data">L\'app non consente di passare da un progetto all\'altro finché tutti i dati non vengono sincronizzati con il server.
+\n
+\nAl momento %1$s non è stato caricato sul server</string>
+    <plurals name="upload_data_points">
+        <item quantity="one">punto dati %d</item>
+        <item quantity="many"></item>
+        <item quantity="other">punti dati %d</item>
+    </plurals>
+    <string name="upload_data_to_server">Carica i tuoi dati sul server.</string>
+    <string name="message_uploading_data">Caricamento in corso %1$s</string>
+    <string name="uploading">Caricamento in corso…</string>
+    <string name="msg_all_traps_are_uploaded">Tutti i record sul campo sono già sincronizzati con il server</string>
+    <string name="switch_server">Configurazione del server</string>
+    <string name="switch_server_description">Configura il server per recuperare i progetti</string>
+    <string name="https">https://</string>
+    <string name="api">/api</string>
+    <string name="login_and_add_server">Accedi e aggiungi server</string>
+    <string name="add_a_new_server">Aggiungi una nuova configurazione del server</string>
+    <string name="previously_configured_servers">Server configurati in precedenza</string>
+    <string name="server">Server</string>
+    <string name="select_value_from_the_list">Seleziona un valore dall\'elenco</string>
+    <string name="species_name">Nome della specie</string>
+    <string name="genus">genere</string>
+    <string name="author">Autore</string>
+    <string name="select_a_species">Seleziona una specie</string>
+    <string name="info">Generale</string>
+    <string name="about_us">Su di noi</string>
+    <string name="licenses_developers">Informazioni sulla società, sulla licenza e sugli sviluppatori</string>
+    <string name="all_about_text">"
+\n        Nome prodotto: EcoGue
+\n Versione: %1$s
+\n
+\n Copyright © 2021 Tecnologia Diversity Arrays
+\n (Dart)
+\n
+\n Posta elettronica: ecologue@diversityarrays.com
+\n
+\n Sviluppatori:
+\n - Manila Chaudhary
+\n - Danny Feng
+\n - Michael Kirk
+\n - Taylor Politch
+\n
+\n Disclaimer: IL SOFTWARE VIENE FORNITO «COSÌ COM\'È», SENZA GARANZIE DI ALCUN TIPO, ESPRESSE O IMPLICITE.
+\n
+\n IN NESSUN CASO GLI AUTORI O LE ORGANIZZAZIONI CONTRIBUTRICI SARANNO RESPONSABILI PER EVENTUALI DANNI DIRETTI, INDIRETTI, INCIDENTALI, SPECIALI, ESEMPLARI O CONSEQUENZIALI (INCLUSI, MA NON LIMITATI A, PERDITA D\'USO, DATI, PROFITTI O INTERRUZIONE DELL\'ATTIVITÀ) COMUNQUE CAUSATI E SU QUALSIASI TEORIA DI RESPONSABILITÀ, SIA ESSA CONTRATTUALE, OGGETTIVA O ILLECITA (INCLUSA NEGLIGENZA O ALTRO) DERIVANTE IN QUALSIASI MODO DALL\'USO DI QUESTO SOFTWARE, ANCHE SE INFORMATI SULLA POSSIBILITÀ DI TALI DANNI.
+\n
+\n -----------
+\n Dimensioni dello schermo: NORMALE
+\n -----------
+\n
+\n Posizioni dei file:
+\n Per Android 11+: /storage/emulated/0/android/data/com.diversityarrays.ecologue/files/documents
+\n Per Android 10 e versioni precedenti: /storage/emulated/0/documents/eCologue"</string>
+    <string name="about">Informazioni su</string>
+    <string name="server_address">Indirizzo del server</string>
+    <string name="new_server_address">Nuovo indirizzo del server</string>
+    <string name="msg_active_url">"Url attivo: "</string>
+    <string name="msg_configure_your_server_first">Configura prima il tuo server</string>
+    <string name="title_configure_server">Configurazione del server</string>
+    <string name="cant_switch_server">Impossibile cambiare server</string>
+    <string name="field_records_are_not_uploaded">Tutti i record sul campo non sono sincronizzati con il server</string>
+    <string name="stopped">Fermato</string>
+    <string name="error_cannot_stop_report_to_dart">Non posso fermarlo, per favore segnalalo a DaRT</string>
+    <string name="starting_download_please_wait">Avvio del download, attendi…</string>
+    <string name="stopping_download_please_wait">Interruzione del download, attendi…</string>
+    <string name="dialog_description_login_to_download">Sei disconnesso. Effettua il login prima del download.</string>
+    <string name="done">Fatto</string>
+    <string name="dialog_title_edit_field_record">Modifica record di campo</string>
+    <string name="dialog_description_cant_edit_uploaded_field_record">Non puoi modificare un record di campo caricato.</string>
+    <string name="error_message_readonly_fieldrecord">Questo record di campo è di sola lettura perché è stato caricato sul server.</string>
+    <string name="title_location_permission">Usa la tua posizione</string>
+    <string name="permission_denied_location_permission_explaination">EcoGue deve utilizzare i dati sulla posizione del dispositivo per mostrarti dove ti trovi sulla mappa. Se desideri utilizzare questa funzione in futuro, puoi accedere alle impostazioni del tuo dispositivo e abilitare la localizzazione per EcoGue.</string>
+    <string name="list_view">Visualizzazione elenco</string>
+    <string name="map_view">Visualizzazione della mappa</string>
+    <string name="empty_bracket">(Vuoto)</string>
+    <string name="end_date_colon">Data di fine:</string>
+    <string name="start_date_colon">Data di inizio:</string>
+    <string name="field_number_colon">Numero di campo:</string>
+    <string name="trap_type_colon">Tipo di trappola:</string>
+    <string name="location">Posizione</string>
+    <string name="collector">Collezionista</string>
+    <string name="trap_collected">Trappola raccolta</string>
+    <string name="trap_exposed">Trappola esposta</string>
+    <string name="filter_results">Filtrare i risultati</string>
+    <string name="msg_any_selection">Qualsiasi</string>
+    <string name="reset">Ripristina</string>
+    <string name="filter">Filtro</string>
+    <string name="select_trap_type">Seleziona il tipo di trappola</string>
+    <string name="select_start_date">Seleziona la data di inizio</string>
+    <string name="select_end_date">Seleziona la data di fine</string>
+    <string name="enter_field_number">Inserisci il numero del campo</string>
+    <string name="submit">Invia</string>
+    <string name="clear">Trasparente</string>
+    <string name="mtrl_picker_cancel" description="Material design filter screen Cancel button" translatable="false">Trasparente</string>
+    <string name="debug_generic_item">Impostazioni di debug</string>
+    <string name="debug_generic_item_description">Effettua il backup/carica i dati</string>
+    <string name="use_debug_database">Usa il database di test</string>
+    <string name="nuke_database">Banca dati Nuke</string>
+    <string name="use_test_database">Usa il database di test</string>
+    <string name="switch_on_test_database">Attiva il database di test per i test</string>
+    <string name="reset_test_database">Reimposta il database di test</string>
+    <string name="reinitialize_database">Reinizializza il database</string>
+    <string name="msg_want_to_reset_test_database">Sei sicuro di voler resettare il database dei test\? non influirà sul tuo database di produzione.</string>
+    <string name="msg_only_test_database_reset">È possibile ripristinare solo il database di test</string>
+    <string name="error_dialog">Errore del server</string>
+    <string name="msg_error_dialog">Hai riscontrato un errore del server. Riprova o contatta il nostro team all\'indirizzo ecologue@diversityarrays.com</string>
+    <string name="title_no_field_record">Umm.. Nessuna trappola trovata</string>
+    <string name="msg_no_field_record">Cambia i filtri o sposta la mappa per includere trappole</string>
+    <string name="field_records">Record sul campo</string>
+    <string name="collectors">Collezionisti</string>
+    <string name="expand_the_list">Espandi l\'elenco per maggiori dettagli</string>
+    <string name="add_efforts">Aggiungi impegno</string>
+    <string name="efforts">Sforzi</string>
+    <string name="button_text_add">AGGIUNGERE</string>
+    <string name="field_record">Record sul campo</string>
+    <string name="search">Cerca</string>
+    <string name="add_collectors">Aggiungi collezionisti</string>
+    <string name="responses">Risposte</string>
+    <string name="traps">trappole</string>
+    <string name="effort_details">Dettagli dell\'impegno</string>
+    <string name="open">Aperto</string>
+    <string name="field_record_details">Dettagli del field record</string>
+    <string name="number_of_efforts">Numero di sforzi:</string>
+    <string name="msg_at_least_one_collector_is_needed">È necessario almeno un raccoglitore per aggiungere impegno</string>
+    <string name="msg_effort_already_synced">Questo sforzo è già sincronizzato</string>
+    <string name="msg_at_least_one_collector_is_needed_survey">È necessario almeno un raccoglitore per aggiungere il sondaggio</string>
+    <string name="msg_at_least_one_extra_must_have_value">%1$s deve essere scelto prima di salvare</string>
+    <string name="msg_start_date_must_be_before_end_date">L\'ora di inizio deve essere precedente all\'ora di fine</string>
+    <string name="select_response">Seleziona risposta</string>
+    <string name="show_open_traps">Mostra trappole aperte</string>
+    <string name="title_warning">Avvertenza</string>
+    <string name="title_complete_walkpath">Percorso pedonale completo</string>
+    <string name="msg_clear_walk_path">Questo cancellerà tutti i dati sulla posizione insieme ai record sul campo raccolti\? Sei sicuro di voler procedere\?</string>
+    <string name="msg_complete_walk_path">Questo completerà il tuo sforzo di camminata. Vuoi procedere\?</string>
+    <string name="show_altitude">Mostra altitudine</string>
+    <string name="switch_on_setting_to_see_altitude">Attiva questa impostazione per vedere l\'altitudine</string>
+    <string name="title_error_file_not_found">File richiesti mancanti</string>
+    <string name="message_error_file_not_found">Contatta Diversity arrays per un file Ecologue valido.</string>
+    <string name="select_site">Seleziona sito</string>
+</resources>
