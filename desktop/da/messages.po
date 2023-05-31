@@ -8,192 +8,195 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-05-31 15:29+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-05-31 06:47+0000\n"
+"Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
+"Language-Team: Danish <http://translate.diversityarrays.cloud/projects/"
+"ecologue-desktop/values/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: templates/account.jinja2:13
 msgid "Account"
-msgstr ""
+msgstr "Konto"
 
 #: templates/account.jinja2:25
 msgid "Account Details for:"
-msgstr ""
+msgstr "Kontooplysninger for:"
 
 #: templates/account.jinja2:34
 msgid "Personal Details"
-msgstr ""
+msgstr "Personlige oplysninger"
 
 #: templates/account.jinja2:38
 msgid "Personal Institution Settings"
-msgstr ""
+msgstr "Indstillinger for personlig institution"
 
 #: templates/account.jinja2:42
 msgid "Personal Notification Settings"
-msgstr ""
+msgstr "Indstillinger for personlig meddelelse"
 
 #: templates/base.jinja2:35
 msgid "Base"
-msgstr ""
+msgstr "Base"
 
 #: templates/field.jinja2:4
 msgid "Field Lot"
-msgstr ""
+msgstr "Field Lot"
 
 #: templates/form.jinja2:97
 msgid "Are you sure you want to delete this record?"
-msgstr ""
+msgstr "Er du sikker på, at du vil slette denne post?"
 
 #: templates/form.jinja2:101
 msgid "Record deleted"
-msgstr ""
+msgstr "Optag slettet"
 
 #: templates/form.jinja2:104
 msgid "Failed to delete record. Reason: "
-msgstr ""
+msgstr "Kunne ikke slette posten. Årsag: "
 
 #: templates/help.jinja2:3
 msgid "Help"
-msgstr ""
+msgstr "Hjælp"
 
 #: templates/help.jinja2:6
 msgid "Hello"
-msgstr ""
+msgstr "Hej"
 
 #: templates/help.jinja2:6
 msgid " how can we help "
-msgstr ""
+msgstr " hvordan kan vi hjælpe "
 
 #: templates/home.jinja2:3
 msgid "Home"
-msgstr ""
+msgstr "Hjem"
 
 #: templates/home.jinja2:6
 msgid "Select a project"
-msgstr ""
+msgstr "Vælg et projekt"
 
 #: templates/list_container.jinja2:12
 msgid "+ Create container"
-msgstr ""
+msgstr "+ Opret container"
 
 #: templates/list_container.jinja2:13
 msgid "Search containers"
-msgstr ""
+msgstr "Søg efter containere"
 
 #: templates/list_container.jinja2:15 templates/list_container.jinja2:22
 msgid "Containers"
-msgstr ""
+msgstr "Containere"
 
 #: templates/list_container.jinja2:23 templates/list_dart-plate.jinja2:23
 #: templates/list_dart-submission.jinja2:23 templates/list_effort.jinja2:29
 #: templates/list_field.jinja2:38 templates/list_genus.jinja2:23
 #: templates/list_identification.jinja2:29 templates/list_institution.jinja2:23
 msgid "Short description here"
-msgstr ""
+msgstr "Kort beskrivelse her"
 
 #: templates/list_container.jinja2:25
 msgid "Use the search bar below to filter the displayed containers"
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste containere"
 
 #: templates/list_dart-plate.jinja2:12
 msgid "+ Create new plate"
-msgstr ""
+msgstr "+ Opret ny plade"
 
 #: templates/list_dart-plate.jinja2:13
 msgid "Search plates"
-msgstr ""
+msgstr "Søg plader"
 
 #: templates/list_dart-plate.jinja2:15 templates/list_dart-plate.jinja2:22
 msgid "DArT Plates"
-msgstr ""
+msgstr "dArt Plader"
 
 #: templates/list_dart-plate.jinja2:25
 msgid "Use the search bar below to filter the displayed plates"
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste plader"
 
 #: templates/list_dart-submission.jinja2:12
 msgid "+ Create new submission"
-msgstr ""
+msgstr "+ Opret ny indsendelse"
 
 #: templates/list_dart-submission.jinja2:13
 msgid "Search DArT Submissions"
-msgstr ""
+msgstr "Søg i DART-indsendelser"
 
 #: templates/list_dart-submission.jinja2:22
 msgid "DArT Submissions"
-msgstr ""
+msgstr "DaRT-indsendelser"
 
 #: templates/list_dart-submission.jinja2:25
 msgid "Use the search bar below to filter the displayed DArT Submissions"
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste DART-indsendelser"
 
 #: templates/list_effort.jinja2:12
 msgid "+ Create effort"
-msgstr ""
+msgstr "+ Opret indsats"
 
 #: templates/list_effort.jinja2:13
 msgid "Search efforts"
-msgstr ""
+msgstr "Søg indsats"
 
 #: templates/list_effort.jinja2:21 templates/list_effort.jinja2:28
 msgid "Efforts"
-msgstr ""
+msgstr "Indsatsen"
 
 #: templates/list_effort.jinja2:31
 msgid "Use the search bar below to filter the displayed efforts"
-msgstr ""
+msgstr "Brug søgefeltet nedenfor for at filtrere den viste indsats"
 
 #: templates/list_field.jinja2:12
 msgid "+ Create field record"
-msgstr ""
+msgstr "+ Opret felt rekord"
 
 #: templates/list_field.jinja2:13
 msgid "Search field records"
-msgstr ""
+msgstr "Søg i feltregistreringer"
 
 #: templates/fragments/effort-record.html:8
 #: templates/fragments/survey-record.html:24 templates/list_field.jinja2:30
 #: templates/list_field.jinja2:37
 msgid "Field records"
-msgstr ""
+msgstr "Felt optegnelser"
 
 #: templates/list_field.jinja2:40
 msgid "Use the search bar below to filter the displayed field records"
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste feltoptegnelser"
 
 #: templates/list_genus.jinja2:12
 msgid "+ Add genus"
-msgstr ""
+msgstr "+ Tilføj slægt"
 
 #: templates/list_genus.jinja2:13
 msgid "Search genera"
-msgstr ""
+msgstr "Søg slægter"
 
 #: templates/list_genus.jinja2:22
 msgid "Genera"
-msgstr ""
+msgstr "Slægter"
 
 #: templates/list_genus.jinja2:25
 msgid "Use the search bar below to filter the displayed genera"
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste slægter"
 
 #: templates/list_identification-otu.jinja2:12
 msgid "+ Create Identification OTU"
-msgstr ""
+msgstr "+ Opret identifikation OTU"
 
 #: templates/list_identification-otu.jinja2:13
 msgid "Search Identification OTUs"
-msgstr ""
+msgstr "Søg Identifikation OTU\"er"
 
 #: templates/list_identification-otu.jinja2:15
 #: templates/list_identification-otu.jinja2:22
 msgid "Identification OTUs"
-msgstr ""
+msgstr "Identifikation OTU'er"
 
 #: templates/list_identification-otu.jinja2:23
 #: templates/list_multimedia.jinja2:27 templates/list_otu.jinja2:23
@@ -205,159 +208,160 @@ msgstr ""
 #: templates/list_trapping-liquid.jinja2:23 templates/list_traptype.jinja2:23
 #: templates/plate-wells-table.jinja2:15
 msgid "Short description here."
-msgstr ""
+msgstr "Kort beskrivelse her."
 
 #: templates/list_identification-otu.jinja2:25
 msgid "Use the search bar below to filter the displayed Identification OTUs"
 msgstr ""
+"Brug søgefeltet nedenfor til at filtrere de viste identifikations-OTU\"er"
 
 #: templates/list_identification.jinja2:12
 msgid "+ Create identification"
-msgstr ""
+msgstr "+ Opret identifikation"
 
 #: templates/list_identification.jinja2:13
 msgid "Search identifications"
-msgstr ""
+msgstr "Søg identifikationer"
 
 #: templates/list_identification.jinja2:21
 #: templates/list_identification.jinja2:28
 msgid "Identifications"
-msgstr ""
+msgstr "Identifikationer"
 
 #: templates/list_identification.jinja2:31
 msgid "Use the search bar below to filter the displayed identifications"
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste identifikationer"
 
 #: templates/list_institution.jinja2:12
 msgid "+ Add institution"
-msgstr ""
+msgstr "+ Tilføj institution"
 
 #: templates/list_institution.jinja2:13
 msgid "Search institutions"
-msgstr ""
+msgstr "Søg efter institutioner"
 
 #: templates/list_institution.jinja2:15 templates/list_institution.jinja2:22
 msgid "Institutions"
-msgstr ""
+msgstr "Institutioner"
 
 #: templates/list_institution.jinja2:25
 msgid "Use the search bar below to filter the displayed institutions"
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste institutioner"
 
 #: templates/fragments/field-record-record.html:27
 #: templates/fragments/identification-record.html:8
 #: templates/fragments/survey-record.html:25
 #: templates/list_multimedia.jinja2:19 templates/list_multimedia.jinja2:26
 msgid "Multimedia"
-msgstr ""
+msgstr "Multimedie"
 
 #: templates/list_multimedia.jinja2:29
 msgid "Use the search bar below to filter the displayed multimedia."
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere det viste multimedie."
 
 #: templates/list_multimedia.jinja2:31
 msgid "Import Multimedia"
-msgstr ""
+msgstr "Importér multimedie"
 
 #: templates/list_multimedia.jinja2:52
 msgid "\"Uploading multimedia records is not availble in the current build.\""
-msgstr ""
+msgstr "„Upload af multimedieposter er ikke tilgængelig i den aktuelle build.“"
 
 #: templates/list_multimedia.jinja2:55
 msgid "\"Are you sure you want to upload this record?\""
-msgstr ""
+msgstr "„Er du sikker på, at du vil uploade denne post?“"
 
 #: templates/list_multimedia.jinja2:100
 msgid "\"Failed to find Field record.\""
-msgstr ""
+msgstr "„Kunne ikke finde feltpost.“"
 
 #: templates/list_multimedia.jinja2:120
 msgid "\"Successfully uploaded records: \""
-msgstr ""
+msgstr "„Succesfuldt uploadede poster:“"
 
 #: templates/list_multimedia.jinja2:120
 msgid "\"Unsuccessfully uploaded records: \""
-msgstr ""
+msgstr "„Uheld uploadede poster:“"
 
 #: templates/list_multimedia.jinja2:124
 msgid "\"Failed to link Field and Multimedia record.\""
-msgstr ""
+msgstr "„Kunne ikke linke felt- og multimediepost.“"
 
 #: templates/list_otu.jinja2:12
 msgid "+ Create OTU"
-msgstr ""
+msgstr "+ Opret OTU"
 
 #: templates/list_otu.jinja2:13
 msgid "Search OTUs"
-msgstr ""
+msgstr "Søg OTU'er"
 
 #: templates/list_otu.jinja2:15 templates/list_otu.jinja2:22
 msgid "OTUs"
-msgstr ""
+msgstr "OTU'er"
 
 #: templates/list_otu.jinja2:25
 msgid "Use the search bar below to filter the displayed OTUs."
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste OTU\"er."
 
 #: templates/list_person.jinja2:12
 msgid "+ Add a person"
-msgstr ""
+msgstr "+ Tilføj en person"
 
 #: templates/list_person.jinja2:13 templates/list_project-permissions.jinja2:13
 msgid "Search people"
-msgstr ""
+msgstr "Søg efter personer"
 
 #: templates/list_person.jinja2:15 templates/list_person.jinja2:22
 msgid "People"
-msgstr ""
+msgstr "Kategori: Mennesker"
 
 #: templates/list_person.jinja2:25
 msgid "Use the search bar below to filter the displayed people."
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste personer."
 
 #: templates/list_planned-ssc.jinja2:12
 msgid "+ Add a planned SSC"
-msgstr ""
+msgstr "+ Tilføj en planlagt SSC"
 
 #: templates/list_planned-ssc.jinja2:13
 msgid "Search planned SSCs"
-msgstr ""
+msgstr "Søg efter planlagte SSC'er"
 
 #: templates/list_planned-ssc.jinja2:15 templates/list_planned-ssc.jinja2:22
 msgid "Planned SSCs"
-msgstr ""
+msgstr "Planlagte SSC"
 
 #: templates/list_planned-ssc.jinja2:25
 msgid "Use the search bar below to filter the displayed planned SSCs."
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste planlagte SSC'er."
 
 #: templates/list_project-permissions.jinja2:12
 msgid "+ Add person to project"
-msgstr ""
+msgstr "+ Tilføj person til projekt"
 
 #: templates/list_project-permissions.jinja2:19
 msgid "Project access"
-msgstr ""
+msgstr "Projekt adgang"
 
 #: templates/list_project-permissions.jinja2:26
 msgid "Project permissions"
-msgstr ""
+msgstr "Projekt tilladelser"
 
 #: templates/list_project-permissions.jinja2:29
 msgid "Use the search bar below to filter the displayed permissions."
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste tilladelser."
 
 #: templates/list_project.jinja2:12
 msgid "+ Create new project"
-msgstr ""
+msgstr "+ Opret nyt projekt"
 
 #: templates/list_project.jinja2:13
 msgid "Search projects"
-msgstr ""
+msgstr "Søg projekter"
 
 #: templates/list_project.jinja2:15 templates/list_project.jinja2:22
 msgid "Projects"
-msgstr ""
+msgstr "Projicerer"
 
 #: templates/list_project.jinja2:23
 msgid ""
@@ -365,185 +369,190 @@ msgid ""
 "cards i.e. why a project image might not exist (no trap location data) or"
 " look inaccurate (outlier trap data)"
 msgstr ""
+"Kort beskrivelse af projekter og de viste oplysninger på kortene, dvs. "
+"hvorfor et projektbillede muligvis ikke findes (ingen diffuseringsdata) "
+"eller ser unøjagtige ud (outlier-fældedata)"
 
 #: templates/list_project.jinja2:25
 msgid "Use the search bar below to filter the displayed projects."
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste projekter."
 
 #: templates/list_response.jinja2:12
 msgid "+ Add a response"
-msgstr ""
+msgstr "+ Tilføj et svar"
 
 #: templates/list_response.jinja2:13
 msgid "Search responses"
-msgstr ""
+msgstr "Søg svar"
 
 #: templates/list_response.jinja2:15 templates/list_response.jinja2:22
 msgid "Responses"
-msgstr ""
+msgstr "Svar"
 
 #: templates/list_response.jinja2:25
 msgid "Use the search bar below to filter the displayed responses."
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste svar."
 
 #: templates/list_site.jinja2:12
 msgid "+ Create new site"
-msgstr ""
+msgstr "+ Opret nyt websted"
 
 #: templates/list_site.jinja2:13
 msgid "Search sites"
-msgstr ""
+msgstr "Søg efter websteder"
 
 #: templates/list_site.jinja2:15 templates/list_site.jinja2:22
 msgid "Sites"
-msgstr ""
+msgstr "Sites"
 
 #: templates/list_site.jinja2:25
 msgid "Use the search bar below to filter the displayed sites."
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste websteder."
 
 #: templates/list_species.jinja2:12
 msgid "+ Add species"
-msgstr ""
+msgstr "+ Tilføj arter"
 
 #: templates/list_species.jinja2:13
 msgid "Search species"
-msgstr ""
+msgstr "Søg efter arter"
 
 #: templates/fragments/container-record.html:7
 #: templates/fragments/response-record.html:21 templates/list_species.jinja2:15
 #: templates/list_species.jinja2:22
 msgid "Species"
-msgstr ""
+msgstr "Arter"
 
 #: templates/list_species.jinja2:25
 msgid "Use the search bar below to filter the displayed species."
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste arter."
 
 #: templates/list_ssc-calculation.jinja2:12
 msgid "+ Create SSC calculation"
-msgstr ""
+msgstr "+ Opret SSC beregning"
 
 #: templates/list_ssc-calculation.jinja2:13
 msgid "Search SSC calculations"
-msgstr ""
+msgstr "Søg SSC beregninger"
 
 #: templates/list_ssc-calculation.jinja2:15
 #: templates/list_ssc-calculation.jinja2:22
 msgid "SSC Calculations"
-msgstr ""
+msgstr "SSC Beregninger"
 
 #: templates/list_ssc-calculation.jinja2:25
 msgid "Use the search bar below to filter the displayed SSC calculations."
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste SSC-beregninger."
 
 #: templates/list_survey.jinja2:12
 msgid "+ Create new survey"
-msgstr ""
+msgstr "+ Opret ny undersøgelse"
 
 #: templates/list_survey.jinja2:13
 msgid "Search surveys"
-msgstr ""
+msgstr "Søg i undersøgelser"
 
 #: templates/fragments/project-record.html:34 templates/list_survey.jinja2:19
 #: templates/list_survey.jinja2:26
 msgid "Surveys"
-msgstr ""
+msgstr "Undersøgelser"
 
 #: templates/list_survey.jinja2:29
 msgid "Use the search bar below to filter the displayed surveys."
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste undersøgelser."
 
 #: templates/list_trap-extra-attribute.jinja2:12
 msgid "+ Create extra attribute"
-msgstr ""
+msgstr "+ Opret ekstra attribut"
 
 #: templates/list_trap-extra-attribute.jinja2:13
 msgid "Search Trap Extra Attributes"
-msgstr ""
+msgstr "Søg Trap Extra Attributter"
 
 #: templates/list_trap-extra-attribute.jinja2:16
 msgid "Additional trap attributes"
-msgstr ""
+msgstr "Yderligere diffuseringsattributter"
 
 #: templates/list_trap-extra-attribute.jinja2:23
 msgid "Additional Trap Attributes"
-msgstr ""
+msgstr "Yderligere diffuseringsattributter"
 
 #: templates/list_trap-extra-attribute.jinja2:24
 msgid ""
 "Sometimes extra data is required for a particular trap that doesn't fit "
 "into the normal schema. Here you can add/view these \"extra attributes\"."
 msgstr ""
+"Nogle gange kræves der ekstra data for en bestemt fælde, der ikke passer ind "
+"i det normale skema. Her kan du tilføje/se disse „ekstra attributter“."
 
 #: templates/list_trap-extra-attribute.jinja2:26
 msgid "Use the search bar below to filter the displayed extra attributes."
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste ekstra attributter."
 
 #: templates/list_trap.jinja2:12
 msgid "+ Create new trap"
-msgstr ""
+msgstr "+ Opret ny fælde"
 
 #: templates/list_trap.jinja2:13
 msgid "Search traps"
-msgstr ""
+msgstr "Søg fælder"
 
 #: templates/fragments/project-record.html:33 templates/list_trap.jinja2:19
 #: templates/list_trap.jinja2:26
 msgid "Traps"
-msgstr ""
+msgstr "Fælder"
 
 #: templates/list_trap.jinja2:29
 msgid "Use the search bar below to filter the displayed traps"
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste fælder"
 
 #: templates/list_trapping-liquid.jinja2:12
 msgid "+ Add trapping liquid"
-msgstr ""
+msgstr "+ Tilføj fældefangningsvæske"
 
 #: templates/list_trapping-liquid.jinja2:13
 msgid "Search trapping liquids"
-msgstr ""
+msgstr "Søg efter fældefangst af væsker"
 
 #: templates/list_trapping-liquid.jinja2:15
 msgid "Trapping Liquids"
-msgstr ""
+msgstr "Fandefangst af væsker"
 
 #: templates/list_trapping-liquid.jinja2:22
 msgid "Trapping liquids"
-msgstr ""
+msgstr "Fandefangst af væsker"
 
 #: templates/list_trapping-liquid.jinja2:25
 msgid "Use the search bar below to filter the displayed trapping liquids."
-msgstr ""
+msgstr "Brug søgefeltet nedenfor til at filtrere de viste trappevæsker."
 
 #: templates/list_traptype.jinja2:12
 msgid "+ New trap type"
-msgstr ""
+msgstr "+ Ny fældetype"
 
 #: templates/list_traptype.jinja2:13
 msgid "Search trap types"
-msgstr ""
+msgstr "Søg fældetyper"
 
 #: templates/list_traptype.jinja2:15 templates/list_traptype.jinja2:22
 msgid "Trap types"
-msgstr ""
+msgstr "Trap typer"
 
 #: templates/map.jinja2:8
 msgid "Zoom to Bounds"
-msgstr ""
+msgstr "Zoom til grænser"
 
 #: templates/map.jinja2:9
 msgid "Back to Previous Page"
-msgstr ""
+msgstr "Tilbage til Forrige side"
 
 #: templates/map.jinja2:11
 msgid "Project map"
-msgstr ""
+msgstr "Projekt kort"
 
 #: templates/plate-wells-table.jinja2:9 templates/plate-wells-table.jinja2:14
 msgid "Plate wells"
-msgstr ""
+msgstr "Plate brønde"
 
 #: templates/fragments/container-record.html:6
 #: templates/fragments/project-permission-record.html:7
@@ -551,408 +560,408 @@ msgstr ""
 #: templates/fragments/ssc-calculation-record.html:24
 #: templates/fragments/trap-type-record.html:15
 msgid "Name"
-msgstr ""
+msgstr "Navn"
 
 #: templates/fragments/container-record.html:8
 #: templates/fragments/effort-record.html:17
 #: templates/fragments/trap-type-record.html:23
 msgid "Comment"
-msgstr ""
+msgstr "Kommentar"
 
 #: templates/fragments/container-record.html:9
 msgid "Qualifier"
-msgstr ""
+msgstr "Kvalifikator"
 
 #: templates/fragments/container-record.html:10
 msgid "Preservation method"
-msgstr ""
+msgstr "Bevarelse metode"
 
 #: templates/fragments/container-record.html:11
 msgid "Container type"
-msgstr ""
+msgstr "Container type"
 
 #: templates/fragments/container-record.html:12
 msgid "Full?"
-msgstr ""
+msgstr "Fuld?"
 
 #: templates/fragments/container-record.html:13
 msgid "Needs label?"
-msgstr ""
+msgstr "Behov etiket?"
 
 #: templates/fragments/dart-plate-record.html:11
 msgid "DArT Plate #"
-msgstr ""
+msgstr "Dart plade #"
 
 #: templates/fragments/dart-plate-record.html:15
 msgid "Submission reference"
-msgstr ""
+msgstr "Henvisning til indsendelse"
 
 #: templates/fragments/dart-plate-record.html:17
 #, python-format
 msgid "% success rate"
-msgstr ""
+msgstr "% s uccess sats"
 
 #: templates/fragments/dart-plate-record.html:18
 #: templates/fragments/dart-submission-record.html:20
 #: templates/fragments/effort-record.html:39
 #: templates/fragments/site-record.html:21
 msgid "Comment: "
-msgstr ""
+msgstr "Kommentar: "
 
 #: templates/fragments/dart-plate-record.html:21
 msgid "Wells"
-msgstr ""
+msgstr "Brønde"
 
 #: templates/fragments/dart-submission-record.html:12
 msgid "DArT Service"
-msgstr ""
+msgstr "dArt-tjeneste"
 
 #: templates/fragments/dart-submission-record.html:17
 #: templates/fragments/person-record.html:19
 #: templates/fragments/response-record.html:19
 msgid "Institution"
-msgstr ""
+msgstr "Institution"
 
 #: templates/fragments/dart-submission-record.html:19
 msgid "Submitted on: "
-msgstr ""
+msgstr "Indsendt den: "
 
 #: templates/fragments/dart-submission-record.html:21
 msgid "Submitted by: "
-msgstr ""
+msgstr "Indsendt af: "
 
 #: templates/fragments/dart-submission-record.html:22
 msgid "Courier ref: "
-msgstr ""
+msgstr "Kurer ref: "
 
 #: templates/fragments/effort-record.html:6
 msgid "Effort ID"
-msgstr ""
+msgstr "Indsats ID"
 
 #: templates/fragments/effort-record.html:13
 msgid "SSC value"
-msgstr ""
+msgstr "SSC-værdi"
 
 #: templates/fragments/effort-record.html:14
 #: templates/fragments/effort-record.html:34
 msgid "Site"
-msgstr ""
+msgstr "Site"
 
 #: templates/fragments/effort-record.html:15
 msgid "Collectors"
-msgstr ""
+msgstr "Samlere"
 
 #: templates/fragments/effort-record.html:16
 msgid "Related responses"
-msgstr ""
+msgstr "Relaterede svar"
 
 #: templates/fragments/effort-record.html:30
 msgid "Effort name"
-msgstr ""
+msgstr "Navn på indsats"
 
 #: templates/fragments/effort-record.html:36
 #: templates/fragments/survey-record.html:21
 msgid "Collected by: "
-msgstr ""
+msgstr "Indsamlet af: "
 
 #: templates/fragments/effort-record.html:37
 msgid "Responses: "
-msgstr ""
+msgstr "Svar: "
 
 #: templates/fragments/effort-record.html:38
 msgid "SSC value: "
-msgstr ""
+msgstr "SSC-værdi: "
 
 #: templates/fragments/field-map-popup.html:12
 msgid "Samples: "
-msgstr ""
+msgstr "Prøver: "
 
 #: templates/fragments/field-record-record.html:15
 msgid "Field number"
-msgstr ""
+msgstr "Felt nummer"
 
 #: templates/fragments/field-record-record.html:19
 msgid "Collection type"
-msgstr ""
+msgstr "Indsamling type"
 
 #: templates/fragments/field-record-record.html:21
 msgid "Collection time"
-msgstr ""
+msgstr "Indsamling tid"
 
 #: templates/fragments/field-record-record.html:22
 msgid "Ex port"
-msgstr ""
+msgstr "Ex-port"
 
 #: templates/fragments/field-record-record.html:23
 msgid "Person"
-msgstr ""
+msgstr "Person"
 
 #: templates/fragments/field-record-record.html:26
 msgid "Samples"
-msgstr ""
+msgstr "Prøver"
 
 #: templates/fragments/genus-record.html:11
 msgid "Genus"
-msgstr ""
+msgstr "Slægt"
 
 #: templates/fragments/genus-record.html:15
 #: templates/fragments/species-record.html:15
 msgid "Author"
-msgstr ""
+msgstr "Forfatter"
 
 #: templates/fragments/identification-otu-record.html:6
 msgid "Identification OTU ID"
-msgstr ""
+msgstr "Identifikation OTU-id"
 
 #: templates/fragments/identification-otu-record.html:7
 msgid "Vial ID"
-msgstr ""
+msgstr "Hætteglas ID"
 
 #: templates/fragments/identification-otu-record.html:8
 #: templates/fragments/otu-record.html:6
 msgid "OTU ID"
-msgstr ""
+msgstr "OTU"
 
 #: templates/fragments/identification-otu-record.html:9
 msgid "Identified by"
-msgstr ""
+msgstr "Identificeret ved"
 
 #: templates/fragments/identification-otu-record.html:10
 msgid "Date identified"
-msgstr ""
+msgstr "Dato identificeret"
 
 #: templates/fragments/identification-record.html:6
 msgid "N-reference"
-msgstr ""
+msgstr "N-reference"
 
 #: templates/fragments/identification-record.html:10
 msgid "Identification"
-msgstr ""
+msgstr "Identifikation"
 
 #: templates/fragments/identification-record.html:11
 msgid "# Males"
-msgstr ""
+msgstr "# Hanner"
 
 #: templates/fragments/identification-record.html:12
 msgid "# Females"
-msgstr ""
+msgstr "# Kvinder"
 
 #: templates/fragments/identification-record.html:13
 msgid "# Juveniles"
-msgstr ""
+msgstr "# Ungdyr"
 
 #: templates/fragments/identification-record.html:14
 msgid "# Adults indet. sex"
-msgstr ""
+msgstr "# Voksne indet. køn"
 
 #: templates/fragments/identification-record.html:15
 msgid "# Alates"
-msgstr ""
+msgstr "# Alater"
 
 #: templates/fragments/identification-record.html:16
 msgid "# Stage/sex indet."
-msgstr ""
+msgstr "# Scene/sex indet."
 
 #: templates/fragments/institution-record.html:15
 msgid "Institution name"
-msgstr ""
+msgstr "Institutionens navn"
 
 #: templates/fragments/institution-record.html:19
 #: templates/fragments/trap-type-record.html:19
 msgid "Abbreviation"
-msgstr ""
+msgstr "Forkortelse"
 
 #: templates/fragments/otu-record.html:7
 msgid "Ref vial ID"
-msgstr ""
+msgstr "Ref hætteglas ID"
 
 #: templates/fragments/otu-record.html:8
 msgid "comment"
-msgstr ""
+msgstr "kommentar"
 
 #: templates/fragments/person-record.html:15
 msgid "Person name"
-msgstr ""
+msgstr "Personens navn"
 
 #: templates/fragments/person-record.html:21
 msgid "Job title"
-msgstr ""
+msgstr "Jobtitel"
 
 #: templates/fragments/person-record.html:22
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: templates/fragments/person-record.html:23
 #: templates/fragments/planned-ssc-record.html:19
 msgid "Roles list"
-msgstr ""
+msgstr "Roller liste"
 
 #: templates/fragments/planned-ssc-record.html:11
 msgid "Planned SSC ID"
-msgstr ""
+msgstr "Planlagt SSC ID"
 
 #: templates/fragments/planned-ssc-record.html:15
 msgid "Project Name"
-msgstr ""
+msgstr "Projektets navn"
 
 #: templates/fragments/planned-ssc-record.html:18
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #: templates/fragments/planned-ssc-record.html:18
 msgid "End"
-msgstr ""
+msgstr "Slut"
 
 #: templates/fragments/project-permission-record.html:6
 msgid "Edit"
-msgstr ""
+msgstr "Rediger"
 
 #: templates/fragments/project-permission-record.html:8
 msgid "Permission level"
-msgstr ""
+msgstr "Tilladelse niveau"
 
 #: templates/fragments/project-record.html:23
 msgid "Project name"
-msgstr ""
+msgstr "Projektets navn"
 
 #: templates/fragments/project-record.html:27
 msgid "Subtitle"
-msgstr ""
+msgstr "Undertekst"
 
 #: templates/fragments/project-record.html:35
 msgid "Access"
-msgstr ""
+msgstr "Adgang"
 
 #: templates/fragments/response-record.html:15
 msgid "Response name"
-msgstr ""
+msgstr "Svarens navn"
 
 #: templates/fragments/site-record.html:15
 msgid "Site name"
-msgstr ""
+msgstr "Webstedets navn"
 
 #: templates/fragments/site-record.html:18
 msgid "GPS projection: "
-msgstr ""
+msgstr "GPS-projektion: "
 
 #: templates/fragments/site-record.html:19
 msgid "GPS accuracy: "
-msgstr ""
+msgstr "GPS-nøjagtighed: "
 
 #: templates/fragments/site-record.html:20
 msgid "Geosource: "
-msgstr ""
+msgstr "Geokilde: "
 
 #: templates/fragments/species-record.html:11
 msgid "Common name"
-msgstr ""
+msgstr "Almindeligt navn"
 
 #: templates/fragments/species-record.html:17
 msgid "Order: "
-msgstr ""
+msgstr "Bestille: "
 
 #: templates/fragments/species-record.html:18
 msgid "Family: "
-msgstr ""
+msgstr "Familie: "
 
 #: templates/fragments/species-record.html:19
 msgid "Genus: "
-msgstr ""
+msgstr "Slægt: "
 
 #: templates/fragments/species-record.html:20
 msgid "Species: "
-msgstr ""
+msgstr "Arter: "
 
 #: templates/fragments/ssc-calculation-record.html:7
 #: templates/fragments/ssc-calculation-record.html:29
 msgid "Datatype"
-msgstr ""
+msgstr "Datatype"
 
 #: templates/fragments/ssc-calculation-record.html:8
 msgid "Unit size"
-msgstr ""
+msgstr "Enhed størrelse"
 
 #: templates/fragments/ssc-calculation-record.html:9
 msgid "Unit Limit"
-msgstr ""
+msgstr "Enhed Grænse"
 
 #: templates/fragments/ssc-calculation-record.html:10
 msgid "Hard limit?"
-msgstr ""
+msgstr "Hård grænse?"
 
 #: templates/fragments/ssc-calculation-record.html:11
 msgid "Unit value"
-msgstr ""
+msgstr "Enhedsværdi"
 
 #: templates/fragments/ssc-calculation-record.html:31
 msgid "Unit size: "
-msgstr ""
+msgstr "Enhed størrelse: "
 
 #: templates/fragments/ssc-calculation-record.html:32
 msgid "Max units: "
-msgstr ""
+msgstr "Maks. Enheder: "
 
 #: templates/fragments/ssc-calculation-record.html:33
 msgid "Unit value: "
-msgstr ""
+msgstr "Enhedsværdi: "
 
 #: templates/fragments/survey-record.html:15
 msgid "Survey name"
-msgstr ""
+msgstr "Undersøgelsens navn"
 
 #: templates/fragments/survey-record.html:15
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: templates/fragments/survey-record.html:19
 msgid "Location"
-msgstr ""
+msgstr "Beliggenhed"
 
 #: templates/fragments/trap-extra-attribute-record.html:12
 msgid "Attribute"
-msgstr ""
+msgstr "Attribut"
 
 #: templates/fragments/trap-extra-attribute-record.html:17
 #: templates/fragments/trap-record.html:19
 msgid "Trap type"
-msgstr ""
+msgstr "Fælde type"
 
 #: templates/fragments/trap-extra-attribute-record.html:19
 msgid "Mandatory: "
-msgstr ""
+msgstr "Obligatorisk: "
 
 #: templates/fragments/trap-extra-attribute-record.html:20
 msgid "Description: "
-msgstr ""
+msgstr "Beskrivelse: "
 
 #: templates/fragments/trap-extra-attribute-record.html:21
 msgid "Datatype: "
-msgstr ""
+msgstr "Datatype: "
 
 #: templates/fragments/trap-record.html:15
 msgid "Trap name"
-msgstr ""
+msgstr "Navn på fælde"
 
 #: templates/fragments/trap-record.html:22
 msgid "Latitude"
-msgstr ""
+msgstr "Breddegrad"
 
 #: templates/fragments/trap-record.html:23
 msgid "Longitude"
-msgstr ""
+msgstr "Længdegrad"
 
 #: templates/fragments/trap-type-record.html:21
 msgid "List"
-msgstr ""
+msgstr "Liste"
 
 #: templates/fragments/trap-type-record.html:22
 msgid "description"
-msgstr ""
+msgstr "beskrivelse"
 
 #: templates/fragments/trapping-liquid-record.html:5
 msgid "Liquid"
-msgstr ""
+msgstr "Flydende"
 
 #: templates/macros/util.jinja2:21
 msgid "Sort by"
-msgstr ""
+msgstr "Sortér efter"
