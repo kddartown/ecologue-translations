@@ -8,189 +8,195 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-05-30 16:34+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-05-31 00:35+0000\n"
+"Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
+"Language-Team: Italian <http://translate.diversityarrays.cloud/projects/"
+"ecologue-desktop/values/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: templates/account.jinja2:13
 msgid "Account"
-msgstr ""
+msgstr "Account"
 
 #: templates/account.jinja2:25
 msgid "Account Details for:"
-msgstr ""
+msgstr "Dettagli dell'account per:"
 
 #: templates/account.jinja2:34
 msgid "Personal Details"
-msgstr ""
+msgstr "Dettagli personali"
 
 #: templates/account.jinja2:38
 msgid "Personal Institution Settings"
-msgstr ""
+msgstr "Impostazioni personali dell'istituto"
 
 #: templates/account.jinja2:42
 msgid "Personal Notification Settings"
-msgstr ""
+msgstr "Impostazioni di notifica personali"
 
 #: templates/base.jinja2:35
 msgid "Base"
-msgstr ""
+msgstr "Base"
 
 #: templates/field.jinja2:4
 msgid "Field Lot"
-msgstr ""
+msgstr "Lotto da campo"
 
 #: templates/form.jinja2:97
 msgid "Are you sure you want to delete this record?"
-msgstr ""
+msgstr "Sei sicuro di voler eliminare questo record?"
 
 #: templates/form.jinja2:101
 msgid "Record deleted"
-msgstr ""
+msgstr "Record eliminato"
 
 #: templates/form.jinja2:104
 msgid "Failed to delete record. Reason: "
-msgstr ""
+msgstr "Eliminazione del record non riuscita. Motivo: "
 
 #: templates/help.jinja2:3
 msgid "Help"
-msgstr ""
+msgstr "Aiuto"
 
 #: templates/help.jinja2:6
 msgid "Hello"
-msgstr ""
+msgstr "Ciao"
 
 #: templates/help.jinja2:6
 msgid " how can we help "
-msgstr ""
+msgstr " come possiamo aiutarti "
 
 #: templates/home.jinja2:3
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #: templates/home.jinja2:6
 msgid "Select a project"
-msgstr ""
+msgstr "Seleziona un progetto"
 
 #: templates/list_container.jinja2:12
 msgid "+ Create container"
-msgstr ""
+msgstr "+ Crea contenitore"
 
 #: templates/list_container.jinja2:13
 msgid "Search containers"
-msgstr ""
+msgstr "Contenitori di ricerca"
 
 #: templates/list_container.jinja2:15 templates/list_container.jinja2:22
 msgid "Containers"
-msgstr ""
+msgstr "Contenitori"
 
 #: templates/list_container.jinja2:23 templates/list_dart-plate.jinja2:23
 #: templates/list_dart-submission.jinja2:23 templates/list_effort.jinja2:29
 #: templates/list_field.jinja2:38 templates/list_genus.jinja2:23
 #: templates/list_identification.jinja2:29 templates/list_institution.jinja2:23
 msgid "Short description here"
-msgstr ""
+msgstr "Breve descrizione qui"
 
 #: templates/list_container.jinja2:25
 msgid "Use the search bar below to filter the displayed containers"
 msgstr ""
+"Usa la barra di ricerca qui sotto per filtrare i contenitori visualizzati"
 
 #: templates/list_dart-plate.jinja2:12
 msgid "+ Create new plate"
-msgstr ""
+msgstr "+ Crea una nuova targa"
 
 #: templates/list_dart-plate.jinja2:13
 msgid "Search plates"
-msgstr ""
+msgstr "Cerca targhe"
 
 #: templates/list_dart-plate.jinja2:15 templates/list_dart-plate.jinja2:22
 msgid "DArT Plates"
-msgstr ""
+msgstr "Piastre DaRT"
 
 #: templates/list_dart-plate.jinja2:25
 msgid "Use the search bar below to filter the displayed plates"
-msgstr ""
+msgstr "Usa la barra di ricerca qui sotto per filtrare le targhe visualizzate"
 
 #: templates/list_dart-submission.jinja2:12
 msgid "+ Create new submission"
-msgstr ""
+msgstr "+ Crea un nuovo invio"
 
 #: templates/list_dart-submission.jinja2:13
 msgid "Search DArT Submissions"
-msgstr ""
+msgstr "Cerca tra gli invii di DaRT"
 
 #: templates/list_dart-submission.jinja2:22
 msgid "DArT Submissions"
-msgstr ""
+msgstr "Contributi DaRT"
 
 #: templates/list_dart-submission.jinja2:25
 msgid "Use the search bar below to filter the displayed DArT Submissions"
 msgstr ""
+"Usa la barra di ricerca qui sotto per filtrare gli invii DaRT visualizzati"
 
 #: templates/list_effort.jinja2:12
 msgid "+ Create effort"
-msgstr ""
+msgstr "+ Crea impegno"
 
 #: templates/list_effort.jinja2:13
 msgid "Search efforts"
-msgstr ""
+msgstr "Sforzi di ricerca"
 
 #: templates/list_effort.jinja2:21 templates/list_effort.jinja2:28
 msgid "Efforts"
-msgstr ""
+msgstr "Sforzi"
 
 #: templates/list_effort.jinja2:31
 msgid "Use the search bar below to filter the displayed efforts"
-msgstr ""
+msgstr "Usa la barra di ricerca qui sotto per filtrare gli sforzi visualizzati"
 
 #: templates/list_field.jinja2:12
 msgid "+ Create field record"
-msgstr ""
+msgstr "+ Crea record di campo"
 
 #: templates/list_field.jinja2:13
 msgid "Search field records"
-msgstr ""
+msgstr "Cerca nei record dei campi"
 
 #: templates/list_field.jinja2:30 templates/list_field.jinja2:37
 msgid "Field records"
-msgstr ""
+msgstr "Record sul campo"
 
 #: templates/list_field.jinja2:40
 msgid "Use the search bar below to filter the displayed field records"
 msgstr ""
+"Usa la barra di ricerca qui sotto per filtrare i record di campo visualizzati"
 
 #: templates/list_genus.jinja2:12
 msgid "+ Add genus"
-msgstr ""
+msgstr "+ Aggiungi genere"
 
 #: templates/list_genus.jinja2:13
 msgid "Search genera"
-msgstr ""
+msgstr "Generi di ricerca"
 
 #: templates/list_genus.jinja2:22
 msgid "Genera"
-msgstr ""
+msgstr "Generi"
 
 #: templates/list_genus.jinja2:25
 msgid "Use the search bar below to filter the displayed genera"
-msgstr ""
+msgstr "Usa la barra di ricerca qui sotto per filtrare i generi visualizzati"
 
 #: templates/list_identification-otu.jinja2:12
 msgid "+ Create Identification OTU"
-msgstr ""
+msgstr "+ Crea identificazione OTU"
 
 #: templates/list_identification-otu.jinja2:13
 msgid "Search Identification OTUs"
-msgstr ""
+msgstr "Cerca nei TOU di identificazione"
 
 #: templates/list_identification-otu.jinja2:15
 msgid "Identification OTUs"
-msgstr ""
+msgstr "OTU di identificazione"
 
 #: templates/list_identification-otu.jinja2:23
 #: templates/list_multimedia.jinja2:27 templates/list_otu.jinja2:23
@@ -202,155 +208,168 @@ msgstr ""
 #: templates/list_trapping-liquid.jinja2:23 templates/list_traptype.jinja2:23
 #: templates/plate-wells-table.jinja2:15
 msgid "Short description here."
-msgstr ""
+msgstr "Breve descrizione qui."
 
 #: templates/list_identification-otu.jinja2:25
 msgid "Use the search bar below to filter the displayed Identification OTUs"
 msgstr ""
+"Utilizza la barra di ricerca in basso per filtrare le OTU di identificazione "
+"visualizzate"
 
 #: templates/list_identification.jinja2:12
 msgid "+ Create identification"
-msgstr ""
+msgstr "+ Crea identificazione"
 
 #: templates/list_identification.jinja2:13
 msgid "Search identifications"
-msgstr ""
+msgstr "Identificazioni di ricerca"
 
 #: templates/list_identification.jinja2:28
 msgid "Identifications"
-msgstr ""
+msgstr "Identificazioni"
 
 #: templates/list_identification.jinja2:31
 msgid "Use the search bar below to filter the displayed identifications"
 msgstr ""
+"Usa la barra di ricerca qui sotto per filtrare le identificazioni "
+"visualizzate"
 
 #: templates/list_institution.jinja2:12
 msgid "+ Add institution"
-msgstr ""
+msgstr "+ Aggiungi istituto"
 
 #: templates/list_institution.jinja2:13
 msgid "Search institutions"
-msgstr ""
+msgstr "Cerca istituti"
 
 #: templates/list_institution.jinja2:15 templates/list_institution.jinja2:22
 msgid "Institutions"
-msgstr ""
+msgstr "Istituzioni"
 
 #: templates/list_institution.jinja2:25
 msgid "Use the search bar below to filter the displayed institutions"
 msgstr ""
+"Usa la barra di ricerca qui sotto per filtrare gli istituti visualizzati"
 
 #: templates/list_multimedia.jinja2:19 templates/list_multimedia.jinja2:26
 msgid "Multimedia"
-msgstr ""
+msgstr "Multimedia"
 
 #: templates/list_multimedia.jinja2:29
 msgid "Use the search bar below to filter the displayed multimedia."
 msgstr ""
+"Usa la barra di ricerca qui sotto per filtrare i contenuti multimediali "
+"visualizzati."
 
 #: templates/list_multimedia.jinja2:31
 msgid "Import Multimedia"
-msgstr ""
+msgstr "Importa contenuti multimediali"
 
 #: templates/list_multimedia.jinja2:52
 msgid "\"Uploading multimedia records is not availble in the current build.\""
 msgstr ""
+"«Il caricamento di record multimediali non è disponibile nella build "
+"corrente»."
 
 #: templates/list_multimedia.jinja2:55
 msgid "\"Are you sure you want to upload this record?\""
-msgstr ""
+msgstr "«Sei sicuro di voler caricare questo record?»"
 
 #: templates/list_multimedia.jinja2:100
 msgid "\"Failed to find Field record.\""
-msgstr ""
+msgstr "«Impossibile trovare Field record»."
 
 #: templates/list_multimedia.jinja2:120
 msgid "\"Successfully uploaded records: \""
-msgstr ""
+msgstr "«Record caricati correttamente:»"
 
 #: templates/list_multimedia.jinja2:120
 msgid "\"Unsuccessfully uploaded records: \""
-msgstr ""
+msgstr "«Record caricati senza successo:»"
 
 #: templates/list_multimedia.jinja2:124
 msgid "\"Failed to link Field and Multimedia record.\""
-msgstr ""
+msgstr "«Impossibile collegare Field e Multimedia Record»."
 
 #: templates/list_otu.jinja2:12
 msgid "+ Create OTU"
-msgstr ""
+msgstr "+ Crea OTU"
 
 #: templates/list_otu.jinja2:13
 msgid "Search OTUs"
-msgstr ""
+msgstr "Cerca nei TOU"
 
 #: templates/list_otu.jinja2:15 templates/list_otu.jinja2:22
 msgid "OTUs"
-msgstr ""
+msgstr "TOU"
 
 #: templates/list_otu.jinja2:25
 msgid "Use the search bar below to filter the displayed OTUs."
-msgstr ""
+msgstr "Usa la barra di ricerca qui sotto per filtrare le OTU visualizzate."
 
 #: templates/list_person.jinja2:12
 msgid "+ Add a person"
-msgstr ""
+msgstr "+ Aggiungi una persona"
 
 #: templates/list_person.jinja2:13 templates/list_project-permissions.jinja2:13
 msgid "Search people"
-msgstr ""
+msgstr "Cerca persone"
 
 #: templates/list_person.jinja2:15 templates/list_person.jinja2:22
 msgid "People"
-msgstr ""
+msgstr "Persone"
 
 #: templates/list_person.jinja2:25
 msgid "Use the search bar below to filter the displayed people."
-msgstr ""
+msgstr "Usa la barra di ricerca qui sotto per filtrare le persone visualizzate."
 
 #: templates/list_planned-ssc.jinja2:12
 msgid "+ Add a planned SSC"
-msgstr ""
+msgstr "+ Aggiungi un SSC pianificato"
 
 #: templates/list_planned-ssc.jinja2:13
 msgid "Search planned SSCs"
-msgstr ""
+msgstr "Cerca SSC pianificati"
 
 #: templates/list_planned-ssc.jinja2:15 templates/list_planned-ssc.jinja2:22
 msgid "Planned SSCs"
-msgstr ""
+msgstr "SSC pianificati"
 
 #: templates/list_planned-ssc.jinja2:25
 msgid "Use the search bar below to filter the displayed planned SSCs."
 msgstr ""
+"Utilizza la barra di ricerca in basso per filtrare gli SSC pianificati "
+"visualizzati."
 
 #: templates/list_project-permissions.jinja2:12
 msgid "+ Add person to project"
-msgstr ""
+msgstr "+ Aggiungi persona al progetto"
 
 #: templates/list_project-permissions.jinja2:19
 msgid "Project access"
-msgstr ""
+msgstr "Accesso al progetto"
 
 #: templates/list_project-permissions.jinja2:26
 msgid "Project permissions"
-msgstr ""
+msgstr "Autorizzazioni del progetto"
 
 #: templates/list_project-permissions.jinja2:29
 msgid "Use the search bar below to filter the displayed permissions."
 msgstr ""
+"Usa la barra di ricerca qui sotto per filtrare le autorizzazioni "
+"visualizzate."
 
 #: templates/list_project.jinja2:12
 msgid "+ Create new project"
-msgstr ""
+msgstr "+ Crea un nuovo progetto"
 
 #: templates/list_project.jinja2:13
 msgid "Search projects"
-msgstr ""
+msgstr "Cerca progetti"
 
 #: templates/list_project.jinja2:15 templates/list_project.jinja2:22
 msgid "Projects"
-msgstr ""
+msgstr "Progetti"
 
 #: templates/list_project.jinja2:23
 msgid ""
@@ -358,178 +377,192 @@ msgid ""
 "cards i.e. why a project image might not exist (no trap location data) or"
 " look inaccurate (outlier trap data)"
 msgstr ""
+"Breve descrizione dei progetti e informazioni visualizzate sulle schede, ad "
+"esempio perché l'immagine di un progetto potrebbe non esistere (nessun dato "
+"sulla posizione della trappola) o apparire imprecisa (dati trappola anomali)"
 
 #: templates/list_project.jinja2:25
 msgid "Use the search bar below to filter the displayed projects."
-msgstr ""
+msgstr "Usa la barra di ricerca qui sotto per filtrare i progetti visualizzati."
 
 #: templates/list_response.jinja2:12
 msgid "+ Add a response"
-msgstr ""
+msgstr "+ Aggiungi una risposta"
 
 #: templates/list_response.jinja2:13
 msgid "Search responses"
-msgstr ""
+msgstr "Cerca risposte"
 
 #: templates/list_response.jinja2:15 templates/list_response.jinja2:22
 msgid "Responses"
-msgstr ""
+msgstr "Risposte"
 
 #: templates/list_response.jinja2:25
 msgid "Use the search bar below to filter the displayed responses."
 msgstr ""
+"Usa la barra di ricerca qui sotto per filtrare le risposte visualizzate."
 
 #: templates/list_site.jinja2:12
 msgid "+ Create new site"
-msgstr ""
+msgstr "+ Crea nuovo sito"
 
 #: templates/list_site.jinja2:13
 msgid "Search sites"
-msgstr ""
+msgstr "Cerca nei siti"
 
 #: templates/list_site.jinja2:15 templates/list_site.jinja2:22
 msgid "Sites"
-msgstr ""
+msgstr "Siti"
 
 #: templates/list_site.jinja2:25
 msgid "Use the search bar below to filter the displayed sites."
-msgstr ""
+msgstr "Usa la barra di ricerca qui sotto per filtrare i siti visualizzati."
 
 #: templates/list_species.jinja2:12
 msgid "+ Add species"
-msgstr ""
+msgstr "+ Aggiungi specie"
 
 #: templates/list_species.jinja2:13
 msgid "Search species"
-msgstr ""
+msgstr "Cerca specie"
 
 #: templates/list_species.jinja2:15 templates/list_species.jinja2:22
 msgid "Species"
-msgstr ""
+msgstr "Specie"
 
 #: templates/list_species.jinja2:25
 msgid "Use the search bar below to filter the displayed species."
-msgstr ""
+msgstr "Usa la barra di ricerca qui sotto per filtrare le specie visualizzate."
 
 #: templates/list_ssc-calculation.jinja2:12
 msgid "+ Create SSC calculation"
-msgstr ""
+msgstr "+ Crea un calcolo SSC"
 
 #: templates/list_ssc-calculation.jinja2:13
 msgid "Search SSC calculations"
-msgstr ""
+msgstr "Cerca calcoli SSC"
 
 #: templates/list_ssc-calculation.jinja2:15
 #: templates/list_ssc-calculation.jinja2:22
 msgid "SSC Calculations"
-msgstr ""
+msgstr "Calcoli SSC"
 
 #: templates/list_ssc-calculation.jinja2:25
 msgid "Use the search bar below to filter the displayed SSC calculations."
 msgstr ""
+"Utilizza la barra di ricerca qui sotto per filtrare i calcoli SSC "
+"visualizzati."
 
 #: templates/list_survey.jinja2:12
 msgid "+ Create new survey"
-msgstr ""
+msgstr "+ Crea un nuovo sondaggio"
 
 #: templates/list_survey.jinja2:13
 msgid "Search surveys"
-msgstr ""
+msgstr "Cerca sondaggi"
 
 #: templates/list_survey.jinja2:19 templates/list_survey.jinja2:26
 msgid "Surveys"
-msgstr ""
+msgstr "Sondaggi"
 
 #: templates/list_survey.jinja2:29
 msgid "Use the search bar below to filter the displayed surveys."
 msgstr ""
+"Utilizza la barra di ricerca qui sotto per filtrare i sondaggi visualizzati."
 
 #: templates/list_trap-extra-attribute.jinja2:12
 msgid "+ Create extra attribute"
-msgstr ""
+msgstr "+ Crea un attributo aggiuntivo"
 
 #: templates/list_trap-extra-attribute.jinja2:13
 msgid "Search Trap Extra Attributes"
-msgstr ""
+msgstr "Attributi extra di Search Trap"
 
 #: templates/list_trap-extra-attribute.jinja2:16
 msgid "Additional trap attributes"
-msgstr ""
+msgstr "Attributi trap aggiuntivi"
 
 #: templates/list_trap-extra-attribute.jinja2:23
 msgid "Additional Trap Attributes"
-msgstr ""
+msgstr "Attributi trap aggiuntivi"
 
 #: templates/list_trap-extra-attribute.jinja2:24
 msgid ""
 "Sometimes extra data is required for a particular trap that doesn't fit "
 "into the normal schema. Here you can add/view these \"extra attributes\"."
 msgstr ""
+"A volte sono necessari dati aggiuntivi per una particolare trappola che non "
+"rientra nello schema normale. Qui puoi aggiungere/visualizzare questi «"
+"attributi extra»."
 
 #: templates/list_trap-extra-attribute.jinja2:26
 msgid "Use the search bar below to filter the displayed extra attributes."
 msgstr ""
+"Usa la barra di ricerca qui sotto per filtrare gli attributi aggiuntivi "
+"visualizzati."
 
 #: templates/list_trap.jinja2:12
 msgid "+ Create new trap"
-msgstr ""
+msgstr "+ Crea una nuova trappola"
 
 #: templates/list_trap.jinja2:13
 msgid "Search traps"
-msgstr ""
+msgstr "Cerca trappole"
 
 #: templates/list_trap.jinja2:19 templates/list_trap.jinja2:26
 msgid "Traps"
-msgstr ""
+msgstr "trappole"
 
 #: templates/list_trap.jinja2:29
 msgid "Use the search bar below to filter the displayed traps"
-msgstr ""
+msgstr "Usa la barra di ricerca qui sotto per filtrare le trappole visualizzate"
 
 #: templates/list_trapping-liquid.jinja2:12
 msgid "+ Add trapping liquid"
-msgstr ""
+msgstr "+ Aggiungi liquido intrappolante"
 
 #: templates/list_trapping-liquid.jinja2:13
 msgid "Search trapping liquids"
-msgstr ""
+msgstr "Cerca liquidi intrappolanti"
 
 #: templates/list_trapping-liquid.jinja2:15
 msgid "Trapping Liquids"
-msgstr ""
+msgstr "Liquidi intrappolanti"
 
 #: templates/list_trapping-liquid.jinja2:22
 msgid "Trapping liquids"
-msgstr ""
+msgstr "Liquidi intrappolanti"
 
 #: templates/list_trapping-liquid.jinja2:25
 msgid "Use the search bar below to filter the displayed trapping liquids."
 msgstr ""
+"Usa la barra di ricerca qui sotto per filtrare i liquidi intrappolanti "
+"visualizzati."
 
 #: templates/list_traptype.jinja2:12
 msgid "+ New trap type"
-msgstr ""
+msgstr "+ Nuovo tipo di trappola"
 
 #: templates/list_traptype.jinja2:13
 msgid "Search trap types"
-msgstr ""
+msgstr "Tipi di trappole di ricerca"
 
 #: templates/list_traptype.jinja2:15 templates/list_traptype.jinja2:22
 msgid "Trap types"
-msgstr ""
+msgstr "Tipi di trappole"
 
 #: templates/map.jinja2:8
 msgid "Zoom to Bounds"
-msgstr ""
+msgstr "Ingrandisci fino ai limiti"
 
 #: templates/map.jinja2:9
 msgid "Back to Previous Page"
-msgstr ""
+msgstr "Torna alla pagina precedente"
 
 #: templates/map.jinja2:11
 msgid "Project map"
-msgstr ""
+msgstr "Mappa del progetto"
 
 #: templates/plate-wells-table.jinja2:9 templates/plate-wells-table.jinja2:14
 msgid "Plate wells"
-msgstr ""
+msgstr "Pozzetti per piastre"
