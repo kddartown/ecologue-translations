@@ -8,192 +8,203 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-05-31 15:29+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-05-31 06:47+0000\n"
+"Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
+"Language-Team: German <http://translate.diversityarrays.cloud/projects/"
+"ecologue-desktop/values/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: templates/account.jinja2:13
 msgid "Account"
-msgstr ""
+msgstr "Konto"
 
 #: templates/account.jinja2:25
 msgid "Account Details for:"
-msgstr ""
+msgstr "Kontodetails für:"
 
 #: templates/account.jinja2:34
 msgid "Personal Details"
-msgstr ""
+msgstr "Persönliche Daten"
 
 #: templates/account.jinja2:38
 msgid "Personal Institution Settings"
-msgstr ""
+msgstr "Persönliche Institutionseinstellungen"
 
 #: templates/account.jinja2:42
 msgid "Personal Notification Settings"
-msgstr ""
+msgstr "Persönliche Benachrichtigungseinstellungen"
 
 #: templates/base.jinja2:35
 msgid "Base"
-msgstr ""
+msgstr "Basis"
 
 #: templates/field.jinja2:4
 msgid "Field Lot"
-msgstr ""
+msgstr "Feldgrundstück"
 
 #: templates/form.jinja2:97
 msgid "Are you sure you want to delete this record?"
-msgstr ""
+msgstr "Möchten Sie diesen Datensatz wirklich löschen?"
 
 #: templates/form.jinja2:101
 msgid "Record deleted"
-msgstr ""
+msgstr "Datensatz gelöscht"
 
 #: templates/form.jinja2:104
 msgid "Failed to delete record. Reason: "
-msgstr ""
+msgstr "Datensatz konnte nicht gelöscht werden. Grund: "
 
 #: templates/help.jinja2:3
 msgid "Help"
-msgstr ""
+msgstr "Hilfe"
 
 #: templates/help.jinja2:6
 msgid "Hello"
-msgstr ""
+msgstr "Hallo"
 
 #: templates/help.jinja2:6
 msgid " how can we help "
-msgstr ""
+msgstr " wie können wir helfen "
 
 #: templates/home.jinja2:3
 msgid "Home"
-msgstr ""
+msgstr "Zuhause"
 
 #: templates/home.jinja2:6
 msgid "Select a project"
-msgstr ""
+msgstr "Wählen Sie ein Projekt aus"
 
 #: templates/list_container.jinja2:12
 msgid "+ Create container"
-msgstr ""
+msgstr "+ Container erstellen"
 
 #: templates/list_container.jinja2:13
 msgid "Search containers"
-msgstr ""
+msgstr "Behälter durchsuchen"
 
 #: templates/list_container.jinja2:15 templates/list_container.jinja2:22
 msgid "Containers"
-msgstr ""
+msgstr "Behälter"
 
 #: templates/list_container.jinja2:23 templates/list_dart-plate.jinja2:23
 #: templates/list_dart-submission.jinja2:23 templates/list_effort.jinja2:29
 #: templates/list_field.jinja2:38 templates/list_genus.jinja2:23
 #: templates/list_identification.jinja2:29 templates/list_institution.jinja2:23
 msgid "Short description here"
-msgstr ""
+msgstr "Kurzbeschreibung hier"
 
 #: templates/list_container.jinja2:25
 msgid "Use the search bar below to filter the displayed containers"
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Container zu filtern"
 
 #: templates/list_dart-plate.jinja2:12
 msgid "+ Create new plate"
-msgstr ""
+msgstr "+ Neue Platte erstellen"
 
 #: templates/list_dart-plate.jinja2:13
 msgid "Search plates"
-msgstr ""
+msgstr "Schilder suchen"
 
 #: templates/list_dart-plate.jinja2:15 templates/list_dart-plate.jinja2:22
 msgid "DArT Plates"
-msgstr ""
+msgstr "Dart-Platten"
 
 #: templates/list_dart-plate.jinja2:25
 msgid "Use the search bar below to filter the displayed plates"
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Platten zu filtern"
 
 #: templates/list_dart-submission.jinja2:12
 msgid "+ Create new submission"
-msgstr ""
+msgstr "+ Neuen Beitrag erstellen"
 
 #: templates/list_dart-submission.jinja2:13
 msgid "Search DArT Submissions"
-msgstr ""
+msgstr "Suche nach dART-Einsendungen"
 
 #: templates/list_dart-submission.jinja2:22
 msgid "DArT Submissions"
-msgstr ""
+msgstr "dART-Einsendungen"
 
 #: templates/list_dart-submission.jinja2:25
 msgid "Use the search bar below to filter the displayed DArT Submissions"
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten dArt-Einsendungen zu "
+"filtern"
 
 #: templates/list_effort.jinja2:12
 msgid "+ Create effort"
-msgstr ""
+msgstr "+ Aufwand schaffen"
 
 #: templates/list_effort.jinja2:13
 msgid "Search efforts"
-msgstr ""
+msgstr "Bemühungen um die Suche"
 
 #: templates/list_effort.jinja2:21 templates/list_effort.jinja2:28
 msgid "Efforts"
-msgstr ""
+msgstr "Bemühungen"
 
 #: templates/list_effort.jinja2:31
 msgid "Use the search bar below to filter the displayed efforts"
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Bemühungen zu filtern"
 
 #: templates/list_field.jinja2:12
 msgid "+ Create field record"
-msgstr ""
+msgstr "+ Felddatensatz erstellen"
 
 #: templates/list_field.jinja2:13
 msgid "Search field records"
-msgstr ""
+msgstr "Felddatensätze durchsuchen"
 
 #: templates/fragments/effort-record.html:8
 #: templates/fragments/survey-record.html:24 templates/list_field.jinja2:30
 #: templates/list_field.jinja2:37
 msgid "Field records"
-msgstr ""
+msgstr "Felddatensätze"
 
 #: templates/list_field.jinja2:40
 msgid "Use the search bar below to filter the displayed field records"
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Felddatensätze zu "
+"filtern"
 
 #: templates/list_genus.jinja2:12
 msgid "+ Add genus"
-msgstr ""
+msgstr "+ Gattung hinzufügen"
 
 #: templates/list_genus.jinja2:13
 msgid "Search genera"
-msgstr ""
+msgstr "Suche nach Gattungen"
 
 #: templates/list_genus.jinja2:22
 msgid "Genera"
-msgstr ""
+msgstr "Gattungen"
 
 #: templates/list_genus.jinja2:25
 msgid "Use the search bar below to filter the displayed genera"
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Gattungen zu filtern"
 
 #: templates/list_identification-otu.jinja2:12
 msgid "+ Create Identification OTU"
-msgstr ""
+msgstr "+ Identifikation (OTU) erstellen"
 
 #: templates/list_identification-otu.jinja2:13
 msgid "Search Identification OTUs"
-msgstr ""
+msgstr "Suche, Identifizierung, OTUs"
 
 #: templates/list_identification-otu.jinja2:15
 #: templates/list_identification-otu.jinja2:22
 msgid "Identification OTUs"
-msgstr ""
+msgstr "Identifizierung OTUs"
 
 #: templates/list_identification-otu.jinja2:23
 #: templates/list_multimedia.jinja2:27 templates/list_otu.jinja2:23
@@ -205,159 +216,173 @@ msgstr ""
 #: templates/list_trapping-liquid.jinja2:23 templates/list_traptype.jinja2:23
 #: templates/plate-wells-table.jinja2:15
 msgid "Short description here."
-msgstr ""
+msgstr "Eine kurze Beschreibung finden Sie hier."
 
 #: templates/list_identification-otu.jinja2:25
 msgid "Use the search bar below to filter the displayed Identification OTUs"
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Identifikations-OTUs "
+"zu filtern"
 
 #: templates/list_identification.jinja2:12
 msgid "+ Create identification"
-msgstr ""
+msgstr "+ Identifikation erstellen"
 
 #: templates/list_identification.jinja2:13
 msgid "Search identifications"
-msgstr ""
+msgstr "Identifikationen suchen"
 
 #: templates/list_identification.jinja2:21
 #: templates/list_identification.jinja2:28
 msgid "Identifications"
-msgstr ""
+msgstr "Identifikationen"
 
 #: templates/list_identification.jinja2:31
 msgid "Use the search bar below to filter the displayed identifications"
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Identifikationen zu "
+"filtern"
 
 #: templates/list_institution.jinja2:12
 msgid "+ Add institution"
-msgstr ""
+msgstr "+ Institution hinzufügen"
 
 #: templates/list_institution.jinja2:13
 msgid "Search institutions"
-msgstr ""
+msgstr "Institutionen suchen"
 
 #: templates/list_institution.jinja2:15 templates/list_institution.jinja2:22
 msgid "Institutions"
-msgstr ""
+msgstr "Institutionen"
 
 #: templates/list_institution.jinja2:25
 msgid "Use the search bar below to filter the displayed institutions"
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Institutionen zu "
+"filtern"
 
 #: templates/fragments/field-record-record.html:27
 #: templates/fragments/identification-record.html:8
 #: templates/fragments/survey-record.html:25
 #: templates/list_multimedia.jinja2:19 templates/list_multimedia.jinja2:26
 msgid "Multimedia"
-msgstr ""
+msgstr "Multimedial"
 
 #: templates/list_multimedia.jinja2:29
 msgid "Use the search bar below to filter the displayed multimedia."
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Multimedia zu filtern."
 
 #: templates/list_multimedia.jinja2:31
 msgid "Import Multimedia"
-msgstr ""
+msgstr "Multimedia importieren"
 
 #: templates/list_multimedia.jinja2:52
 msgid "\"Uploading multimedia records is not availble in the current build.\""
 msgstr ""
+"„Das Hochladen von Multimediadateien ist in der aktuellen Version nicht "
+"verfügbar.“"
 
 #: templates/list_multimedia.jinja2:55
 msgid "\"Are you sure you want to upload this record?\""
-msgstr ""
+msgstr "„Bist du sicher, dass du diesen Datensatz hochladen möchtest?“"
 
 #: templates/list_multimedia.jinja2:100
 msgid "\"Failed to find Field record.\""
-msgstr ""
+msgstr "„Felddatensatz konnte nicht gefunden werden.“"
 
 #: templates/list_multimedia.jinja2:120
 msgid "\"Successfully uploaded records: \""
-msgstr ""
+msgstr "„Datensätze wurden erfolgreich hochgeladen:“"
 
 #: templates/list_multimedia.jinja2:120
 msgid "\"Unsuccessfully uploaded records: \""
-msgstr ""
+msgstr "„Datensätze wurden nicht erfolgreich hochgeladen:“"
 
 #: templates/list_multimedia.jinja2:124
 msgid "\"Failed to link Field and Multimedia record.\""
-msgstr ""
+msgstr "„Feld und Multimedia-Datensatz konnten nicht verknüpft werden.“"
 
 #: templates/list_otu.jinja2:12
 msgid "+ Create OTU"
-msgstr ""
+msgstr "+ OTU erstellen"
 
 #: templates/list_otu.jinja2:13
 msgid "Search OTUs"
-msgstr ""
+msgstr "Suchen Sie nach OTUs"
 
 #: templates/list_otu.jinja2:15 templates/list_otu.jinja2:22
 msgid "OTUs"
-msgstr ""
+msgstr "OTUs"
 
 #: templates/list_otu.jinja2:25
 msgid "Use the search bar below to filter the displayed OTUs."
-msgstr ""
+msgstr "Verwenden Sie die Suchleiste unten, um die angezeigten OTUs zu filtern."
 
 #: templates/list_person.jinja2:12
 msgid "+ Add a person"
-msgstr ""
+msgstr "+ Eine Person hinzufügen"
 
 #: templates/list_person.jinja2:13 templates/list_project-permissions.jinja2:13
 msgid "Search people"
-msgstr ""
+msgstr "Leute suchen"
 
 #: templates/list_person.jinja2:15 templates/list_person.jinja2:22
 msgid "People"
-msgstr ""
+msgstr "Leute"
 
 #: templates/list_person.jinja2:25
 msgid "Use the search bar below to filter the displayed people."
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Personen zu filtern."
 
 #: templates/list_planned-ssc.jinja2:12
 msgid "+ Add a planned SSC"
-msgstr ""
+msgstr "+ Füge ein geplantes SSC hinzu"
 
 #: templates/list_planned-ssc.jinja2:13
 msgid "Search planned SSCs"
-msgstr ""
+msgstr "Suche nach geplanten SSCs"
 
 #: templates/list_planned-ssc.jinja2:15 templates/list_planned-ssc.jinja2:22
 msgid "Planned SSCs"
-msgstr ""
+msgstr "Geplante SSCs"
 
 #: templates/list_planned-ssc.jinja2:25
 msgid "Use the search bar below to filter the displayed planned SSCs."
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten geplanten SSCs zu "
+"filtern."
 
 #: templates/list_project-permissions.jinja2:12
 msgid "+ Add person to project"
-msgstr ""
+msgstr "+ Person zum Projekt hinzufügen"
 
 #: templates/list_project-permissions.jinja2:19
 msgid "Project access"
-msgstr ""
+msgstr "Zugriff auf das Projekt"
 
 #: templates/list_project-permissions.jinja2:26
 msgid "Project permissions"
-msgstr ""
+msgstr "Projektberechtigungen"
 
 #: templates/list_project-permissions.jinja2:29
 msgid "Use the search bar below to filter the displayed permissions."
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Berechtigungen zu "
+"filtern."
 
 #: templates/list_project.jinja2:12
 msgid "+ Create new project"
-msgstr ""
+msgstr "+ Neues Projekt erstellen"
 
 #: templates/list_project.jinja2:13
 msgid "Search projects"
-msgstr ""
+msgstr "Projekte suchen"
 
 #: templates/list_project.jinja2:15 templates/list_project.jinja2:22
 msgid "Projects"
-msgstr ""
+msgstr "Projekte"
 
 #: templates/list_project.jinja2:23
 msgid ""
@@ -365,185 +390,203 @@ msgid ""
 "cards i.e. why a project image might not exist (no trap location data) or"
 " look inaccurate (outlier trap data)"
 msgstr ""
+"Kurze Beschreibung der Projekte und der auf den Karten angezeigten "
+"Informationen, z. B. warum ein Projektbild möglicherweise nicht existiert ("
+"keine Trap-Positionsdaten) oder ungenau aussieht (Ausreißer-Trap-Daten)"
 
 #: templates/list_project.jinja2:25
 msgid "Use the search bar below to filter the displayed projects."
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Projekte zu filtern."
 
 #: templates/list_response.jinja2:12
 msgid "+ Add a response"
-msgstr ""
+msgstr "+ Eine Antwort hinzufügen"
 
 #: templates/list_response.jinja2:13
 msgid "Search responses"
-msgstr ""
+msgstr "Antworten suchen"
 
 #: templates/list_response.jinja2:15 templates/list_response.jinja2:22
 msgid "Responses"
-msgstr ""
+msgstr "Antworten"
 
 #: templates/list_response.jinja2:25
 msgid "Use the search bar below to filter the displayed responses."
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Antworten zu filtern."
 
 #: templates/list_site.jinja2:12
 msgid "+ Create new site"
-msgstr ""
+msgstr "+ Neue Seite erstellen"
 
 #: templates/list_site.jinja2:13
 msgid "Search sites"
-msgstr ""
+msgstr "Websites durchsuchen"
 
 #: templates/list_site.jinja2:15 templates/list_site.jinja2:22
 msgid "Sites"
-msgstr ""
+msgstr "Websites"
 
 #: templates/list_site.jinja2:25
 msgid "Use the search bar below to filter the displayed sites."
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Websites zu filtern."
 
 #: templates/list_species.jinja2:12
 msgid "+ Add species"
-msgstr ""
+msgstr "+ Arten hinzufügen"
 
 #: templates/list_species.jinja2:13
 msgid "Search species"
-msgstr ""
+msgstr "Arten suchen"
 
 #: templates/fragments/container-record.html:7
 #: templates/fragments/response-record.html:21 templates/list_species.jinja2:15
 #: templates/list_species.jinja2:22
 msgid "Species"
-msgstr ""
+msgstr "Spezies"
 
 #: templates/list_species.jinja2:25
 msgid "Use the search bar below to filter the displayed species."
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Arten zu filtern."
 
 #: templates/list_ssc-calculation.jinja2:12
 msgid "+ Create SSC calculation"
-msgstr ""
+msgstr "+ SSC-Berechnung erstellen"
 
 #: templates/list_ssc-calculation.jinja2:13
 msgid "Search SSC calculations"
-msgstr ""
+msgstr "Suche nach SSC-Berechnungen"
 
 #: templates/list_ssc-calculation.jinja2:15
 #: templates/list_ssc-calculation.jinja2:22
 msgid "SSC Calculations"
-msgstr ""
+msgstr "SSC-Berechnungen"
 
 #: templates/list_ssc-calculation.jinja2:25
 msgid "Use the search bar below to filter the displayed SSC calculations."
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten SSC-Berechnungen zu "
+"filtern."
 
 #: templates/list_survey.jinja2:12
 msgid "+ Create new survey"
-msgstr ""
+msgstr "+ Neue Umfrage erstellen"
 
 #: templates/list_survey.jinja2:13
 msgid "Search surveys"
-msgstr ""
+msgstr "Umfragen durchsuchen"
 
 #: templates/fragments/project-record.html:34 templates/list_survey.jinja2:19
 #: templates/list_survey.jinja2:26
 msgid "Surveys"
-msgstr ""
+msgstr "Umfragen"
 
 #: templates/list_survey.jinja2:29
 msgid "Use the search bar below to filter the displayed surveys."
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Umfragen zu filtern."
 
 #: templates/list_trap-extra-attribute.jinja2:12
 msgid "+ Create extra attribute"
-msgstr ""
+msgstr "+ Zusätzliches Attribut erstellen"
 
 #: templates/list_trap-extra-attribute.jinja2:13
 msgid "Search Trap Extra Attributes"
-msgstr ""
+msgstr "Zusätzliche Attribute von Search Trap"
 
 #: templates/list_trap-extra-attribute.jinja2:16
 msgid "Additional trap attributes"
-msgstr ""
+msgstr "Zusätzliche Trap-Attribute"
 
 #: templates/list_trap-extra-attribute.jinja2:23
 msgid "Additional Trap Attributes"
-msgstr ""
+msgstr "Zusätzliche Trap-Attribute"
 
 #: templates/list_trap-extra-attribute.jinja2:24
 msgid ""
 "Sometimes extra data is required for a particular trap that doesn't fit "
 "into the normal schema. Here you can add/view these \"extra attributes\"."
 msgstr ""
+"Manchmal sind zusätzliche Daten für eine bestimmte Falle erforderlich, die "
+"nicht in das normale Schema passt. Hier können Sie diese „zusätzlichen "
+"Attribute“ hinzufügen/anzeigen."
 
 #: templates/list_trap-extra-attribute.jinja2:26
 msgid "Use the search bar below to filter the displayed extra attributes."
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten zusätzlichen "
+"Attribute zu filtern."
 
 #: templates/list_trap.jinja2:12
 msgid "+ Create new trap"
-msgstr ""
+msgstr "+ Erstelle eine neue Falle"
 
 #: templates/list_trap.jinja2:13
 msgid "Search traps"
-msgstr ""
+msgstr "Fallen suchen"
 
 #: templates/fragments/project-record.html:33 templates/list_trap.jinja2:19
 #: templates/list_trap.jinja2:26
 msgid "Traps"
-msgstr ""
+msgstr "Fallen"
 
 #: templates/list_trap.jinja2:29
 msgid "Use the search bar below to filter the displayed traps"
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Fallen zu filtern"
 
 #: templates/list_trapping-liquid.jinja2:12
 msgid "+ Add trapping liquid"
-msgstr ""
+msgstr "+ Füge Auffangrelüssigkeit hinzu"
 
 #: templates/list_trapping-liquid.jinja2:13
 msgid "Search trapping liquids"
-msgstr ""
+msgstr "Suche nach Flüssigkeiten"
 
 #: templates/list_trapping-liquid.jinja2:15
 msgid "Trapping Liquids"
-msgstr ""
+msgstr "Flüssigkeiten einfangen"
 
 #: templates/list_trapping-liquid.jinja2:22
 msgid "Trapping liquids"
-msgstr ""
+msgstr "Flüssigkeiten einfangen"
 
 #: templates/list_trapping-liquid.jinja2:25
 msgid "Use the search bar below to filter the displayed trapping liquids."
 msgstr ""
+"Verwenden Sie die Suchleiste unten, um die angezeigten Fangflüssigkeiten zu "
+"filtern."
 
 #: templates/list_traptype.jinja2:12
 msgid "+ New trap type"
-msgstr ""
+msgstr "+ Neuer Fallentyp"
 
 #: templates/list_traptype.jinja2:13
 msgid "Search trap types"
-msgstr ""
+msgstr "Fallentypen durchsuchen"
 
 #: templates/list_traptype.jinja2:15 templates/list_traptype.jinja2:22
 msgid "Trap types"
-msgstr ""
+msgstr "Arten von Fallen"
 
 #: templates/map.jinja2:8
 msgid "Zoom to Bounds"
-msgstr ""
+msgstr "Auf Grenzen zoomen"
 
 #: templates/map.jinja2:9
 msgid "Back to Previous Page"
-msgstr ""
+msgstr "Zurück zur vorherigen Seite"
 
 #: templates/map.jinja2:11
 msgid "Project map"
-msgstr ""
+msgstr "Karte des Projekts"
 
 #: templates/plate-wells-table.jinja2:9 templates/plate-wells-table.jinja2:14
 msgid "Plate wells"
-msgstr ""
+msgstr "Plattenschächte"
 
 #: templates/fragments/container-record.html:6
 #: templates/fragments/project-permission-record.html:7
@@ -551,408 +594,408 @@ msgstr ""
 #: templates/fragments/ssc-calculation-record.html:24
 #: templates/fragments/trap-type-record.html:15
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: templates/fragments/container-record.html:8
 #: templates/fragments/effort-record.html:17
 #: templates/fragments/trap-type-record.html:23
 msgid "Comment"
-msgstr ""
+msgstr "Kommentar"
 
 #: templates/fragments/container-record.html:9
 msgid "Qualifier"
-msgstr ""
+msgstr "Qualifikationsspiel"
 
 #: templates/fragments/container-record.html:10
 msgid "Preservation method"
-msgstr ""
+msgstr "Methode der Konservierung"
 
 #: templates/fragments/container-record.html:11
 msgid "Container type"
-msgstr ""
+msgstr "Art des Containers"
 
 #: templates/fragments/container-record.html:12
 msgid "Full?"
-msgstr ""
+msgstr "Voll?"
 
 #: templates/fragments/container-record.html:13
 msgid "Needs label?"
-msgstr ""
+msgstr "Braucht ein Etikett?"
 
 #: templates/fragments/dart-plate-record.html:11
 msgid "DArT Plate #"
-msgstr ""
+msgstr "Dartplatte #"
 
 #: templates/fragments/dart-plate-record.html:15
 msgid "Submission reference"
-msgstr ""
+msgstr "Referenz zur Einreichung"
 
 #: templates/fragments/dart-plate-record.html:17
 #, python-format
 msgid "% success rate"
-msgstr ""
+msgstr "% s Erfolgsquote"
 
 #: templates/fragments/dart-plate-record.html:18
 #: templates/fragments/dart-submission-record.html:20
 #: templates/fragments/effort-record.html:39
 #: templates/fragments/site-record.html:21
 msgid "Comment: "
-msgstr ""
+msgstr "Kommentar: "
 
 #: templates/fragments/dart-plate-record.html:21
 msgid "Wells"
-msgstr ""
+msgstr "Wells"
 
 #: templates/fragments/dart-submission-record.html:12
 msgid "DArT Service"
-msgstr ""
+msgstr "Dart-Service"
 
 #: templates/fragments/dart-submission-record.html:17
 #: templates/fragments/person-record.html:19
 #: templates/fragments/response-record.html:19
 msgid "Institution"
-msgstr ""
+msgstr "Institution"
 
 #: templates/fragments/dart-submission-record.html:19
 msgid "Submitted on: "
-msgstr ""
+msgstr "Eingereicht am: "
 
 #: templates/fragments/dart-submission-record.html:21
 msgid "Submitted by: "
-msgstr ""
+msgstr "Eingereicht von: "
 
 #: templates/fragments/dart-submission-record.html:22
 msgid "Courier ref: "
-msgstr ""
+msgstr "Referenz des Kuriers: "
 
 #: templates/fragments/effort-record.html:6
 msgid "Effort ID"
-msgstr ""
+msgstr "Aufwands-ID"
 
 #: templates/fragments/effort-record.html:13
 msgid "SSC value"
-msgstr ""
+msgstr "SSC-Wert"
 
 #: templates/fragments/effort-record.html:14
 #: templates/fragments/effort-record.html:34
 msgid "Site"
-msgstr ""
+msgstr "Standort"
 
 #: templates/fragments/effort-record.html:15
 msgid "Collectors"
-msgstr ""
+msgstr "Sammler"
 
 #: templates/fragments/effort-record.html:16
 msgid "Related responses"
-msgstr ""
+msgstr "Verwandte Antworten"
 
 #: templates/fragments/effort-record.html:30
 msgid "Effort name"
-msgstr ""
+msgstr "Name des Vorhabens"
 
 #: templates/fragments/effort-record.html:36
 #: templates/fragments/survey-record.html:21
 msgid "Collected by: "
-msgstr ""
+msgstr "Gesammelt von: "
 
 #: templates/fragments/effort-record.html:37
 msgid "Responses: "
-msgstr ""
+msgstr "Antworten: "
 
 #: templates/fragments/effort-record.html:38
 msgid "SSC value: "
-msgstr ""
+msgstr "SSC-Wert: "
 
 #: templates/fragments/field-map-popup.html:12
 msgid "Samples: "
-msgstr ""
+msgstr "Beispiele: "
 
 #: templates/fragments/field-record-record.html:15
 msgid "Field number"
-msgstr ""
+msgstr "Nummer des Feldes"
 
 #: templates/fragments/field-record-record.html:19
 msgid "Collection type"
-msgstr ""
+msgstr "Art der Sammlung"
 
 #: templates/fragments/field-record-record.html:21
 msgid "Collection time"
-msgstr ""
+msgstr "Uhrzeit der Abholung"
 
 #: templates/fragments/field-record-record.html:22
 msgid "Ex port"
-msgstr ""
+msgstr "Ausfuhr"
 
 #: templates/fragments/field-record-record.html:23
 msgid "Person"
-msgstr ""
+msgstr "Person"
 
 #: templates/fragments/field-record-record.html:26
 msgid "Samples"
-msgstr ""
+msgstr "Kostproben"
 
 #: templates/fragments/genus-record.html:11
 msgid "Genus"
-msgstr ""
+msgstr "Gattung"
 
 #: templates/fragments/genus-record.html:15
 #: templates/fragments/species-record.html:15
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: templates/fragments/identification-otu-record.html:6
 msgid "Identification OTU ID"
-msgstr ""
+msgstr "Identifikation OTU-ID"
 
 #: templates/fragments/identification-otu-record.html:7
 msgid "Vial ID"
-msgstr ""
+msgstr "Fläschchen-ID"
 
 #: templates/fragments/identification-otu-record.html:8
 #: templates/fragments/otu-record.html:6
 msgid "OTU ID"
-msgstr ""
+msgstr "OUT ID"
 
 #: templates/fragments/identification-otu-record.html:9
 msgid "Identified by"
-msgstr ""
+msgstr "Identifiziert von"
 
 #: templates/fragments/identification-otu-record.html:10
 msgid "Date identified"
-msgstr ""
+msgstr "Identifiziertes Datum"
 
 #: templates/fragments/identification-record.html:6
 msgid "N-reference"
-msgstr ""
+msgstr "N-Referenz"
 
 #: templates/fragments/identification-record.html:10
 msgid "Identification"
-msgstr ""
+msgstr "Identifikation"
 
 #: templates/fragments/identification-record.html:11
 msgid "# Males"
-msgstr ""
+msgstr "# Männer"
 
 #: templates/fragments/identification-record.html:12
 msgid "# Females"
-msgstr ""
+msgstr "# Frauen"
 
 #: templates/fragments/identification-record.html:13
 msgid "# Juveniles"
-msgstr ""
+msgstr "# Jugendliche"
 
 #: templates/fragments/identification-record.html:14
 msgid "# Adults indet. sex"
-msgstr ""
+msgstr "# Indischer Sex bei Erwachsenen"
 
 #: templates/fragments/identification-record.html:15
 msgid "# Alates"
-msgstr ""
+msgstr "# Alates"
 
 #: templates/fragments/identification-record.html:16
 msgid "# Stage/sex indet."
-msgstr ""
+msgstr "# Stadium/Geschlechtseinlage."
 
 #: templates/fragments/institution-record.html:15
 msgid "Institution name"
-msgstr ""
+msgstr "Name der Institution"
 
 #: templates/fragments/institution-record.html:19
 #: templates/fragments/trap-type-record.html:19
 msgid "Abbreviation"
-msgstr ""
+msgstr "Abkürzung"
 
 #: templates/fragments/otu-record.html:7
 msgid "Ref vial ID"
-msgstr ""
+msgstr "ID des roten Fläschchens"
 
 #: templates/fragments/otu-record.html:8
 msgid "comment"
-msgstr ""
+msgstr "Kommentar"
 
 #: templates/fragments/person-record.html:15
 msgid "Person name"
-msgstr ""
+msgstr "Name der Person"
 
 #: templates/fragments/person-record.html:21
 msgid "Job title"
-msgstr ""
+msgstr "Berufsbezeichnung"
 
 #: templates/fragments/person-record.html:22
 msgid "Email"
-msgstr ""
+msgstr "E-Mail"
 
 #: templates/fragments/person-record.html:23
 #: templates/fragments/planned-ssc-record.html:19
 msgid "Roles list"
-msgstr ""
+msgstr "Liste der Rollen"
 
 #: templates/fragments/planned-ssc-record.html:11
 msgid "Planned SSC ID"
-msgstr ""
+msgstr "Geplante SSC-ID"
 
 #: templates/fragments/planned-ssc-record.html:15
 msgid "Project Name"
-msgstr ""
+msgstr "Name des Projekts"
 
 #: templates/fragments/planned-ssc-record.html:18
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #: templates/fragments/planned-ssc-record.html:18
 msgid "End"
-msgstr ""
+msgstr "Ende"
 
 #: templates/fragments/project-permission-record.html:6
 msgid "Edit"
-msgstr ""
+msgstr "Bearbeiten"
 
 #: templates/fragments/project-permission-record.html:8
 msgid "Permission level"
-msgstr ""
+msgstr "Berechtigungsstufe"
 
 #: templates/fragments/project-record.html:23
 msgid "Project name"
-msgstr ""
+msgstr "Name des Projekts"
 
 #: templates/fragments/project-record.html:27
 msgid "Subtitle"
-msgstr ""
+msgstr "Untertitel"
 
 #: templates/fragments/project-record.html:35
 msgid "Access"
-msgstr ""
+msgstr "Zugriff"
 
 #: templates/fragments/response-record.html:15
 msgid "Response name"
-msgstr ""
+msgstr "Name der Antwort"
 
 #: templates/fragments/site-record.html:15
 msgid "Site name"
-msgstr ""
+msgstr "Name der Seite"
 
 #: templates/fragments/site-record.html:18
 msgid "GPS projection: "
-msgstr ""
+msgstr "GPS-Projektion: "
 
 #: templates/fragments/site-record.html:19
 msgid "GPS accuracy: "
-msgstr ""
+msgstr "GPS-Genauigkeit: "
 
 #: templates/fragments/site-record.html:20
 msgid "Geosource: "
-msgstr ""
+msgstr "Geoquelle: "
 
 #: templates/fragments/species-record.html:11
 msgid "Common name"
-msgstr ""
+msgstr "Allgemeiner Name"
 
 #: templates/fragments/species-record.html:17
 msgid "Order: "
-msgstr ""
+msgstr "Bestellung: "
 
 #: templates/fragments/species-record.html:18
 msgid "Family: "
-msgstr ""
+msgstr "Familie: "
 
 #: templates/fragments/species-record.html:19
 msgid "Genus: "
-msgstr ""
+msgstr "Gattung: "
 
 #: templates/fragments/species-record.html:20
 msgid "Species: "
-msgstr ""
+msgstr "Tierart: "
 
 #: templates/fragments/ssc-calculation-record.html:7
 #: templates/fragments/ssc-calculation-record.html:29
 msgid "Datatype"
-msgstr ""
+msgstr "Datentyp"
 
 #: templates/fragments/ssc-calculation-record.html:8
 msgid "Unit size"
-msgstr ""
+msgstr "Größe der Einheit"
 
 #: templates/fragments/ssc-calculation-record.html:9
 msgid "Unit Limit"
-msgstr ""
+msgstr "Einheitenlimit"
 
 #: templates/fragments/ssc-calculation-record.html:10
 msgid "Hard limit?"
-msgstr ""
+msgstr "Hartes Limit?"
 
 #: templates/fragments/ssc-calculation-record.html:11
 msgid "Unit value"
-msgstr ""
+msgstr "Wert der Einheit"
 
 #: templates/fragments/ssc-calculation-record.html:31
 msgid "Unit size: "
-msgstr ""
+msgstr "Größe der Einheit: "
 
 #: templates/fragments/ssc-calculation-record.html:32
 msgid "Max units: "
-msgstr ""
+msgstr "Max. Einheiten: "
 
 #: templates/fragments/ssc-calculation-record.html:33
 msgid "Unit value: "
-msgstr ""
+msgstr "Wert der Einheit: "
 
 #: templates/fragments/survey-record.html:15
 msgid "Survey name"
-msgstr ""
+msgstr "Name der Umfrage"
 
 #: templates/fragments/survey-record.html:15
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #: templates/fragments/survey-record.html:19
 msgid "Location"
-msgstr ""
+msgstr "Standort"
 
 #: templates/fragments/trap-extra-attribute-record.html:12
 msgid "Attribute"
-msgstr ""
+msgstr "Attribut"
 
 #: templates/fragments/trap-extra-attribute-record.html:17
 #: templates/fragments/trap-record.html:19
 msgid "Trap type"
-msgstr ""
+msgstr "Art der Falle"
 
 #: templates/fragments/trap-extra-attribute-record.html:19
 msgid "Mandatory: "
-msgstr ""
+msgstr "Obligatorisch: "
 
 #: templates/fragments/trap-extra-attribute-record.html:20
 msgid "Description: "
-msgstr ""
+msgstr "Beschreibung: "
 
 #: templates/fragments/trap-extra-attribute-record.html:21
 msgid "Datatype: "
-msgstr ""
+msgstr "Datentyp: "
 
 #: templates/fragments/trap-record.html:15
 msgid "Trap name"
-msgstr ""
+msgstr "Name der Falle"
 
 #: templates/fragments/trap-record.html:22
 msgid "Latitude"
-msgstr ""
+msgstr "Breitengrad"
 
 #: templates/fragments/trap-record.html:23
 msgid "Longitude"
-msgstr ""
+msgstr "Längengrad"
 
 #: templates/fragments/trap-type-record.html:21
 msgid "List"
-msgstr ""
+msgstr "Liste"
 
 #: templates/fragments/trap-type-record.html:22
 msgid "description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: templates/fragments/trapping-liquid-record.html:5
 msgid "Liquid"
-msgstr ""
+msgstr "Flüssigkeit"
 
 #: templates/macros/util.jinja2:21
 msgid "Sort by"
-msgstr ""
+msgstr "Sortiere nach"
