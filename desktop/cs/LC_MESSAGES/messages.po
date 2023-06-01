@@ -1,4 +1,4 @@
-# Translations template for PROJECT.
+# Czech translations for PROJECT.
 # Copyright (C) 2023 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
@@ -7,36 +7,45 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-05-31 15:29+1000\n"
+"POT-Creation-Date: 2023-06-01 13:28+1000\n"
 "PO-Revision-Date: 2023-05-31 06:47+0000\n"
 "Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
-"Language-Team: Czech <http://translate.diversityarrays.cloud/projects/"
-"ecologue-desktop/values/cs/>\n"
 "Language: cs\n"
+"Language-Team: Czech <http://translate.diversityarrays.cloud/projects"
+"/ecologue-desktop/values/cs/>\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
-#: templates/account.jinja2:13
+#: templates/account.jinja2:14
 msgid "Account"
 msgstr "Účet"
 
-#: templates/account.jinja2:25
-msgid "Account Details for:"
-msgstr "Detaily účtu pro:"
-
-#: templates/account.jinja2:34
+#: templates/account.jinja2:23 templates/account.jinja2:42
 msgid "Personal Details"
 msgstr "Osobní údaje"
 
-#: templates/account.jinja2:38
+#: templates/account.jinja2:24
+#, fuzzy
+msgid "Institution Settings"
+msgstr "Nastavení osobní instituce"
+
+#: templates/account.jinja2:25
+#, fuzzy
+msgid "Notification Settings"
+msgstr "Nastavení osobních oznámení"
+
+#: templates/account.jinja2:33
+msgid "Account Details for:"
+msgstr "Detaily účtu pro:"
+
+#: templates/account.jinja2:46
 msgid "Personal Institution Settings"
 msgstr "Nastavení osobní instituce"
 
-#: templates/account.jinja2:42
+#: templates/account.jinja2:50
 msgid "Personal Notification Settings"
 msgstr "Nastavení osobních oznámení"
 
@@ -80,293 +89,507 @@ msgstr "Domů"
 msgid "Select a project"
 msgstr "Vyberte projekt"
 
-#: templates/list_container.jinja2:12
+#: templates/list_container.jinja2:13
 msgid "+ Create container"
 msgstr "+ Vytvořit kontejner"
 
-#: templates/list_container.jinja2:13
+#: templates/list_container.jinja2:14
 msgid "Search containers"
 msgstr "Hledat kontejnery"
 
-#: templates/list_container.jinja2:15 templates/list_container.jinja2:22
+#: templates/list_container.jinja2:16 templates/list_container.jinja2:23
 msgid "Containers"
 msgstr "Kontejnery"
 
-#: templates/list_container.jinja2:23 templates/list_dart-plate.jinja2:23
-#: templates/list_dart-submission.jinja2:23 templates/list_effort.jinja2:29
-#: templates/list_field.jinja2:38 templates/list_genus.jinja2:23
-#: templates/list_identification.jinja2:29 templates/list_institution.jinja2:23
+#: templates/list_container.jinja2:24 templates/list_dart-plate.jinja2:24
+#: templates/list_dart-submission.jinja2:24 templates/list_effort.jinja2:30
+#: templates/list_field.jinja2:39 templates/list_genus.jinja2:24
+#: templates/list_identification.jinja2:30 templates/list_institution.jinja2:24
 msgid "Short description here"
 msgstr "Krátký popis zde"
 
-#: templates/list_container.jinja2:25
+#: templates/list_container.jinja2:26
 msgid "Use the search bar below to filter the displayed containers"
 msgstr "Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené kontejnery"
 
-#: templates/list_dart-plate.jinja2:12
+#: templates/fragments/container-record.html:6
+#: templates/fragments/project-permission-record.html:7
+#: templates/fragments/ssc-calculation-record.html:6
+#: templates/fragments/ssc-calculation-record.html:24
+#: templates/fragments/trap-type-record.html:15
+#: templates/list_container.jinja2:33 templates/list_dart-plate.jinja2:32
+#: templates/list_institution.jinja2:32
+#: templates/list_project-permissions.jinja2:37
+#: templates/list_project.jinja2:32 templates/list_response.jinja2:32
+#: templates/list_site.jinja2:33 templates/list_ssc-calculation.jinja2:33
+#: templates/list_traptype.jinja2:32
+msgid "Name"
+msgstr "Jméno"
+
+#: templates/fragments/container-record.html:7
+#: templates/fragments/response-record.html:21
+#: templates/list_container.jinja2:34 templates/list_response.jinja2:34
+#: templates/list_species.jinja2:16 templates/list_species.jinja2:23
+#: templates/list_species.jinja2:33
+msgid "Species"
+msgstr "Druhy"
+
+#: templates/fragments/container-record.html:10
+#: templates/list_container.jinja2:35
+msgid "Preservation method"
+msgstr "Způsob konzervace"
+
+#: templates/list_container.jinja2:36 templates/list_dart-plate.jinja2:35
+#: templates/list_dart-submission.jinja2:36 templates/list_field.jinja2:47
+#: templates/list_genus.jinja2:36 templates/list_identification.jinja2:47
+#: templates/list_institution.jinja2:33 templates/list_planned-ssc.jinja2:36
+#: templates/list_project.jinja2:34 templates/list_response.jinja2:35
+#: templates/list_site.jinja2:34 templates/list_ssc-calculation.jinja2:38
+#: templates/list_trap-extra-attribute.jinja2:39
+#: templates/list_trapping-liquid.jinja2:33 templates/list_traptype.jinja2:36
+#, fuzzy
+msgid "Created"
+msgstr "+ Vytvořit OTU"
+
+#: templates/list_dart-plate.jinja2:13
 msgid "+ Create new plate"
 msgstr "+ Vytvořit novou desku"
 
-#: templates/list_dart-plate.jinja2:13
+#: templates/list_dart-plate.jinja2:14
 msgid "Search plates"
 msgstr "Vyhledávací talíře"
 
-#: templates/list_dart-plate.jinja2:15 templates/list_dart-plate.jinja2:22
+#: templates/list_dart-plate.jinja2:16 templates/list_dart-plate.jinja2:23
 msgid "DArT Plates"
 msgstr "Dart Desky"
 
-#: templates/list_dart-plate.jinja2:25
+#: templates/list_dart-plate.jinja2:26
 msgid "Use the search bar below to filter the displayed plates"
 msgstr "Pomocí vyhledávací lišty níže filtrujte zobrazené desky"
 
-#: templates/list_dart-submission.jinja2:12
+#: templates/list_dart-plate.jinja2:33
+#, fuzzy
+msgid "Submission"
+msgstr "Příspěvky DART"
+
+#: templates/list_dart-plate.jinja2:34
+#, fuzzy
+msgid "Success rate"
+msgstr "% s rychlost uccess"
+
+#: templates/list_dart-submission.jinja2:13
 msgid "+ Create new submission"
 msgstr "+ Vytvořit nový příspěvek"
 
-#: templates/list_dart-submission.jinja2:13
+#: templates/list_dart-submission.jinja2:14
 msgid "Search DArT Submissions"
 msgstr "Vyhledávání Dart Příspěvky"
 
-#: templates/list_dart-submission.jinja2:22
+#: templates/list_dart-submission.jinja2:23
 msgid "DArT Submissions"
 msgstr "Příspěvky DART"
 
-#: templates/list_dart-submission.jinja2:25
+#: templates/list_dart-submission.jinja2:26
 msgid "Use the search bar below to filter the displayed DArT Submissions"
 msgstr "Použijte vyhledávací lištu níže k filtrování zobrazených příspěvků DART"
 
-#: templates/list_effort.jinja2:12
+#: templates/list_dart-submission.jinja2:33
+#, fuzzy
+msgid "Service"
+msgstr "Služba DART"
+
+#: templates/fragments/dart-submission-record.html:17
+#: templates/fragments/person-record.html:19
+#: templates/fragments/response-record.html:19
+#: templates/list_dart-submission.jinja2:34 templates/list_person.jinja2:34
+#: templates/list_project.jinja2:33
+msgid "Institution"
+msgstr "Instituce"
+
+#: templates/list_dart-submission.jinja2:35
+#, fuzzy
+msgid "Date submitted"
+msgstr "Odesláno dne: "
+
+#: templates/list_effort.jinja2:13
 msgid "+ Create effort"
 msgstr "+ Vytvořit úsilí"
 
-#: templates/list_effort.jinja2:13
+#: templates/list_effort.jinja2:14
 msgid "Search efforts"
 msgstr "Hledání úsilí"
 
-#: templates/list_effort.jinja2:21 templates/list_effort.jinja2:28
+#: templates/list_effort.jinja2:22 templates/list_effort.jinja2:29
 msgid "Efforts"
 msgstr "Úsilí"
 
-#: templates/list_effort.jinja2:31
+#: templates/list_effort.jinja2:32
 msgid "Use the search bar below to filter the displayed efforts"
 msgstr "Pomocí vyhledávacího panelu níže filtrujte zobrazené úsilí"
 
-#: templates/list_field.jinja2:12
+#: templates/list_effort.jinja2:39 templates/list_identification-otu.jinja2:33
+#: templates/list_multimedia.jinja2:39 templates/list_survey.jinja2:36
+#: templates/list_trap.jinja2:36
+msgid "ID"
+msgstr ""
+
+#: templates/fragments/effort-record.html:14
+#: templates/fragments/effort-record.html:34 templates/list_effort.jinja2:40
+msgid "Site"
+msgstr "Site"
+
+#: templates/fragments/container-record.html:8
+#: templates/fragments/effort-record.html:17
+#: templates/fragments/trap-type-record.html:23 templates/list_effort.jinja2:41
+#: templates/list_genus.jinja2:35 templates/list_otu.jinja2:35
+#: templates/list_traptype.jinja2:34
+msgid "Comment"
+msgstr "Komentář"
+
+#: templates/list_field.jinja2:13
 msgid "+ Create field record"
 msgstr "+ Vytvořit záznam pole"
 
-#: templates/list_field.jinja2:13
+#: templates/list_field.jinja2:14
 msgid "Search field records"
 msgstr "Vyhledat záznamy polí"
 
 #: templates/fragments/effort-record.html:8
-#: templates/fragments/survey-record.html:24 templates/list_field.jinja2:30
-#: templates/list_field.jinja2:37
+#: templates/fragments/survey-record.html:24 templates/list_field.jinja2:31
+#: templates/list_field.jinja2:38
 msgid "Field records"
 msgstr "Polní záznamy"
 
-#: templates/list_field.jinja2:40
+#: templates/list_field.jinja2:41
 msgid "Use the search bar below to filter the displayed field records"
 msgstr "Pomocí vyhledávacího pole níže filtrujte zobrazené záznamy polí"
 
-#: templates/list_genus.jinja2:12
+#: templates/list_field.jinja2:48
+msgid "Receiver (person)"
+msgstr ""
+
+#: templates/fragments/field-record-record.html:21
+#: templates/list_field.jinja2:49
+msgid "Collection time"
+msgstr "Čas vyzvednutí"
+
+#: templates/list_genus.jinja2:13
 msgid "+ Add genus"
 msgstr "+ Přidat rod"
 
-#: templates/list_genus.jinja2:13
+#: templates/list_genus.jinja2:14
 msgid "Search genera"
 msgstr "Hledat rody"
 
-#: templates/list_genus.jinja2:22
+#: templates/list_genus.jinja2:23
 msgid "Genera"
 msgstr "Rodů"
 
-#: templates/list_genus.jinja2:25
+#: templates/list_genus.jinja2:26
 msgid "Use the search bar below to filter the displayed genera"
 msgstr "Pomocí vyhledávacího panelu níže filtrujte zobrazené rody"
 
-#: templates/list_identification-otu.jinja2:12
+#: templates/fragments/genus-record.html:11 templates/list_genus.jinja2:32
+#: templates/list_species.jinja2:34
+msgid "Genus"
+msgstr "Rod"
+
+#: templates/list_genus.jinja2:33 templates/list_species.jinja2:36
+#, fuzzy
+msgid "Order"
+msgstr "Objednat: "
+
+#: templates/list_genus.jinja2:34 templates/list_species.jinja2:35
+#, fuzzy
+msgid "Family"
+msgstr "Rodina: "
+
+#: templates/list_identification-otu.jinja2:13
 msgid "+ Create Identification OTU"
 msgstr "+ Vytvořit identifikaci OTU"
 
-#: templates/list_identification-otu.jinja2:13
+#: templates/list_identification-otu.jinja2:14
 msgid "Search Identification OTUs"
 msgstr "Vyhledávání Identifikace OTU"
 
-#: templates/list_identification-otu.jinja2:15
-#: templates/list_identification-otu.jinja2:22
+#: templates/list_identification-otu.jinja2:16
+#: templates/list_identification-otu.jinja2:23
 msgid "Identification OTUs"
 msgstr "Identifikace OTU"
 
-#: templates/list_identification-otu.jinja2:23
-#: templates/list_multimedia.jinja2:27 templates/list_otu.jinja2:23
-#: templates/list_person.jinja2:23 templates/list_planned-ssc.jinja2:23
-#: templates/list_project-permissions.jinja2:27
-#: templates/list_response.jinja2:23 templates/list_site.jinja2:23
-#: templates/list_species.jinja2:23 templates/list_ssc-calculation.jinja2:23
-#: templates/list_survey.jinja2:27 templates/list_trap.jinja2:27
-#: templates/list_trapping-liquid.jinja2:23 templates/list_traptype.jinja2:23
+#: templates/list_identification-otu.jinja2:24
+#: templates/list_multimedia.jinja2:28 templates/list_otu.jinja2:24
+#: templates/list_person.jinja2:24 templates/list_planned-ssc.jinja2:24
+#: templates/list_project-permissions.jinja2:28
+#: templates/list_response.jinja2:24 templates/list_site.jinja2:24
+#: templates/list_species.jinja2:24 templates/list_ssc-calculation.jinja2:24
+#: templates/list_survey.jinja2:28 templates/list_trap.jinja2:28
+#: templates/list_trapping-liquid.jinja2:24 templates/list_traptype.jinja2:24
 #: templates/plate-wells-table.jinja2:15
 msgid "Short description here."
 msgstr "Krátký popis zde."
 
-#: templates/list_identification-otu.jinja2:25
+#: templates/list_identification-otu.jinja2:26
 msgid "Use the search bar below to filter the displayed Identification OTUs"
 msgstr ""
-"Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené identifikační OTU"
+"Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené identifikační"
+" OTU"
 
-#: templates/list_identification.jinja2:12
+#: templates/fragments/identification-otu-record.html:7
+#: templates/list_identification-otu.jinja2:34 templates/list_otu.jinja2:34
+msgid "Vial ID"
+msgstr "ID lahvičky"
+
+#: templates/fragments/identification-otu-record.html:8
+#: templates/fragments/otu-record.html:6
+#: templates/list_identification-otu.jinja2:35 templates/list_otu.jinja2:33
+msgid "OTU ID"
+msgstr "OTU ID"
+
+#: templates/fragments/identification-otu-record.html:9
+#: templates/list_identification-otu.jinja2:36
+msgid "Identified by"
+msgstr "Identifikováno"
+
+#: templates/fragments/identification-otu-record.html:10
+#: templates/list_identification-otu.jinja2:37
+msgid "Date identified"
+msgstr "Identifikované datum"
+
+#: templates/list_identification.jinja2:13
 msgid "+ Create identification"
 msgstr "+ Vytvořit identifikaci"
 
-#: templates/list_identification.jinja2:13
+#: templates/list_identification.jinja2:14
 msgid "Search identifications"
 msgstr "Identifikace vyhledávání"
 
-#: templates/list_identification.jinja2:21
-#: templates/list_identification.jinja2:28
+#: templates/list_identification.jinja2:22
+#: templates/list_identification.jinja2:29
 msgid "Identifications"
 msgstr "Identifikace"
 
-#: templates/list_identification.jinja2:31
+#: templates/list_identification.jinja2:32
 msgid "Use the search bar below to filter the displayed identifications"
-msgstr ""
-"Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené identifikace"
+msgstr "Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené identifikace"
 
-#: templates/list_institution.jinja2:12
+#: templates/fragments/identification-record.html:6
+#: templates/list_identification.jinja2:39
+msgid "N-reference"
+msgstr "N-referenční"
+
+#: templates/fragments/identification-record.html:10
+#: templates/list_identification.jinja2:40
+msgid "Identification"
+msgstr "Identifikace"
+
+#: templates/list_identification.jinja2:41
+#, fuzzy
+msgid "Males"
+msgstr "# Muži"
+
+#: templates/list_identification.jinja2:42
+#, fuzzy
+msgid "Females"
+msgstr "# Ženy"
+
+#: templates/list_identification.jinja2:43
+#, fuzzy
+msgid "Juveniles"
+msgstr "# Mladiství"
+
+#: templates/list_identification.jinja2:44
+#, fuzzy
+msgid "Adults (indet. sex)"
+msgstr "# Dospělí zadlužení. sex"
+
+#: templates/list_identification.jinja2:45
+#, fuzzy
+msgid "Alates"
+msgstr "# Alates"
+
+#: templates/list_identification.jinja2:46
+#, fuzzy
+msgid "Stage + sex indet."
+msgstr "# Faze/sex indet."
+
+#: templates/list_institution.jinja2:13
 msgid "+ Add institution"
 msgstr "+ Přidat instituci"
 
-#: templates/list_institution.jinja2:13
+#: templates/list_institution.jinja2:14
 msgid "Search institutions"
 msgstr "Vyhledávací instituce"
 
-#: templates/list_institution.jinja2:15 templates/list_institution.jinja2:22
+#: templates/list_institution.jinja2:16 templates/list_institution.jinja2:23
 msgid "Institutions"
 msgstr "Instituce"
 
-#: templates/list_institution.jinja2:25
+#: templates/list_institution.jinja2:26
 msgid "Use the search bar below to filter the displayed institutions"
 msgstr "Použijte vyhledávací lištu níže k filtrování zobrazených institucí"
+
+#: templates/list_institution.jinja2:34
+#, fuzzy
+msgid "Total projects"
+msgstr "Projektuje"
 
 #: templates/fragments/field-record-record.html:27
 #: templates/fragments/identification-record.html:8
 #: templates/fragments/survey-record.html:25
-#: templates/list_multimedia.jinja2:19 templates/list_multimedia.jinja2:26
+#: templates/list_multimedia.jinja2:20 templates/list_multimedia.jinja2:27
 msgid "Multimedia"
 msgstr "Multimédia"
 
-#: templates/list_multimedia.jinja2:29
+#: templates/list_multimedia.jinja2:30
 msgid "Use the search bar below to filter the displayed multimedia."
 msgstr "Pomocí vyhledávacího panelu níže filtrujte zobrazená multimédia."
 
-#: templates/list_multimedia.jinja2:31
+#: templates/list_multimedia.jinja2:32
 msgid "Import Multimedia"
 msgstr "Import multimédií"
 
-#: templates/list_multimedia.jinja2:52
+#: templates/list_multimedia.jinja2:53
 msgid "\"Uploading multimedia records is not availble in the current build.\""
-msgstr ""
-"„Nahrávání multimediálních záznamů není v aktuálním sestavení dostupné.“"
+msgstr "„Nahrávání multimediálních záznamů není v aktuálním sestavení dostupné.“"
 
-#: templates/list_multimedia.jinja2:55
+#: templates/list_multimedia.jinja2:56
 msgid "\"Are you sure you want to upload this record?\""
 msgstr "„Opravdu chcete nahrát tuto nahrávku?“"
 
-#: templates/list_multimedia.jinja2:100
+#: templates/list_multimedia.jinja2:101
 msgid "\"Failed to find Field record.\""
 msgstr "„Nepodařilo se najít polní záznam.“"
 
-#: templates/list_multimedia.jinja2:120
+#: templates/list_multimedia.jinja2:121
 msgid "\"Successfully uploaded records: \""
 msgstr "„Úspěšně nahrané záznamy:“"
 
-#: templates/list_multimedia.jinja2:120
+#: templates/list_multimedia.jinja2:121
 msgid "\"Unsuccessfully uploaded records: \""
 msgstr "„Neúspěšně nahrané záznamy:“"
 
-#: templates/list_multimedia.jinja2:124
+#: templates/list_multimedia.jinja2:125
 msgid "\"Failed to link Field and Multimedia record.\""
 msgstr "„Nepodařilo se propojit pole a multimediální záznam.“"
 
-#: templates/list_otu.jinja2:12
+#: templates/list_otu.jinja2:13
 msgid "+ Create OTU"
 msgstr "+ Vytvořit OTU"
 
-#: templates/list_otu.jinja2:13
+#: templates/list_otu.jinja2:14
 msgid "Search OTUs"
 msgstr "Hledat OTUS"
 
-#: templates/list_otu.jinja2:15 templates/list_otu.jinja2:22
+#: templates/list_otu.jinja2:16 templates/list_otu.jinja2:23
 msgid "OTUs"
 msgstr "OTU"
 
-#: templates/list_otu.jinja2:25
+#: templates/list_otu.jinja2:26
 msgid "Use the search bar below to filter the displayed OTUs."
 msgstr "Pomocí vyhledávací lišty níže filtrujte zobrazené OTU."
 
-#: templates/list_person.jinja2:12
+#: templates/list_person.jinja2:13
 msgid "+ Add a person"
 msgstr "+ Přidat osobu"
 
-#: templates/list_person.jinja2:13 templates/list_project-permissions.jinja2:13
+#: templates/list_person.jinja2:14 templates/list_project-permissions.jinja2:14
 msgid "Search people"
 msgstr "Hledat lidi"
 
-#: templates/list_person.jinja2:15 templates/list_person.jinja2:22
+#: templates/list_person.jinja2:16 templates/list_person.jinja2:23
 msgid "People"
 msgstr "Lidé"
 
-#: templates/list_person.jinja2:25
+#: templates/list_person.jinja2:26
 msgid "Use the search bar below to filter the displayed people."
 msgstr "Pomocí vyhledávacího panelu níže filtrujte zobrazené lidi."
 
-#: templates/list_planned-ssc.jinja2:12
+#: templates/list_person.jinja2:32
+#, fuzzy
+msgid "First name"
+msgstr "Název úsilí"
+
+#: templates/list_person.jinja2:33
+#, fuzzy
+msgid "Surname"
+msgstr "Název zeměměřického zaměření"
+
+#: templates/list_planned-ssc.jinja2:13
 msgid "+ Add a planned SSC"
 msgstr "+ Přidání plánovaného SSC"
 
-#: templates/list_planned-ssc.jinja2:13
+#: templates/list_planned-ssc.jinja2:14
 msgid "Search planned SSCs"
 msgstr "Vyhledat plánované SSC"
 
-#: templates/list_planned-ssc.jinja2:15 templates/list_planned-ssc.jinja2:22
+#: templates/list_planned-ssc.jinja2:16 templates/list_planned-ssc.jinja2:23
 msgid "Planned SSCs"
 msgstr "Plánované SSC"
 
-#: templates/list_planned-ssc.jinja2:25
+#: templates/list_planned-ssc.jinja2:26
 msgid "Use the search bar below to filter the displayed planned SSCs."
-msgstr ""
-"Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené plánované SSC."
+msgstr "Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené plánované SSC."
 
-#: templates/list_project-permissions.jinja2:12
+#: templates/fragments/trap-extra-attribute-record.html:17
+#: templates/fragments/trap-record.html:19 templates/list_planned-ssc.jinja2:32
+#: templates/list_trap-extra-attribute.jinja2:35 templates/list_trap.jinja2:37
+msgid "Trap type"
+msgstr "Typ pasti"
+
+#: templates/list_planned-ssc.jinja2:33
+#, fuzzy
+msgid "Start date"
+msgstr "Start"
+
+#: templates/list_planned-ssc.jinja2:34
+msgid "End date"
+msgstr ""
+
+#: templates/list_planned-ssc.jinja2:35
+#, fuzzy
+msgid "Projected SSC total"
+msgstr "Přístup k projektu"
+
+#: templates/list_project-permissions.jinja2:13
 msgid "+ Add person to project"
 msgstr "+ Přidat osobu do projektu"
 
-#: templates/list_project-permissions.jinja2:19
+#: templates/list_project-permissions.jinja2:20
 msgid "Project access"
 msgstr "Přístup k projektu"
 
-#: templates/list_project-permissions.jinja2:26
+#: templates/list_project-permissions.jinja2:27
 msgid "Project permissions"
 msgstr "Oprávnění projektu"
 
-#: templates/list_project-permissions.jinja2:29
+#: templates/list_project-permissions.jinja2:30
 msgid "Use the search bar below to filter the displayed permissions."
 msgstr "Pomocí vyhledávacího panelu níže můžete filtrovat zobrazená oprávnění."
 
-#: templates/list_project.jinja2:12
+#: templates/fragments/project-permission-record.html:8
+#: templates/list_project-permissions.jinja2:38
+msgid "Permission level"
+msgstr "Úroveň oprávnění"
+
+#: templates/list_project-permissions.jinja2:39
+#, fuzzy
+msgid "Date added"
+msgstr "Identifikované datum"
+
+#: templates/list_project.jinja2:13
 msgid "+ Create new project"
 msgstr "+ Vytvořit nový projekt"
 
-#: templates/list_project.jinja2:13
+#: templates/list_project.jinja2:14
 msgid "Search projects"
 msgstr "Vyhledat projekty"
 
-#: templates/list_project.jinja2:15 templates/list_project.jinja2:22
+#: templates/list_project.jinja2:16 templates/list_project.jinja2:23
 msgid "Projects"
 msgstr "Projektuje"
 
-#: templates/list_project.jinja2:23
+#: templates/list_project.jinja2:24
 msgid ""
 "Short description about projects, and the displayed information on the "
 "cards i.e. why a project image might not exist (no trap location data) or"
@@ -376,172 +599,239 @@ msgstr ""
 "existovat obrázek projektu (žádná data umístění přesahů) nebo vypadat "
 "nepřesně (data odlehlých přesahů)"
 
-#: templates/list_project.jinja2:25
+#: templates/list_project.jinja2:26
 msgid "Use the search bar below to filter the displayed projects."
 msgstr "Pomocí vyhledávacího pole níže filtrujte zobrazené projekty."
 
-#: templates/list_response.jinja2:12
+#: templates/list_response.jinja2:13
 msgid "+ Add a response"
 msgstr "+ Přidat odpověď"
 
-#: templates/list_response.jinja2:13
+#: templates/list_response.jinja2:14
 msgid "Search responses"
 msgstr "Vyhledat odpovědi"
 
-#: templates/list_response.jinja2:15 templates/list_response.jinja2:22
+#: templates/list_response.jinja2:16 templates/list_response.jinja2:23
 msgid "Responses"
 msgstr "Odpovědi"
 
-#: templates/list_response.jinja2:25
+#: templates/list_response.jinja2:26
 msgid "Use the search bar below to filter the displayed responses."
 msgstr "Zobrazené odpovědi filtrujte pomocí vyhledávací lišty níže."
 
-#: templates/list_site.jinja2:12
+#: templates/list_response.jinja2:33
+#, fuzzy
+msgid "Incursion date"
+msgstr "Název instituce"
+
+#: templates/list_site.jinja2:13
 msgid "+ Create new site"
 msgstr "+ Vytvořit nový web"
 
-#: templates/list_site.jinja2:13
+#: templates/list_site.jinja2:14
 msgid "Search sites"
 msgstr "Prohledávat weby"
 
-#: templates/list_site.jinja2:15 templates/list_site.jinja2:22
+#: templates/list_site.jinja2:16 templates/list_site.jinja2:23
 msgid "Sites"
 msgstr "Stránky"
 
-#: templates/list_site.jinja2:25
+#: templates/list_site.jinja2:26
 msgid "Use the search bar below to filter the displayed sites."
 msgstr "Pomocí vyhledávacího pole níže filtrujte zobrazené weby."
 
-#: templates/list_species.jinja2:12
+#: templates/list_species.jinja2:13
 msgid "+ Add species"
 msgstr "+ Přidat druh"
 
-#: templates/list_species.jinja2:13
+#: templates/list_species.jinja2:14
 msgid "Search species"
 msgstr "Hledat druhy"
 
-#: templates/fragments/container-record.html:7
-#: templates/fragments/response-record.html:21 templates/list_species.jinja2:15
-#: templates/list_species.jinja2:22
-msgid "Species"
-msgstr "Druhy"
-
-#: templates/list_species.jinja2:25
+#: templates/list_species.jinja2:26
 msgid "Use the search bar below to filter the displayed species."
 msgstr "Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené druhy."
 
-#: templates/list_ssc-calculation.jinja2:12
+#: templates/fragments/species-record.html:11 templates/list_species.jinja2:32
+msgid "Common name"
+msgstr "Obecný název"
+
+#: templates/fragments/genus-record.html:15
+#: templates/fragments/species-record.html:15 templates/list_species.jinja2:37
+msgid "Author"
+msgstr "Autor"
+
+#: templates/list_ssc-calculation.jinja2:13
 msgid "+ Create SSC calculation"
 msgstr "+ Vytvoření výpočtu SSC"
 
-#: templates/list_ssc-calculation.jinja2:13
+#: templates/list_ssc-calculation.jinja2:14
 msgid "Search SSC calculations"
 msgstr "Vyhledávání výpočtů SSC"
 
-#: templates/list_ssc-calculation.jinja2:15
-#: templates/list_ssc-calculation.jinja2:22
+#: templates/list_ssc-calculation.jinja2:16
+#: templates/list_ssc-calculation.jinja2:23
 msgid "SSC Calculations"
 msgstr "Výpočty SSC"
 
-#: templates/list_ssc-calculation.jinja2:25
+#: templates/list_ssc-calculation.jinja2:26
 msgid "Use the search bar below to filter the displayed SSC calculations."
-msgstr ""
-"Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené výpočty SSC."
+msgstr "Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené výpočty SSC."
 
-#: templates/list_survey.jinja2:12
+#: templates/fragments/ssc-calculation-record.html:7
+#: templates/fragments/ssc-calculation-record.html:29
+#: templates/list_ssc-calculation.jinja2:34
+#: templates/list_trap-extra-attribute.jinja2:38
+msgid "Datatype"
+msgstr "Datový typ"
+
+#: templates/fragments/ssc-calculation-record.html:8
+#: templates/list_ssc-calculation.jinja2:35
+msgid "Unit size"
+msgstr "Velikost jednotky"
+
+#: templates/list_ssc-calculation.jinja2:36
+#, fuzzy
+msgid "Max units"
+msgstr "Maximální počet jednotek: "
+
+#: templates/fragments/ssc-calculation-record.html:11
+#: templates/list_ssc-calculation.jinja2:37
+msgid "Unit value"
+msgstr "Jednotková hodnota"
+
+#: templates/list_survey.jinja2:13
 msgid "+ Create new survey"
 msgstr "+ Vytvořit nový průzkum"
 
-#: templates/list_survey.jinja2:13
+#: templates/list_survey.jinja2:14
 msgid "Search surveys"
 msgstr "Vyhledávací průzkumy"
 
-#: templates/fragments/project-record.html:34 templates/list_survey.jinja2:19
-#: templates/list_survey.jinja2:26
+#: templates/fragments/project-record.html:34 templates/list_survey.jinja2:20
+#: templates/list_survey.jinja2:27
 msgid "Surveys"
 msgstr "Průzkumy"
 
-#: templates/list_survey.jinja2:29
+#: templates/list_survey.jinja2:30
 msgid "Use the search bar below to filter the displayed surveys."
 msgstr "Pomocí vyhledávacího pole níže filtrujte zobrazené průzkumy."
 
-#: templates/list_trap-extra-attribute.jinja2:12
+#: templates/list_survey.jinja2:37
+#, fuzzy
+msgid "Survey type"
+msgstr "Název zeměměřického zaměření"
+
+#: templates/fragments/survey-record.html:19 templates/list_survey.jinja2:38
+msgid "Location"
+msgstr "Lokace"
+
+#: templates/list_trap-extra-attribute.jinja2:13
 msgid "+ Create extra attribute"
 msgstr "+ Vytvořit další atribut"
 
-#: templates/list_trap-extra-attribute.jinja2:13
+#: templates/list_trap-extra-attribute.jinja2:14
 msgid "Search Trap Extra Attributes"
 msgstr "Vyhledat atributy Trap Extra"
 
-#: templates/list_trap-extra-attribute.jinja2:16
+#: templates/list_trap-extra-attribute.jinja2:17
 msgid "Additional trap attributes"
 msgstr "Další atributy pasti"
 
-#: templates/list_trap-extra-attribute.jinja2:23
+#: templates/list_trap-extra-attribute.jinja2:24
 msgid "Additional Trap Attributes"
 msgstr "Další atributy trap"
 
-#: templates/list_trap-extra-attribute.jinja2:24
+#: templates/list_trap-extra-attribute.jinja2:25
 msgid ""
 "Sometimes extra data is required for a particular trap that doesn't fit "
 "into the normal schema. Here you can add/view these \"extra attributes\"."
 msgstr ""
-"Sometimes extra data is required for a particular trap that doesn't fit into "
-"the normal schema. Zde můžete přidat/zobrazit tyto „extra atributy“."
+"Sometimes extra data is required for a particular trap that doesn't fit "
+"into the normal schema. Zde můžete přidat/zobrazit tyto „extra atributy“."
 
-#: templates/list_trap-extra-attribute.jinja2:26
+#: templates/list_trap-extra-attribute.jinja2:27
 msgid "Use the search bar below to filter the displayed extra attributes."
 msgstr "Pomocí vyhledávacího pole níže filtrujte zobrazené další atributy."
 
-#: templates/list_trap.jinja2:12
+#: templates/list_trap-extra-attribute.jinja2:34
+#, fuzzy
+msgid "Attribute name"
+msgstr "Atribut"
+
+#: templates/list_trap-extra-attribute.jinja2:36
+#, fuzzy
+msgid "Description"
+msgstr "popis"
+
+#: templates/list_trap-extra-attribute.jinja2:37
+#, fuzzy
+msgid "Mandatory"
+msgstr "Povinné: "
+
+#: templates/list_trap.jinja2:13
 msgid "+ Create new trap"
 msgstr "+ Vytvoření nové pasti"
 
-#: templates/list_trap.jinja2:13
+#: templates/list_trap.jinja2:14
 msgid "Search traps"
 msgstr "Hledejte pasti"
 
-#: templates/fragments/project-record.html:33 templates/list_trap.jinja2:19
-#: templates/list_trap.jinja2:26
+#: templates/fragments/project-record.html:33 templates/list_trap.jinja2:20
+#: templates/list_trap.jinja2:27
 msgid "Traps"
 msgstr "Pasti"
 
-#: templates/list_trap.jinja2:29
+#: templates/list_trap.jinja2:30
 msgid "Use the search bar below to filter the displayed traps"
 msgstr "Pomocí vyhledávacího panelu níže filtrujte zobrazené pasti"
 
-#: templates/list_trapping-liquid.jinja2:12
+#: templates/list_trapping-liquid.jinja2:13
 msgid "+ Add trapping liquid"
 msgstr "+ Přidat zachycení kapaliny"
 
-#: templates/list_trapping-liquid.jinja2:13
+#: templates/list_trapping-liquid.jinja2:14
 msgid "Search trapping liquids"
 msgstr "Hledejte zachycení kapalin"
 
-#: templates/list_trapping-liquid.jinja2:15
+#: templates/list_trapping-liquid.jinja2:16
 msgid "Trapping Liquids"
 msgstr "Odstraňování kapalin"
 
-#: templates/list_trapping-liquid.jinja2:22
+#: templates/list_trapping-liquid.jinja2:23
 msgid "Trapping liquids"
 msgstr "Odchycení kapalin"
 
-#: templates/list_trapping-liquid.jinja2:25
+#: templates/list_trapping-liquid.jinja2:26
 msgid "Use the search bar below to filter the displayed trapping liquids."
 msgstr ""
-"Pomocí vyhledávacího panelu níže filtrujte zobrazené kapaliny pro zachycení."
+"Pomocí vyhledávacího panelu níže filtrujte zobrazené kapaliny pro "
+"zachycení."
 
-#: templates/list_traptype.jinja2:12
+#: templates/fragments/trapping-liquid-record.html:5
+#: templates/list_trapping-liquid.jinja2:32
+msgid "Liquid"
+msgstr "Tekuté"
+
+#: templates/list_traptype.jinja2:13
 msgid "+ New trap type"
 msgstr "+ Nový typ pasti"
 
-#: templates/list_traptype.jinja2:13
+#: templates/list_traptype.jinja2:14
 msgid "Search trap types"
 msgstr "Hledat typy pastí"
 
-#: templates/list_traptype.jinja2:15 templates/list_traptype.jinja2:22
+#: templates/list_traptype.jinja2:16 templates/list_traptype.jinja2:23
 msgid "Trap types"
 msgstr "Typy pastí"
+
+#: templates/list_traptype.jinja2:33
+msgid "Target groups"
+msgstr ""
+
+#: templates/list_traptype.jinja2:35
+msgid "SSC method"
+msgstr ""
 
 #: templates/map.jinja2:8
 msgid "Zoom to Bounds"
@@ -559,27 +849,9 @@ msgstr "Mapa projektu"
 msgid "Plate wells"
 msgstr "Talířové studny"
 
-#: templates/fragments/container-record.html:6
-#: templates/fragments/project-permission-record.html:7
-#: templates/fragments/ssc-calculation-record.html:6
-#: templates/fragments/ssc-calculation-record.html:24
-#: templates/fragments/trap-type-record.html:15
-msgid "Name"
-msgstr "Jméno"
-
-#: templates/fragments/container-record.html:8
-#: templates/fragments/effort-record.html:17
-#: templates/fragments/trap-type-record.html:23
-msgid "Comment"
-msgstr "Komentář"
-
 #: templates/fragments/container-record.html:9
 msgid "Qualifier"
 msgstr "Kvalifikace"
-
-#: templates/fragments/container-record.html:10
-msgid "Preservation method"
-msgstr "Způsob konzervace"
 
 #: templates/fragments/container-record.html:11
 msgid "Container type"
@@ -602,8 +874,8 @@ msgid "Submission reference"
 msgstr "Odkaz na podání"
 
 #: templates/fragments/dart-plate-record.html:17
-#, python-format
-msgid "% success rate"
+#, fuzzy
+msgid "success rate"
 msgstr "% s rychlost uccess"
 
 #: templates/fragments/dart-plate-record.html:18
@@ -620,12 +892,6 @@ msgstr "Wells"
 #: templates/fragments/dart-submission-record.html:12
 msgid "DArT Service"
 msgstr "Služba DART"
-
-#: templates/fragments/dart-submission-record.html:17
-#: templates/fragments/person-record.html:19
-#: templates/fragments/response-record.html:19
-msgid "Institution"
-msgstr "Instituce"
 
 #: templates/fragments/dart-submission-record.html:19
 msgid "Submitted on: "
@@ -646,11 +912,6 @@ msgstr "ID úsilí"
 #: templates/fragments/effort-record.html:13
 msgid "SSC value"
 msgstr "Hodnota SSC"
-
-#: templates/fragments/effort-record.html:14
-#: templates/fragments/effort-record.html:34
-msgid "Site"
-msgstr "Site"
 
 #: templates/fragments/effort-record.html:15
 msgid "Collectors"
@@ -689,10 +950,6 @@ msgstr "Číslo pole"
 msgid "Collection type"
 msgstr "Typ kolekce"
 
-#: templates/fragments/field-record-record.html:21
-msgid "Collection time"
-msgstr "Čas vyzvednutí"
-
 #: templates/fragments/field-record-record.html:22
 msgid "Ex port"
 msgstr "Přístav Ex"
@@ -705,43 +962,9 @@ msgstr "Osoba"
 msgid "Samples"
 msgstr "Vzorky"
 
-#: templates/fragments/genus-record.html:11
-msgid "Genus"
-msgstr "Rod"
-
-#: templates/fragments/genus-record.html:15
-#: templates/fragments/species-record.html:15
-msgid "Author"
-msgstr "Autor"
-
 #: templates/fragments/identification-otu-record.html:6
 msgid "Identification OTU ID"
 msgstr "Identifikační ID OTU"
-
-#: templates/fragments/identification-otu-record.html:7
-msgid "Vial ID"
-msgstr "ID lahvičky"
-
-#: templates/fragments/identification-otu-record.html:8
-#: templates/fragments/otu-record.html:6
-msgid "OTU ID"
-msgstr "OTU ID"
-
-#: templates/fragments/identification-otu-record.html:9
-msgid "Identified by"
-msgstr "Identifikováno"
-
-#: templates/fragments/identification-otu-record.html:10
-msgid "Date identified"
-msgstr "Identifikované datum"
-
-#: templates/fragments/identification-record.html:6
-msgid "N-reference"
-msgstr "N-referenční"
-
-#: templates/fragments/identification-record.html:10
-msgid "Identification"
-msgstr "Identifikace"
 
 #: templates/fragments/identification-record.html:11
 msgid "# Males"
@@ -821,10 +1044,6 @@ msgstr "Konec"
 msgid "Edit"
 msgstr "Upravit"
 
-#: templates/fragments/project-permission-record.html:8
-msgid "Permission level"
-msgstr "Úroveň oprávnění"
-
 #: templates/fragments/project-record.html:23
 msgid "Project name"
 msgstr "Název projektu"
@@ -857,10 +1076,6 @@ msgstr "Přesnost GPS: "
 msgid "Geosource: "
 msgstr "Geosource: "
 
-#: templates/fragments/species-record.html:11
-msgid "Common name"
-msgstr "Obecný název"
-
 #: templates/fragments/species-record.html:17
 msgid "Order: "
 msgstr "Objednat: "
@@ -877,15 +1092,6 @@ msgstr "Rod: "
 msgid "Species: "
 msgstr "Druh: "
 
-#: templates/fragments/ssc-calculation-record.html:7
-#: templates/fragments/ssc-calculation-record.html:29
-msgid "Datatype"
-msgstr "Datový typ"
-
-#: templates/fragments/ssc-calculation-record.html:8
-msgid "Unit size"
-msgstr "Velikost jednotky"
-
 #: templates/fragments/ssc-calculation-record.html:9
 msgid "Unit Limit"
 msgstr "Limit jednotky"
@@ -893,10 +1099,6 @@ msgstr "Limit jednotky"
 #: templates/fragments/ssc-calculation-record.html:10
 msgid "Hard limit?"
 msgstr "Tvrdý limit?"
-
-#: templates/fragments/ssc-calculation-record.html:11
-msgid "Unit value"
-msgstr "Jednotková hodnota"
 
 #: templates/fragments/ssc-calculation-record.html:31
 msgid "Unit size: "
@@ -918,18 +1120,9 @@ msgstr "Název zeměměřického zaměření"
 msgid "Type"
 msgstr "Typ"
 
-#: templates/fragments/survey-record.html:19
-msgid "Location"
-msgstr "Lokace"
-
 #: templates/fragments/trap-extra-attribute-record.html:12
 msgid "Attribute"
 msgstr "Atribut"
-
-#: templates/fragments/trap-extra-attribute-record.html:17
-#: templates/fragments/trap-record.html:19
-msgid "Trap type"
-msgstr "Typ pasti"
 
 #: templates/fragments/trap-extra-attribute-record.html:19
 msgid "Mandatory: "
@@ -963,10 +1156,7 @@ msgstr "Seznam"
 msgid "description"
 msgstr "popis"
 
-#: templates/fragments/trapping-liquid-record.html:5
-msgid "Liquid"
-msgstr "Tekuté"
-
 #: templates/macros/util.jinja2:21
 msgid "Sort by"
 msgstr "Seřadit podle"
+
