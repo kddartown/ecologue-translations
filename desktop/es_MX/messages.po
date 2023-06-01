@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-06-01 13:28+1000\n"
-"PO-Revision-Date: 2023-05-31 06:47+0000\n"
-"Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
+"PO-Revision-Date: 2023-06-01 04:39+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Spanish (Mexico) <http://translate.diversityarrays.cloud/"
+"projects/ecologue-desktop/values/es_MX/>\n"
 "Language: es_MX\n"
-"Language-Team: Spanish (Mexico) "
-"<http://translate.diversityarrays.cloud/projects/ecologue-"
-"desktop/values/es_MX/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: templates/account.jinja2:14
@@ -112,8 +112,8 @@ msgstr "Breve descripción aquí"
 #: templates/list_container.jinja2:26
 msgid "Use the search bar below to filter the displayed containers"
 msgstr ""
-"Utilice la barra de búsqueda a continuación para filtrar los contenedores"
-" mostrados"
+"Utilice la barra de búsqueda a continuación para filtrar los contenedores "
+"mostrados"
 
 #: templates/fragments/container-record.html:6
 #: templates/fragments/project-permission-record.html:7
@@ -169,8 +169,7 @@ msgstr "Placas de darT"
 #: templates/list_dart-plate.jinja2:26
 msgid "Use the search bar below to filter the displayed plates"
 msgstr ""
-"Utilice la barra de búsqueda a continuación para filtrar las placas "
-"mostradas"
+"Utilice la barra de búsqueda a continuación para filtrar las placas mostradas"
 
 #: templates/list_dart-plate.jinja2:33
 #, fuzzy
@@ -197,8 +196,8 @@ msgstr "Presentaciones de DART"
 #: templates/list_dart-submission.jinja2:26
 msgid "Use the search bar below to filter the displayed DArT Submissions"
 msgstr ""
-"Utilice la barra de búsqueda a continuación para filtrar los envíos de "
-"DART mostrados"
+"Utilice la barra de búsqueda a continuación para filtrar los envíos de DART "
+"mostrados"
 
 #: templates/list_dart-submission.jinja2:33
 #, fuzzy
@@ -272,8 +271,8 @@ msgstr "Registros de campo"
 #: templates/list_field.jinja2:41
 msgid "Use the search bar below to filter the displayed field records"
 msgstr ""
-"Utilice la barra de búsqueda a continuación para filtrar los registros de"
-" campo mostrados"
+"Utilice la barra de búsqueda a continuación para filtrar los registros de "
+"campo mostrados"
 
 #: templates/list_field.jinja2:48
 msgid "Receiver (person)"
@@ -443,8 +442,8 @@ msgstr "Instituciones"
 #: templates/list_institution.jinja2:26
 msgid "Use the search bar below to filter the displayed institutions"
 msgstr ""
-"Utilice la barra de búsqueda a continuación para filtrar las "
-"instituciones mostradas"
+"Utilice la barra de búsqueda a continuación para filtrar las instituciones "
+"mostradas"
 
 #: templates/list_institution.jinja2:34
 #, fuzzy
@@ -527,8 +526,8 @@ msgstr "Personas"
 #: templates/list_person.jinja2:26
 msgid "Use the search bar below to filter the displayed people."
 msgstr ""
-"Utilice la barra de búsqueda a continuación para filtrar las personas que"
-" se muestran."
+"Utilice la barra de búsqueda a continuación para filtrar las personas que se "
+"muestran."
 
 #: templates/list_person.jinja2:32
 #, fuzzy
@@ -624,10 +623,9 @@ msgid ""
 "cards i.e. why a project image might not exist (no trap location data) or"
 " look inaccurate (outlier trap data)"
 msgstr ""
-"Breve descripción sobre los proyectos y la información que se muestra en "
-"las tarjetas, es decir, por qué una imagen de proyecto podría no existir "
-"(sin datos de ubicación de trampa) o parecer inexacta (datos de trampa "
-"atípicos)"
+"Breve descripción sobre los proyectos y la información que se muestra en las "
+"tarjetas, es decir, por qué una imagen de proyecto podría no existir (sin "
+"datos de ubicación de trampa) o parecer inexacta (datos de trampa atípicos)"
 
 #: templates/list_project.jinja2:26
 msgid "Use the search bar below to filter the displayed projects."
@@ -715,8 +713,8 @@ msgstr "Cálculos SSC"
 #: templates/list_ssc-calculation.jinja2:26
 msgid "Use the search bar below to filter the displayed SSC calculations."
 msgstr ""
-"Utilice la barra de búsqueda a continuación para filtrar los cálculos SSC"
-" mostrados."
+"Utilice la barra de búsqueda a continuación para filtrar los cálculos SSC "
+"mostrados."
 
 #: templates/fragments/ssc-calculation-record.html:7
 #: templates/fragments/ssc-calculation-record.html:29
@@ -756,8 +754,8 @@ msgstr "Encuestas"
 #: templates/list_survey.jinja2:30
 msgid "Use the search bar below to filter the displayed surveys."
 msgstr ""
-"Utilice la barra de búsqueda a continuación para filtrar las encuestas "
-"que se muestran."
+"Utilice la barra de búsqueda a continuación para filtrar las encuestas que "
+"se muestran."
 
 #: templates/list_survey.jinja2:37
 #, fuzzy
@@ -789,9 +787,8 @@ msgid ""
 "Sometimes extra data is required for a particular trap that doesn't fit "
 "into the normal schema. Here you can add/view these \"extra attributes\"."
 msgstr ""
-"A veces se requieren datos adicionales para una trampa en particular que "
-"no encaja en el esquema normal. Aquí puedes agregar/ver estos “atributos "
-"extra”."
+"A veces se requieren datos adicionales para una trampa en particular que no "
+"encaja en el esquema normal. Aquí puedes agregar/ver estos “atributos extra”."
 
 #: templates/list_trap-extra-attribute.jinja2:27
 msgid "Use the search bar below to filter the displayed extra attributes."
@@ -1206,4 +1203,3 @@ msgstr "descripción"
 #: templates/macros/util.jinja2:21
 msgid "Sort by"
 msgstr "Ordenar por"
-
