@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-06-01 13:28+1000\n"
-"PO-Revision-Date: 2023-06-01 04:39+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-06-01 04:43+0000\n"
+"Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
 "Language-Team: Czech <http://translate.diversityarrays.cloud/projects/"
 "ecologue-desktop/values/cs/>\n"
 "Language: cs\n"
@@ -29,14 +29,12 @@ msgid "Personal Details"
 msgstr "Osobní údaje"
 
 #: templates/account.jinja2:24
-#, fuzzy
 msgid "Institution Settings"
-msgstr "Nastavení osobní instituce"
+msgstr "Nastavení instituce"
 
 #: templates/account.jinja2:25
-#, fuzzy
 msgid "Notification Settings"
-msgstr "Nastavení osobních oznámení"
+msgstr "Nastavení oznámení"
 
 #: templates/account.jinja2:33
 msgid "Account Details for:"
@@ -148,9 +146,8 @@ msgstr "Způsob konzervace"
 #: templates/list_site.jinja2:34 templates/list_ssc-calculation.jinja2:38
 #: templates/list_trap-extra-attribute.jinja2:39
 #: templates/list_trapping-liquid.jinja2:33 templates/list_traptype.jinja2:36
-#, fuzzy
 msgid "Created"
-msgstr "+ Vytvořit OTU"
+msgstr "Vytvořeno"
 
 #: templates/list_dart-plate.jinja2:13
 msgid "+ Create new plate"
@@ -169,14 +166,12 @@ msgid "Use the search bar below to filter the displayed plates"
 msgstr "Pomocí vyhledávací lišty níže filtrujte zobrazené desky"
 
 #: templates/list_dart-plate.jinja2:33
-#, fuzzy
 msgid "Submission"
-msgstr "Příspěvky DART"
+msgstr "Podání"
 
 #: templates/list_dart-plate.jinja2:34
-#, fuzzy
 msgid "Success rate"
-msgstr "% s rychlost uccess"
+msgstr "Míra úspěšnosti"
 
 #: templates/list_dart-submission.jinja2:13
 msgid "+ Create new submission"
@@ -195,9 +190,8 @@ msgid "Use the search bar below to filter the displayed DArT Submissions"
 msgstr "Použijte vyhledávací lištu níže k filtrování zobrazených příspěvků DART"
 
 #: templates/list_dart-submission.jinja2:33
-#, fuzzy
 msgid "Service"
-msgstr "Služba DART"
+msgstr "Servis"
 
 #: templates/fragments/dart-submission-record.html:17
 #: templates/fragments/person-record.html:19
@@ -208,9 +202,8 @@ msgid "Institution"
 msgstr "Instituce"
 
 #: templates/list_dart-submission.jinja2:35
-#, fuzzy
 msgid "Date submitted"
-msgstr "Odesláno dne: "
+msgstr "Datum odeslání"
 
 #: templates/list_effort.jinja2:13
 msgid "+ Create effort"
@@ -232,7 +225,7 @@ msgstr "Pomocí vyhledávacího panelu níže filtrujte zobrazené úsilí"
 #: templates/list_multimedia.jinja2:39 templates/list_survey.jinja2:36
 #: templates/list_trap.jinja2:36
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: templates/fragments/effort-record.html:14
 #: templates/fragments/effort-record.html:34 templates/list_effort.jinja2:40
@@ -267,7 +260,7 @@ msgstr "Pomocí vyhledávacího pole níže filtrujte zobrazené záznamy polí"
 
 #: templates/list_field.jinja2:48
 msgid "Receiver (person)"
-msgstr ""
+msgstr "Receiver (osoba)"
 
 #: templates/fragments/field-record-record.html:21
 #: templates/list_field.jinja2:49
@@ -296,14 +289,12 @@ msgid "Genus"
 msgstr "Rod"
 
 #: templates/list_genus.jinja2:33 templates/list_species.jinja2:36
-#, fuzzy
 msgid "Order"
-msgstr "Objednat: "
+msgstr "Objednávka"
 
 #: templates/list_genus.jinja2:34 templates/list_species.jinja2:35
-#, fuzzy
 msgid "Family"
-msgstr "Rodina: "
+msgstr "Rodina"
 
 #: templates/list_identification-otu.jinja2:13
 msgid "+ Create Identification OTU"
@@ -385,34 +376,28 @@ msgid "Identification"
 msgstr "Identifikace"
 
 #: templates/list_identification.jinja2:41
-#, fuzzy
 msgid "Males"
-msgstr "# Muži"
+msgstr "Samci"
 
 #: templates/list_identification.jinja2:42
-#, fuzzy
 msgid "Females"
-msgstr "# Ženy"
+msgstr "Feny"
 
 #: templates/list_identification.jinja2:43
-#, fuzzy
 msgid "Juveniles"
-msgstr "# Mladiství"
+msgstr "Mladiství"
 
 #: templates/list_identification.jinja2:44
-#, fuzzy
 msgid "Adults (indet. sex)"
-msgstr "# Dospělí zadlužení. sex"
+msgstr "Dospělí (zadlužení. pohlaví)"
 
 #: templates/list_identification.jinja2:45
-#, fuzzy
 msgid "Alates"
-msgstr "# Alates"
+msgstr "Alates"
 
 #: templates/list_identification.jinja2:46
-#, fuzzy
 msgid "Stage + sex indet."
-msgstr "# Faze/sex indet."
+msgstr "Etapa+sex indet."
 
 #: templates/list_institution.jinja2:13
 msgid "+ Add institution"
@@ -431,9 +416,8 @@ msgid "Use the search bar below to filter the displayed institutions"
 msgstr "Použijte vyhledávací lištu níže k filtrování zobrazených institucí"
 
 #: templates/list_institution.jinja2:34
-#, fuzzy
 msgid "Total projects"
-msgstr "Projektuje"
+msgstr "Celkem projektů"
 
 #: templates/fragments/field-record-record.html:27
 #: templates/fragments/identification-record.html:8
@@ -508,14 +492,12 @@ msgid "Use the search bar below to filter the displayed people."
 msgstr "Pomocí vyhledávacího panelu níže filtrujte zobrazené lidi."
 
 #: templates/list_person.jinja2:32
-#, fuzzy
 msgid "First name"
-msgstr "Název úsilí"
+msgstr "Křestní jméno"
 
 #: templates/list_person.jinja2:33
-#, fuzzy
 msgid "Surname"
-msgstr "Název zeměměřického zaměření"
+msgstr "Příjmení"
 
 #: templates/list_planned-ssc.jinja2:13
 msgid "+ Add a planned SSC"
@@ -541,18 +523,16 @@ msgid "Trap type"
 msgstr "Typ pasti"
 
 #: templates/list_planned-ssc.jinja2:33
-#, fuzzy
 msgid "Start date"
-msgstr "Start"
+msgstr "Datum zahájení"
 
 #: templates/list_planned-ssc.jinja2:34
 msgid "End date"
-msgstr ""
+msgstr "Datum ukončení"
 
 #: templates/list_planned-ssc.jinja2:35
-#, fuzzy
 msgid "Projected SSC total"
-msgstr "Přístup k projektu"
+msgstr "Předpokládaný SSC celkem"
 
 #: templates/list_project-permissions.jinja2:13
 msgid "+ Add person to project"
@@ -576,9 +556,8 @@ msgid "Permission level"
 msgstr "Úroveň oprávnění"
 
 #: templates/list_project-permissions.jinja2:39
-#, fuzzy
 msgid "Date added"
-msgstr "Identifikované datum"
+msgstr "Datum přidání"
 
 #: templates/list_project.jinja2:13
 msgid "+ Create new project"
@@ -623,9 +602,8 @@ msgid "Use the search bar below to filter the displayed responses."
 msgstr "Zobrazené odpovědi filtrujte pomocí vyhledávací lišty níže."
 
 #: templates/list_response.jinja2:33
-#, fuzzy
 msgid "Incursion date"
-msgstr "Název instituce"
+msgstr "Datum vniknutí"
 
 #: templates/list_site.jinja2:13
 msgid "+ Create new site"
@@ -695,9 +673,8 @@ msgid "Unit size"
 msgstr "Velikost jednotky"
 
 #: templates/list_ssc-calculation.jinja2:36
-#, fuzzy
 msgid "Max units"
-msgstr "Maximální počet jednotek: "
+msgstr "Max. Jednotky"
 
 #: templates/fragments/ssc-calculation-record.html:11
 #: templates/list_ssc-calculation.jinja2:37
@@ -722,9 +699,8 @@ msgid "Use the search bar below to filter the displayed surveys."
 msgstr "Pomocí vyhledávacího pole níže filtrujte zobrazené průzkumy."
 
 #: templates/list_survey.jinja2:37
-#, fuzzy
 msgid "Survey type"
-msgstr "Název zeměměřického zaměření"
+msgstr "Typ zeměměřického zaměření"
 
 #: templates/fragments/survey-record.html:19 templates/list_survey.jinja2:38
 msgid "Location"
@@ -759,19 +735,16 @@ msgid "Use the search bar below to filter the displayed extra attributes."
 msgstr "Pomocí vyhledávacího pole níže filtrujte zobrazené další atributy."
 
 #: templates/list_trap-extra-attribute.jinja2:34
-#, fuzzy
 msgid "Attribute name"
-msgstr "Atribut"
+msgstr "Název atributu"
 
 #: templates/list_trap-extra-attribute.jinja2:36
-#, fuzzy
 msgid "Description"
-msgstr "popis"
+msgstr "Popis"
 
 #: templates/list_trap-extra-attribute.jinja2:37
-#, fuzzy
 msgid "Mandatory"
-msgstr "Povinné: "
+msgstr "Povinné"
 
 #: templates/list_trap.jinja2:13
 msgid "+ Create new trap"
@@ -830,11 +803,11 @@ msgstr "Typy pastí"
 
 #: templates/list_traptype.jinja2:33
 msgid "Target groups"
-msgstr ""
+msgstr "Cílové skupiny"
 
 #: templates/list_traptype.jinja2:35
 msgid "SSC method"
-msgstr ""
+msgstr "Metoda SSC"
 
 #: templates/map.jinja2:8
 msgid "Zoom to Bounds"
@@ -877,9 +850,8 @@ msgid "Submission reference"
 msgstr "Odkaz na podání"
 
 #: templates/fragments/dart-plate-record.html:17
-#, fuzzy
 msgid "success rate"
-msgstr "% s rychlost uccess"
+msgstr "úspěšnost"
 
 #: templates/fragments/dart-plate-record.html:18
 #: templates/fragments/dart-submission-record.html:20
