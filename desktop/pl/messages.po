@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-06-01 13:28+1000\n"
-"PO-Revision-Date: 2023-05-31 06:44+0000\n"
-"Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
+"PO-Revision-Date: 2023-06-01 04:39+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Polish <http://translate.diversityarrays.cloud/projects/"
+"ecologue-desktop/values/pl/>\n"
 "Language: pl\n"
-"Language-Team: Polish <http://translate.diversityarrays.cloud/projects"
-"/ecologue-desktop/values/pl/>\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && "
-"(n%100<10 || n%100>=20) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: templates/account.jinja2:14
@@ -112,8 +113,7 @@ msgstr "Krótki opis tutaj"
 #: templates/list_container.jinja2:26
 msgid "Use the search bar below to filter the displayed containers"
 msgstr ""
-"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane "
-"kontenery"
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane kontenery"
 
 #: templates/fragments/container-record.html:6
 #: templates/fragments/project-permission-record.html:7
@@ -168,7 +168,8 @@ msgstr "Płytki DART"
 
 #: templates/list_dart-plate.jinja2:26
 msgid "Use the search bar below to filter the displayed plates"
-msgstr "Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane tablice"
+msgstr ""
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane tablice"
 
 #: templates/list_dart-plate.jinja2:33
 #, fuzzy
@@ -195,8 +196,8 @@ msgstr "Zgłoszenia DART"
 #: templates/list_dart-submission.jinja2:26
 msgid "Use the search bar below to filter the displayed DArT Submissions"
 msgstr ""
-"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane "
-"zgłoszenia DART"
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane zgłoszenia "
+"DART"
 
 #: templates/list_dart-submission.jinja2:33
 #, fuzzy
@@ -230,7 +231,8 @@ msgstr "Wysiłki"
 
 #: templates/list_effort.jinja2:32
 msgid "Use the search bar below to filter the displayed efforts"
-msgstr "Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane wysiłki"
+msgstr ""
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane wysiłki"
 
 #: templates/list_effort.jinja2:39 templates/list_identification-otu.jinja2:33
 #: templates/list_multimedia.jinja2:39 templates/list_survey.jinja2:36
@@ -268,8 +270,7 @@ msgstr "Rekordy terenowe"
 #: templates/list_field.jinja2:41
 msgid "Use the search bar below to filter the displayed field records"
 msgstr ""
-"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane rekordy"
-" pól"
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane rekordy pól"
 
 #: templates/list_field.jinja2:48
 msgid "Receiver (person)"
@@ -294,7 +295,8 @@ msgstr "Rodzunki"
 
 #: templates/list_genus.jinja2:26
 msgid "Use the search bar below to filter the displayed genera"
-msgstr "Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane rodzaje"
+msgstr ""
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane rodzaje"
 
 #: templates/fragments/genus-record.html:11 templates/list_genus.jinja2:32
 #: templates/list_species.jinja2:34
@@ -437,8 +439,7 @@ msgstr "Instytucje"
 #: templates/list_institution.jinja2:26
 msgid "Use the search bar below to filter the displayed institutions"
 msgstr ""
-"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane "
-"instytucje"
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane instytucje"
 
 #: templates/list_institution.jinja2:34
 #, fuzzy
@@ -455,8 +456,7 @@ msgstr "Multimedia"
 #: templates/list_multimedia.jinja2:30
 msgid "Use the search bar below to filter the displayed multimedia."
 msgstr ""
-"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane "
-"multimedia."
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane multimedia."
 
 #: templates/list_multimedia.jinja2:32
 msgid "Import Multimedia"
@@ -464,7 +464,8 @@ msgstr "Importuj multimedia"
 
 #: templates/list_multimedia.jinja2:53
 msgid "\"Uploading multimedia records is not availble in the current build.\""
-msgstr "„Przesyłanie rekordów multimedialnych nie jest dostępne w obecnej wersji.”"
+msgstr ""
+"„Przesyłanie rekordów multimedialnych nie jest dostępne w obecnej wersji.”"
 
 #: templates/list_multimedia.jinja2:56
 msgid "\"Are you sure you want to upload this record?\""
@@ -543,8 +544,8 @@ msgstr "Planowane SSC"
 #: templates/list_planned-ssc.jinja2:26
 msgid "Use the search bar below to filter the displayed planned SSCs."
 msgstr ""
-"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane "
-"planowane SSC."
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane planowane "
+"SSC."
 
 #: templates/fragments/trap-extra-attribute-record.html:17
 #: templates/fragments/trap-record.html:19 templates/list_planned-ssc.jinja2:32
@@ -612,9 +613,9 @@ msgid ""
 "cards i.e. why a project image might not exist (no trap location data) or"
 " look inaccurate (outlier trap data)"
 msgstr ""
-"Krótki opis projektów oraz informacje wyświetlane na kartach, tj. "
-"dlaczego obraz projektu może nie istnieć (brak danych lokalizacji "
-"pułapki) lub wyglądać niedokładnie (dane pułapki odstającej)"
+"Krótki opis projektów oraz informacje wyświetlane na kartach, tj. dlaczego "
+"obraz projektu może nie istnieć (brak danych lokalizacji pułapki) lub "
+"wyglądać niedokładnie (dane pułapki odstającej)"
 
 #: templates/list_project.jinja2:26
 msgid "Use the search bar below to filter the displayed projects."
@@ -635,8 +636,7 @@ msgstr "Odpowiedzi"
 #: templates/list_response.jinja2:26
 msgid "Use the search bar below to filter the displayed responses."
 msgstr ""
-"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane "
-"odpowiedzi."
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane odpowiedzi."
 
 #: templates/list_response.jinja2:33
 #, fuzzy
@@ -657,7 +657,8 @@ msgstr "Witryny"
 
 #: templates/list_site.jinja2:26
 msgid "Use the search bar below to filter the displayed sites."
-msgstr "Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane witryny."
+msgstr ""
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane witryny."
 
 #: templates/list_species.jinja2:13
 msgid "+ Add species"
@@ -669,7 +670,8 @@ msgstr "Szukaj gatunków"
 
 #: templates/list_species.jinja2:26
 msgid "Use the search bar below to filter the displayed species."
-msgstr "Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane gatunki."
+msgstr ""
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane gatunki."
 
 #: templates/fragments/species-record.html:11 templates/list_species.jinja2:32
 msgid "Common name"
@@ -696,8 +698,8 @@ msgstr "Obliczenia SSC"
 #: templates/list_ssc-calculation.jinja2:26
 msgid "Use the search bar below to filter the displayed SSC calculations."
 msgstr ""
-"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane "
-"obliczenia SSC."
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane obliczenia "
+"SSC."
 
 #: templates/fragments/ssc-calculation-record.html:7
 #: templates/fragments/ssc-calculation-record.html:29
@@ -736,7 +738,8 @@ msgstr "Ankiety"
 
 #: templates/list_survey.jinja2:30
 msgid "Use the search bar below to filter the displayed surveys."
-msgstr "Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane ankiety."
+msgstr ""
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane ankiety."
 
 #: templates/list_survey.jinja2:37
 #, fuzzy
@@ -768,15 +771,15 @@ msgid ""
 "Sometimes extra data is required for a particular trap that doesn't fit "
 "into the normal schema. Here you can add/view these \"extra attributes\"."
 msgstr ""
-"Czasami wymagane są dodatkowe dane dla konkretnej pułapki, która nie "
-"pasuje do normalnego schematu. Tutaj możesz dodać/wyświetlić te "
-"„dodatkowe atrybuty”."
+"Czasami wymagane są dodatkowe dane dla konkretnej pułapki, która nie pasuje "
+"do normalnego schematu. Tutaj możesz dodać/wyświetlić te „dodatkowe "
+"atrybuty”."
 
 #: templates/list_trap-extra-attribute.jinja2:27
 msgid "Use the search bar below to filter the displayed extra attributes."
 msgstr ""
-"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane "
-"dodatkowe atrybuty."
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane dodatkowe "
+"atrybuty."
 
 #: templates/list_trap-extra-attribute.jinja2:34
 #, fuzzy
@@ -808,7 +811,8 @@ msgstr "Pułapki"
 
 #: templates/list_trap.jinja2:30
 msgid "Use the search bar below to filter the displayed traps"
-msgstr "Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane pułapki"
+msgstr ""
+"Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane pułapki"
 
 #: templates/list_trapping-liquid.jinja2:13
 msgid "+ Add trapping liquid"
@@ -1183,4 +1187,3 @@ msgstr "opis"
 #: templates/macros/util.jinja2:21
 msgid "Sort by"
 msgstr "Sortuj według"
-
