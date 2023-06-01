@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-06-01 13:28+1000\n"
-"PO-Revision-Date: 2023-06-01 04:39+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-06-01 04:43+0000\n"
+"Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
 "Language-Team: Italian <http://translate.diversityarrays.cloud/projects/"
 "ecologue-desktop/values/it/>\n"
 "Language: it\n"
@@ -29,14 +29,12 @@ msgid "Personal Details"
 msgstr "Dettagli personali"
 
 #: templates/account.jinja2:24
-#, fuzzy
 msgid "Institution Settings"
-msgstr "Impostazioni personali dell'istituto"
+msgstr "Impostazioni dell'istituto"
 
 #: templates/account.jinja2:25
-#, fuzzy
 msgid "Notification Settings"
-msgstr "Impostazioni di notifica personali"
+msgstr "Impostazioni di notifica"
 
 #: templates/account.jinja2:33
 msgid "Account Details for:"
@@ -149,9 +147,8 @@ msgstr "Metodo di conservazione"
 #: templates/list_site.jinja2:34 templates/list_ssc-calculation.jinja2:38
 #: templates/list_trap-extra-attribute.jinja2:39
 #: templates/list_trapping-liquid.jinja2:33 templates/list_traptype.jinja2:36
-#, fuzzy
 msgid "Created"
-msgstr "+ Crea OTU"
+msgstr "Creato"
 
 #: templates/list_dart-plate.jinja2:13
 msgid "+ Create new plate"
@@ -170,14 +167,12 @@ msgid "Use the search bar below to filter the displayed plates"
 msgstr "Usa la barra di ricerca qui sotto per filtrare le targhe visualizzate"
 
 #: templates/list_dart-plate.jinja2:33
-#, fuzzy
 msgid "Submission"
-msgstr "Contributi DaRT"
+msgstr "Invio"
 
 #: templates/list_dart-plate.jinja2:34
-#, fuzzy
 msgid "Success rate"
-msgstr "di successo"
+msgstr "Percentuale di successo"
 
 #: templates/list_dart-submission.jinja2:13
 msgid "+ Create new submission"
@@ -197,9 +192,8 @@ msgstr ""
 "Usa la barra di ricerca qui sotto per filtrare gli invii DaRT visualizzati"
 
 #: templates/list_dart-submission.jinja2:33
-#, fuzzy
 msgid "Service"
-msgstr "Servizio DaRT"
+msgstr "Servizio"
 
 #: templates/fragments/dart-submission-record.html:17
 #: templates/fragments/person-record.html:19
@@ -210,9 +204,8 @@ msgid "Institution"
 msgstr "Istituzione"
 
 #: templates/list_dart-submission.jinja2:35
-#, fuzzy
 msgid "Date submitted"
-msgstr "Inviato il: "
+msgstr "Data di invio"
 
 #: templates/list_effort.jinja2:13
 msgid "+ Create effort"
@@ -234,7 +227,7 @@ msgstr "Usa la barra di ricerca qui sotto per filtrare gli sforzi visualizzati"
 #: templates/list_multimedia.jinja2:39 templates/list_survey.jinja2:36
 #: templates/list_trap.jinja2:36
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: templates/fragments/effort-record.html:14
 #: templates/fragments/effort-record.html:34 templates/list_effort.jinja2:40
@@ -270,7 +263,7 @@ msgstr ""
 
 #: templates/list_field.jinja2:48
 msgid "Receiver (person)"
-msgstr ""
+msgstr "Destinatario (persona)"
 
 #: templates/fragments/field-record-record.html:21
 #: templates/list_field.jinja2:49
@@ -299,14 +292,12 @@ msgid "Genus"
 msgstr "genere"
 
 #: templates/list_genus.jinja2:33 templates/list_species.jinja2:36
-#, fuzzy
 msgid "Order"
-msgstr "Ordine: "
+msgstr "Ordine"
 
 #: templates/list_genus.jinja2:34 templates/list_species.jinja2:35
-#, fuzzy
 msgid "Family"
-msgstr "Famiglia: "
+msgstr "Famiglia"
 
 #: templates/list_identification-otu.jinja2:13
 msgid "+ Create Identification OTU"
@@ -390,34 +381,28 @@ msgid "Identification"
 msgstr "Identificazione"
 
 #: templates/list_identification.jinja2:41
-#, fuzzy
 msgid "Males"
-msgstr "# Maschi"
+msgstr "Maschi"
 
 #: templates/list_identification.jinja2:42
-#, fuzzy
 msgid "Females"
-msgstr "# Femmine"
+msgstr "Femmine"
 
 #: templates/list_identification.jinja2:43
-#, fuzzy
 msgid "Juveniles"
-msgstr "# Giovani"
+msgstr "Giovani"
 
 #: templates/list_identification.jinja2:44
-#, fuzzy
 msgid "Adults (indet. sex)"
-msgstr "# Sesso indiretto per adulti"
+msgstr "Adulti (sesso escluso)"
 
 #: templates/list_identification.jinja2:45
-#, fuzzy
 msgid "Alates"
-msgstr "# Alati"
+msgstr "Alates"
 
 #: templates/list_identification.jinja2:46
-#, fuzzy
 msgid "Stage + sex indet."
-msgstr "# Stage/sesso indet."
+msgstr "Fase + sesso indet."
 
 #: templates/list_institution.jinja2:13
 msgid "+ Add institution"
@@ -437,9 +422,8 @@ msgstr ""
 "Usa la barra di ricerca qui sotto per filtrare gli istituti visualizzati"
 
 #: templates/list_institution.jinja2:34
-#, fuzzy
 msgid "Total projects"
-msgstr "Progetti"
+msgstr "Progetti totali"
 
 #: templates/fragments/field-record-record.html:27
 #: templates/fragments/identification-record.html:8
@@ -517,14 +501,12 @@ msgid "Use the search bar below to filter the displayed people."
 msgstr "Usa la barra di ricerca qui sotto per filtrare le persone visualizzate."
 
 #: templates/list_person.jinja2:32
-#, fuzzy
 msgid "First name"
-msgstr "Nome dello sforzo"
+msgstr "Nome"
 
 #: templates/list_person.jinja2:33
-#, fuzzy
 msgid "Surname"
-msgstr "Nome del sondaggio"
+msgstr "Cognome"
 
 #: templates/list_planned-ssc.jinja2:13
 msgid "+ Add a planned SSC"
@@ -551,18 +533,16 @@ msgid "Trap type"
 msgstr "Tipo di trappola"
 
 #: templates/list_planned-ssc.jinja2:33
-#, fuzzy
 msgid "Start date"
-msgstr "Inizio"
+msgstr "Data di inizio"
 
 #: templates/list_planned-ssc.jinja2:34
 msgid "End date"
-msgstr ""
+msgstr "Data di fine"
 
 #: templates/list_planned-ssc.jinja2:35
-#, fuzzy
 msgid "Projected SSC total"
-msgstr "Accesso al progetto"
+msgstr "Totale SSC previsto"
 
 #: templates/list_project-permissions.jinja2:13
 msgid "+ Add person to project"
@@ -588,9 +568,8 @@ msgid "Permission level"
 msgstr "Livello di autorizzazione"
 
 #: templates/list_project-permissions.jinja2:39
-#, fuzzy
 msgid "Date added"
-msgstr "Data identificata"
+msgstr "Data aggiunta"
 
 #: templates/list_project.jinja2:13
 msgid "+ Create new project"
@@ -636,9 +615,8 @@ msgstr ""
 "Usa la barra di ricerca qui sotto per filtrare le risposte visualizzate."
 
 #: templates/list_response.jinja2:33
-#, fuzzy
 msgid "Incursion date"
-msgstr "Nome dell'istituto"
+msgstr "Data dell'incursione"
 
 #: templates/list_site.jinja2:13
 msgid "+ Create new site"
@@ -709,9 +687,8 @@ msgid "Unit size"
 msgstr "Dimensioni dell'unità"
 
 #: templates/list_ssc-calculation.jinja2:36
-#, fuzzy
 msgid "Max units"
-msgstr "Unità massime: "
+msgstr "Numero massimo di unità"
 
 #: templates/fragments/ssc-calculation-record.html:11
 #: templates/list_ssc-calculation.jinja2:37
@@ -737,9 +714,8 @@ msgstr ""
 "Utilizza la barra di ricerca qui sotto per filtrare i sondaggi visualizzati."
 
 #: templates/list_survey.jinja2:37
-#, fuzzy
 msgid "Survey type"
-msgstr "Nome del sondaggio"
+msgstr "Tipo di sondaggio"
 
 #: templates/fragments/survey-record.html:19 templates/list_survey.jinja2:38
 msgid "Location"
@@ -777,19 +753,16 @@ msgstr ""
 "visualizzati."
 
 #: templates/list_trap-extra-attribute.jinja2:34
-#, fuzzy
 msgid "Attribute name"
-msgstr "Attributo"
+msgstr "Nome dell'attributo"
 
 #: templates/list_trap-extra-attribute.jinja2:36
-#, fuzzy
 msgid "Description"
-msgstr "descrizione"
+msgstr "Descrizione"
 
 #: templates/list_trap-extra-attribute.jinja2:37
-#, fuzzy
 msgid "Mandatory"
-msgstr "Obbligatorio: "
+msgstr "Obbligatoria"
 
 #: templates/list_trap.jinja2:13
 msgid "+ Create new trap"
@@ -849,11 +822,11 @@ msgstr "Tipi di trappole"
 
 #: templates/list_traptype.jinja2:33
 msgid "Target groups"
-msgstr ""
+msgstr "Gruppi destinatari"
 
 #: templates/list_traptype.jinja2:35
 msgid "SSC method"
-msgstr ""
+msgstr "Metodo SSC"
 
 #: templates/map.jinja2:8
 msgid "Zoom to Bounds"
@@ -897,7 +870,7 @@ msgstr "Riferimento di invio"
 
 #: templates/fragments/dart-plate-record.html:17
 msgid "success rate"
-msgstr "di successo"
+msgstr "percentuale di successo"
 
 #: templates/fragments/dart-plate-record.html:18
 #: templates/fragments/dart-submission-record.html:20
