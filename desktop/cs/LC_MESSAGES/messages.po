@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-06-01 13:28+1000\n"
+"POT-Creation-Date: 2023-06-02 10:51+1000\n"
 "PO-Revision-Date: 2023-06-01 04:43+0000\n"
 "Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
-"Language-Team: Czech <http://translate.diversityarrays.cloud/projects/"
-"ecologue-desktop/values/cs/>\n"
 "Language: cs\n"
+"Language-Team: Czech <http://translate.diversityarrays.cloud/projects"
+"/ecologue-desktop/values/cs/>\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: templates/account.jinja2:14
@@ -324,7 +323,8 @@ msgstr "Krátký popis zde."
 #: templates/list_identification-otu.jinja2:26
 msgid "Use the search bar below to filter the displayed Identification OTUs"
 msgstr ""
-"Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené identifikační OTU"
+"Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené identifikační"
+" OTU"
 
 #: templates/fragments/identification-otu-record.html:7
 #: templates/list_identification-otu.jinja2:34 templates/list_otu.jinja2:34
@@ -362,8 +362,7 @@ msgstr "Identifikace"
 
 #: templates/list_identification.jinja2:32
 msgid "Use the search bar below to filter the displayed identifications"
-msgstr ""
-"Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené identifikace"
+msgstr "Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené identifikace"
 
 #: templates/fragments/identification-record.html:6
 #: templates/list_identification.jinja2:39
@@ -436,8 +435,7 @@ msgstr "Import multimédií"
 
 #: templates/list_multimedia.jinja2:53
 msgid "\"Uploading multimedia records is not availble in the current build.\""
-msgstr ""
-"„Nahrávání multimediálních záznamů není v aktuálním sestavení dostupné.“"
+msgstr "„Nahrávání multimediálních záznamů není v aktuálním sestavení dostupné.“"
 
 #: templates/list_multimedia.jinja2:56
 msgid "\"Are you sure you want to upload this record?\""
@@ -513,8 +511,7 @@ msgstr "Plánované SSC"
 
 #: templates/list_planned-ssc.jinja2:26
 msgid "Use the search bar below to filter the displayed planned SSCs."
-msgstr ""
-"Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené plánované SSC."
+msgstr "Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené plánované SSC."
 
 #: templates/fragments/trap-extra-attribute-record.html:17
 #: templates/fragments/trap-record.html:19 templates/list_planned-ssc.jinja2:32
@@ -657,8 +654,7 @@ msgstr "Výpočty SSC"
 
 #: templates/list_ssc-calculation.jinja2:26
 msgid "Use the search bar below to filter the displayed SSC calculations."
-msgstr ""
-"Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené výpočty SSC."
+msgstr "Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené výpočty SSC."
 
 #: templates/fragments/ssc-calculation-record.html:7
 #: templates/fragments/ssc-calculation-record.html:29
@@ -727,8 +723,8 @@ msgid ""
 "Sometimes extra data is required for a particular trap that doesn't fit "
 "into the normal schema. Here you can add/view these \"extra attributes\"."
 msgstr ""
-"Sometimes extra data is required for a particular trap that doesn't fit into "
-"the normal schema. Zde můžete přidat/zobrazit tyto „extra atributy“."
+"Sometimes extra data is required for a particular trap that doesn't fit "
+"into the normal schema. Zde můžete přidat/zobrazit tyto „extra atributy“."
 
 #: templates/list_trap-extra-attribute.jinja2:27
 msgid "Use the search bar below to filter the displayed extra attributes."
@@ -782,7 +778,8 @@ msgstr "Odchycení kapalin"
 #: templates/list_trapping-liquid.jinja2:26
 msgid "Use the search bar below to filter the displayed trapping liquids."
 msgstr ""
-"Pomocí vyhledávacího panelu níže filtrujte zobrazené kapaliny pro zachycení."
+"Pomocí vyhledávacího panelu níže filtrujte zobrazené kapaliny pro "
+"zachycení."
 
 #: templates/fragments/trapping-liquid-record.html:5
 #: templates/list_trapping-liquid.jinja2:32
@@ -1131,6 +1128,12 @@ msgstr "Seznam"
 msgid "description"
 msgstr "popis"
 
+#: templates/macros/buttons.jinja2:8
+#, fuzzy
+msgid "Export"
+msgstr "Přístav Ex"
+
 #: templates/macros/util.jinja2:21
 msgid "Sort by"
 msgstr "Seřadit podle"
+
