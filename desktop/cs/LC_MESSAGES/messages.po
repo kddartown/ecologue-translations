@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-06-02 13:16+1000\n"
-"PO-Revision-Date: 2023-06-02 01:57+0000\n"
+"PO-Revision-Date: 2023-06-02 03:21+0000\n"
 "Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
+"Language-Team: Czech <http://translate.diversityarrays.cloud/projects/"
+"ecologue-desktop/values/cs/>\n"
 "Language: cs\n"
-"Language-Team: Czech <http://translate.diversityarrays.cloud/projects"
-"/ecologue-desktop/values/cs/>\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: templates/account.jinja2:14
@@ -85,14 +86,12 @@ msgid "Planned SSC"
 msgstr "Plánované SSC"
 
 #: templates/base.jinja2:34
-#, fuzzy
 msgid "DArT Plate"
-msgstr "Šípkový talíř"
+msgstr "DArT deska"
 
 #: templates/base.jinja2:35
-#, fuzzy
 msgid "DArT Submission"
-msgstr "Odevzdání šipky"
+msgstr "Odevzdání DArT"
 
 #: templates/base.jinja2:36 templates/fragments/container-record.html:7
 #: templates/fragments/response-record.html:21
@@ -250,15 +249,15 @@ msgstr "+ Vytvořit nový příspěvek"
 
 #: templates/list_dart-submission.jinja2:14
 msgid "Search DArT Submissions"
-msgstr "Vyhledávání Dart Příspěvky"
+msgstr "Vyhledávání DArT Příspěvky"
 
 #: templates/list_dart-submission.jinja2:23
 msgid "DArT Submissions"
-msgstr "Příspěvky DART"
+msgstr "Příspěvky DArT"
 
 #: templates/list_dart-submission.jinja2:26
 msgid "Use the search bar below to filter the displayed DArT Submissions"
-msgstr "Použijte vyhledávací lištu níže k filtrování zobrazených příspěvků DART"
+msgstr "Použijte vyhledávací lištu níže k filtrování zobrazených příspěvků DArT"
 
 #: templates/list_dart-submission.jinja2:33
 msgid "Service"
@@ -894,7 +893,7 @@ msgstr "Potřebuje štítek?"
 
 #: templates/fragments/dart-plate-record.html:11
 msgid "DArT Plate #"
-msgstr "Šípkový talíř #"
+msgstr "DArT talíř #"
 
 #: templates/fragments/dart-plate-record.html:15
 msgid "Submission reference"
@@ -917,7 +916,7 @@ msgstr "Wells"
 
 #: templates/fragments/dart-submission-record.html:12
 msgid "DArT Service"
-msgstr "Služba DART"
+msgstr "Služba DArT"
 
 #: templates/fragments/dart-submission-record.html:19
 msgid "Submitted on: "
@@ -1185,4 +1184,3 @@ msgstr "Exportovat"
 #: templates/macros/util.jinja2:21
 msgid "Sort by"
 msgstr "Seřadit podle"
-
