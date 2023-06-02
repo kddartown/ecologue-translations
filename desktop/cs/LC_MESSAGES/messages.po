@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-06-02 11:49+1000\n"
-"PO-Revision-Date: 2023-06-02 01:17+0000\n"
+"PO-Revision-Date: 2023-06-02 01:57+0000\n"
 "Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
+"Language-Team: Czech <http://translate.diversityarrays.cloud/projects/"
+"ecologue-desktop/values/cs/>\n"
 "Language: cs\n"
-"Language-Team: Czech <http://translate.diversityarrays.cloud/projects"
-"/ecologue-desktop/values/cs/>\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: templates/account.jinja2:14
@@ -48,34 +49,28 @@ msgid "Personal Notification Settings"
 msgstr "Nastavení osobních oznámení"
 
 #: templates/base.jinja2:25 templates/base.jinja2:38
-#, fuzzy
 msgid "Project"
-msgstr "Projektuje"
+msgstr "Projekt"
 
 #: templates/base.jinja2:26
-#, fuzzy
 msgid "Container"
-msgstr "Kontejnery"
+msgstr "Kontejner"
 
 #: templates/base.jinja2:27
-#, fuzzy
 msgid "Trap Type"
 msgstr "Typ pasti"
 
 #: templates/base.jinja2:28
-#, fuzzy
 msgid "SSC Calculation"
-msgstr "Výpočty SSC"
+msgstr "Výpočet SSC"
 
 #: templates/base.jinja2:29
-#, fuzzy
 msgid "Trapping Liquid"
-msgstr "Odchycení kapalin"
+msgstr "Odchycení kapaliny"
 
 #: templates/base.jinja2:30
-#, fuzzy
 msgid "Trap Extra"
-msgstr "Typ pasti"
+msgstr "Extra past"
 
 #: templates/base.jinja2:31 templates/fragments/effort-record.html:14
 #: templates/fragments/effort-record.html:34 templates/list_effort.jinja2:40
@@ -83,24 +78,20 @@ msgid "Site"
 msgstr "Site"
 
 #: templates/base.jinja2:32
-#, fuzzy
 msgid "Response"
-msgstr "Odpovědi"
+msgstr "Odpověď"
 
 #: templates/base.jinja2:33
-#, fuzzy
 msgid "Planned SSC"
 msgstr "Plánované SSC"
 
 #: templates/base.jinja2:34
-#, fuzzy
 msgid "Dart Plate"
-msgstr "Dart Desky"
+msgstr "Šípkový talíř"
 
 #: templates/base.jinja2:35
-#, fuzzy
 msgid "Dart Submission"
-msgstr "Příspěvky DART"
+msgstr "Odevzdání šipky"
 
 #: templates/base.jinja2:36 templates/fragments/container-record.html:7
 #: templates/fragments/response-record.html:21
@@ -128,12 +119,10 @@ msgid "Institution"
 msgstr "Instituce"
 
 #: templates/base.jinja2:41
-#, fuzzy
 msgid "OTU"
 msgstr "OTU"
 
 #: templates/base.jinja2:42
-#, fuzzy
 msgid "Identification OTU"
 msgstr "Identifikace OTU"
 
@@ -1195,4 +1184,3 @@ msgstr "Exportovat"
 #: templates/macros/util.jinja2:21
 msgid "Sort by"
 msgstr "Seřadit podle"
-
