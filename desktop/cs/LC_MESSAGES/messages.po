@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-06-02 10:51+1000\n"
+"POT-Creation-Date: 2023-06-02 11:49+1000\n"
 "PO-Revision-Date: 2023-06-02 01:17+0000\n"
 "Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
-"Language-Team: Czech <http://translate.diversityarrays.cloud/projects/"
-"ecologue-desktop/values/cs/>\n"
 "Language: cs\n"
+"Language-Team: Czech <http://translate.diversityarrays.cloud/projects"
+"/ecologue-desktop/values/cs/>\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: templates/account.jinja2:14
@@ -48,7 +47,97 @@ msgstr "Nastavení osobní instituce"
 msgid "Personal Notification Settings"
 msgstr "Nastavení osobních oznámení"
 
+#: templates/base.jinja2:25 templates/base.jinja2:38
+#, fuzzy
+msgid "Project"
+msgstr "Projektuje"
+
+#: templates/base.jinja2:26
+#, fuzzy
+msgid "Container"
+msgstr "Kontejnery"
+
+#: templates/base.jinja2:27
+#, fuzzy
+msgid "Trap Type"
+msgstr "Typ pasti"
+
+#: templates/base.jinja2:28
+#, fuzzy
+msgid "SSC Calculation"
+msgstr "Výpočty SSC"
+
+#: templates/base.jinja2:29
+#, fuzzy
+msgid "Trapping Liquid"
+msgstr "Odchycení kapalin"
+
+#: templates/base.jinja2:30
+#, fuzzy
+msgid "Trap Extra"
+msgstr "Typ pasti"
+
+#: templates/base.jinja2:31 templates/fragments/effort-record.html:14
+#: templates/fragments/effort-record.html:34 templates/list_effort.jinja2:40
+msgid "Site"
+msgstr "Site"
+
+#: templates/base.jinja2:32
+#, fuzzy
+msgid "Response"
+msgstr "Odpovědi"
+
+#: templates/base.jinja2:33
+#, fuzzy
+msgid "Planned SSC"
+msgstr "Plánované SSC"
+
+#: templates/base.jinja2:34
+#, fuzzy
+msgid "Dart Plate"
+msgstr "Dart Desky"
+
 #: templates/base.jinja2:35
+#, fuzzy
+msgid "Dart Submission"
+msgstr "Příspěvky DART"
+
+#: templates/base.jinja2:36 templates/fragments/container-record.html:7
+#: templates/fragments/response-record.html:21
+#: templates/list_container.jinja2:34 templates/list_response.jinja2:34
+#: templates/list_species.jinja2:16 templates/list_species.jinja2:23
+#: templates/list_species.jinja2:33
+msgid "Species"
+msgstr "Druhy"
+
+#: templates/base.jinja2:37 templates/fragments/genus-record.html:11
+#: templates/list_genus.jinja2:32 templates/list_species.jinja2:34
+msgid "Genus"
+msgstr "Rod"
+
+#: templates/base.jinja2:39 templates/fragments/field-record-record.html:23
+msgid "Person"
+msgstr "Osoba"
+
+#: templates/base.jinja2:40 templates/fragments/dart-submission-record.html:17
+#: templates/fragments/person-record.html:19
+#: templates/fragments/response-record.html:19
+#: templates/list_dart-submission.jinja2:34 templates/list_person.jinja2:34
+#: templates/list_project.jinja2:33
+msgid "Institution"
+msgstr "Instituce"
+
+#: templates/base.jinja2:41
+#, fuzzy
+msgid "OTU"
+msgstr "OTU"
+
+#: templates/base.jinja2:42
+#, fuzzy
+msgid "Identification OTU"
+msgstr "Identifikace OTU"
+
+#: templates/base.jinja2:56
 msgid "Base"
 msgstr "Základna"
 
@@ -125,14 +214,6 @@ msgstr "Pomocí vyhledávacího panelu níže můžete filtrovat zobrazené kont
 msgid "Name"
 msgstr "Jméno"
 
-#: templates/fragments/container-record.html:7
-#: templates/fragments/response-record.html:21
-#: templates/list_container.jinja2:34 templates/list_response.jinja2:34
-#: templates/list_species.jinja2:16 templates/list_species.jinja2:23
-#: templates/list_species.jinja2:33
-msgid "Species"
-msgstr "Druhy"
-
 #: templates/fragments/container-record.html:10
 #: templates/list_container.jinja2:35
 msgid "Preservation method"
@@ -193,14 +274,6 @@ msgstr "Použijte vyhledávací lištu níže k filtrování zobrazených přís
 msgid "Service"
 msgstr "Servis"
 
-#: templates/fragments/dart-submission-record.html:17
-#: templates/fragments/person-record.html:19
-#: templates/fragments/response-record.html:19
-#: templates/list_dart-submission.jinja2:34 templates/list_person.jinja2:34
-#: templates/list_project.jinja2:33
-msgid "Institution"
-msgstr "Instituce"
-
 #: templates/list_dart-submission.jinja2:35
 msgid "Date submitted"
 msgstr "Datum odeslání"
@@ -226,11 +299,6 @@ msgstr "Pomocí vyhledávacího panelu níže filtrujte zobrazené úsilí"
 #: templates/list_trap.jinja2:36
 msgid "ID"
 msgstr "ID"
-
-#: templates/fragments/effort-record.html:14
-#: templates/fragments/effort-record.html:34 templates/list_effort.jinja2:40
-msgid "Site"
-msgstr "Site"
 
 #: templates/fragments/container-record.html:8
 #: templates/fragments/effort-record.html:17
@@ -282,11 +350,6 @@ msgstr "Rodů"
 #: templates/list_genus.jinja2:26
 msgid "Use the search bar below to filter the displayed genera"
 msgstr "Pomocí vyhledávacího panelu níže filtrujte zobrazené rody"
-
-#: templates/fragments/genus-record.html:11 templates/list_genus.jinja2:32
-#: templates/list_species.jinja2:34
-msgid "Genus"
-msgstr "Rod"
 
 #: templates/list_genus.jinja2:33 templates/list_species.jinja2:36
 msgid "Order"
@@ -927,10 +990,6 @@ msgstr "Typ kolekce"
 msgid "Ex port"
 msgstr "Přístav Ex"
 
-#: templates/fragments/field-record-record.html:23
-msgid "Person"
-msgstr "Osoba"
-
 #: templates/fragments/field-record-record.html:26
 msgid "Samples"
 msgstr "Vzorky"
@@ -1136,3 +1195,4 @@ msgstr "Exportovat"
 #: templates/macros/util.jinja2:21
 msgid "Sort by"
 msgstr "Seřadit podle"
+

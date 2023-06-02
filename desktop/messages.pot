@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-06-02 10:51+1000\n"
+"POT-Creation-Date: 2023-06-02 11:49+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,85 @@ msgstr ""
 msgid "Personal Notification Settings"
 msgstr ""
 
+#: templates/base.jinja2:25 templates/base.jinja2:38
+msgid "Project"
+msgstr ""
+
+#: templates/base.jinja2:26
+msgid "Container"
+msgstr ""
+
+#: templates/base.jinja2:27
+msgid "Trap Type"
+msgstr ""
+
+#: templates/base.jinja2:28
+msgid "SSC Calculation"
+msgstr ""
+
+#: templates/base.jinja2:29
+msgid "Trapping Liquid"
+msgstr ""
+
+#: templates/base.jinja2:30
+msgid "Trap Extra"
+msgstr ""
+
+#: templates/base.jinja2:31 templates/fragments/effort-record.html:14
+#: templates/fragments/effort-record.html:34 templates/list_effort.jinja2:40
+msgid "Site"
+msgstr ""
+
+#: templates/base.jinja2:32
+msgid "Response"
+msgstr ""
+
+#: templates/base.jinja2:33
+msgid "Planned SSC"
+msgstr ""
+
+#: templates/base.jinja2:34
+msgid "Dart Plate"
+msgstr ""
+
 #: templates/base.jinja2:35
+msgid "Dart Submission"
+msgstr ""
+
+#: templates/base.jinja2:36 templates/fragments/container-record.html:7
+#: templates/fragments/response-record.html:21
+#: templates/list_container.jinja2:34 templates/list_response.jinja2:34
+#: templates/list_species.jinja2:16 templates/list_species.jinja2:23
+#: templates/list_species.jinja2:33
+msgid "Species"
+msgstr ""
+
+#: templates/base.jinja2:37 templates/fragments/genus-record.html:11
+#: templates/list_genus.jinja2:32 templates/list_species.jinja2:34
+msgid "Genus"
+msgstr ""
+
+#: templates/base.jinja2:39 templates/fragments/field-record-record.html:23
+msgid "Person"
+msgstr ""
+
+#: templates/base.jinja2:40 templates/fragments/dart-submission-record.html:17
+#: templates/fragments/person-record.html:19
+#: templates/fragments/response-record.html:19
+#: templates/list_dart-submission.jinja2:34 templates/list_person.jinja2:34
+#: templates/list_project.jinja2:33
+msgid "Institution"
+msgstr ""
+
+#: templates/base.jinja2:41
+msgid "OTU"
+msgstr ""
+
+#: templates/base.jinja2:42
+msgid "Identification OTU"
+msgstr ""
+
+#: templates/base.jinja2:56
 msgid "Base"
 msgstr ""
 
@@ -122,14 +200,6 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: templates/fragments/container-record.html:7
-#: templates/fragments/response-record.html:21
-#: templates/list_container.jinja2:34 templates/list_response.jinja2:34
-#: templates/list_species.jinja2:16 templates/list_species.jinja2:23
-#: templates/list_species.jinja2:33
-msgid "Species"
-msgstr ""
-
 #: templates/fragments/container-record.html:10
 #: templates/list_container.jinja2:35
 msgid "Preservation method"
@@ -190,14 +260,6 @@ msgstr ""
 msgid "Service"
 msgstr ""
 
-#: templates/fragments/dart-submission-record.html:17
-#: templates/fragments/person-record.html:19
-#: templates/fragments/response-record.html:19
-#: templates/list_dart-submission.jinja2:34 templates/list_person.jinja2:34
-#: templates/list_project.jinja2:33
-msgid "Institution"
-msgstr ""
-
 #: templates/list_dart-submission.jinja2:35
 msgid "Date submitted"
 msgstr ""
@@ -222,11 +284,6 @@ msgstr ""
 #: templates/list_multimedia.jinja2:39 templates/list_survey.jinja2:36
 #: templates/list_trap.jinja2:36
 msgid "ID"
-msgstr ""
-
-#: templates/fragments/effort-record.html:14
-#: templates/fragments/effort-record.html:34 templates/list_effort.jinja2:40
-msgid "Site"
 msgstr ""
 
 #: templates/fragments/container-record.html:8
@@ -278,11 +335,6 @@ msgstr ""
 
 #: templates/list_genus.jinja2:26
 msgid "Use the search bar below to filter the displayed genera"
-msgstr ""
-
-#: templates/fragments/genus-record.html:11 templates/list_genus.jinja2:32
-#: templates/list_species.jinja2:34
-msgid "Genus"
 msgstr ""
 
 #: templates/list_genus.jinja2:33 templates/list_species.jinja2:36
@@ -913,10 +965,6 @@ msgstr ""
 
 #: templates/fragments/field-record-record.html:22
 msgid "Ex port"
-msgstr ""
-
-#: templates/fragments/field-record-record.html:23
-msgid "Person"
 msgstr ""
 
 #: templates/fragments/field-record-record.html:26

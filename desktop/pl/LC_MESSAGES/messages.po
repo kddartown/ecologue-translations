@@ -7,18 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-06-02 10:51+1000\n"
+"POT-Creation-Date: 2023-06-02 11:49+1000\n"
 "PO-Revision-Date: 2023-06-02 01:17+0000\n"
 "Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
-"Language-Team: Polish <http://translate.diversityarrays.cloud/projects/"
-"ecologue-desktop/values/pl/>\n"
 "Language: pl\n"
+"Language-Team: Polish <http://translate.diversityarrays.cloud/projects"
+"/ecologue-desktop/values/pl/>\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: templates/account.jinja2:14
@@ -49,7 +48,97 @@ msgstr "Ustawienia instytucji osobistych"
 msgid "Personal Notification Settings"
 msgstr "Ustawienia powiadomień osobistych"
 
+#: templates/base.jinja2:25 templates/base.jinja2:38
+#, fuzzy
+msgid "Project"
+msgstr "Projekty"
+
+#: templates/base.jinja2:26
+#, fuzzy
+msgid "Container"
+msgstr "Pojemniki"
+
+#: templates/base.jinja2:27
+#, fuzzy
+msgid "Trap Type"
+msgstr "Typ pułapki"
+
+#: templates/base.jinja2:28
+#, fuzzy
+msgid "SSC Calculation"
+msgstr "Obliczenia SSC"
+
+#: templates/base.jinja2:29
+#, fuzzy
+msgid "Trapping Liquid"
+msgstr "Uchwytywanie płynów"
+
+#: templates/base.jinja2:30
+#, fuzzy
+msgid "Trap Extra"
+msgstr "Typ pułapki"
+
+#: templates/base.jinja2:31 templates/fragments/effort-record.html:14
+#: templates/fragments/effort-record.html:34 templates/list_effort.jinja2:40
+msgid "Site"
+msgstr "Site"
+
+#: templates/base.jinja2:32
+#, fuzzy
+msgid "Response"
+msgstr "Odpowiedzi"
+
+#: templates/base.jinja2:33
+#, fuzzy
+msgid "Planned SSC"
+msgstr "Planowane SSC"
+
+#: templates/base.jinja2:34
+#, fuzzy
+msgid "Dart Plate"
+msgstr "Płytki DART"
+
 #: templates/base.jinja2:35
+#, fuzzy
+msgid "Dart Submission"
+msgstr "Zgłoszenia DART"
+
+#: templates/base.jinja2:36 templates/fragments/container-record.html:7
+#: templates/fragments/response-record.html:21
+#: templates/list_container.jinja2:34 templates/list_response.jinja2:34
+#: templates/list_species.jinja2:16 templates/list_species.jinja2:23
+#: templates/list_species.jinja2:33
+msgid "Species"
+msgstr "Gatunki"
+
+#: templates/base.jinja2:37 templates/fragments/genus-record.html:11
+#: templates/list_genus.jinja2:32 templates/list_species.jinja2:34
+msgid "Genus"
+msgstr "Rodzaj"
+
+#: templates/base.jinja2:39 templates/fragments/field-record-record.html:23
+msgid "Person"
+msgstr "Osoba"
+
+#: templates/base.jinja2:40 templates/fragments/dart-submission-record.html:17
+#: templates/fragments/person-record.html:19
+#: templates/fragments/response-record.html:19
+#: templates/list_dart-submission.jinja2:34 templates/list_person.jinja2:34
+#: templates/list_project.jinja2:33
+msgid "Institution"
+msgstr "Instytucja"
+
+#: templates/base.jinja2:41
+#, fuzzy
+msgid "OTU"
+msgstr "OTUs"
+
+#: templates/base.jinja2:42
+#, fuzzy
+msgid "Identification OTU"
+msgstr "Identyfikacja OTU"
+
+#: templates/base.jinja2:56
 msgid "Base"
 msgstr "Baza"
 
@@ -128,14 +217,6 @@ msgstr ""
 msgid "Name"
 msgstr "Nazwa"
 
-#: templates/fragments/container-record.html:7
-#: templates/fragments/response-record.html:21
-#: templates/list_container.jinja2:34 templates/list_response.jinja2:34
-#: templates/list_species.jinja2:16 templates/list_species.jinja2:23
-#: templates/list_species.jinja2:33
-msgid "Species"
-msgstr "Gatunki"
-
 #: templates/fragments/container-record.html:10
 #: templates/list_container.jinja2:35
 msgid "Preservation method"
@@ -198,14 +279,6 @@ msgstr ""
 msgid "Service"
 msgstr "Serwis"
 
-#: templates/fragments/dart-submission-record.html:17
-#: templates/fragments/person-record.html:19
-#: templates/fragments/response-record.html:19
-#: templates/list_dart-submission.jinja2:34 templates/list_person.jinja2:34
-#: templates/list_project.jinja2:33
-msgid "Institution"
-msgstr "Instytucja"
-
 #: templates/list_dart-submission.jinja2:35
 msgid "Date submitted"
 msgstr "Data przesłania"
@@ -231,11 +304,6 @@ msgstr "Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane wy
 #: templates/list_trap.jinja2:36
 msgid "ID"
 msgstr "IDENTYFIKATOR"
-
-#: templates/fragments/effort-record.html:14
-#: templates/fragments/effort-record.html:34 templates/list_effort.jinja2:40
-msgid "Site"
-msgstr "Site"
 
 #: templates/fragments/container-record.html:8
 #: templates/fragments/effort-record.html:17
@@ -289,11 +357,6 @@ msgstr "Rodzunki"
 #: templates/list_genus.jinja2:26
 msgid "Use the search bar below to filter the displayed genera"
 msgstr "Użyj poniższego paska wyszukiwania, aby przefiltrować wyświetlane rodzaje"
-
-#: templates/fragments/genus-record.html:11 templates/list_genus.jinja2:32
-#: templates/list_species.jinja2:34
-msgid "Genus"
-msgstr "Rodzaj"
 
 #: templates/list_genus.jinja2:33 templates/list_species.jinja2:36
 msgid "Order"
@@ -951,10 +1014,6 @@ msgstr "Rodzaj kolekcji"
 msgid "Ex port"
 msgstr "Ex port"
 
-#: templates/fragments/field-record-record.html:23
-msgid "Person"
-msgstr "Osoba"
-
 #: templates/fragments/field-record-record.html:26
 msgid "Samples"
 msgstr "Próbki"
@@ -1160,3 +1219,4 @@ msgstr "Eksportuj"
 #: templates/macros/util.jinja2:21
 msgid "Sort by"
 msgstr "Sortuj według"
+

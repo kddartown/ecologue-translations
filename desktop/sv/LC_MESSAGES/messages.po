@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-06-02 10:51+1000\n"
+"POT-Creation-Date: 2023-06-02 11:49+1000\n"
 "PO-Revision-Date: 2023-06-02 01:17+0000\n"
 "Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
-"Language-Team: Swedish <http://translate.diversityarrays.cloud/projects/"
-"ecologue-desktop/values/sv/>\n"
 "Language: sv\n"
+"Language-Team: Swedish <http://translate.diversityarrays.cloud/projects"
+"/ecologue-desktop/values/sv/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: templates/account.jinja2:14
@@ -48,7 +47,97 @@ msgstr "Inställningar för personliga institutioner"
 msgid "Personal Notification Settings"
 msgstr "Inställningar för personliga aviseringar"
 
+#: templates/base.jinja2:25 templates/base.jinja2:38
+#, fuzzy
+msgid "Project"
+msgstr "Projekt"
+
+#: templates/base.jinja2:26
+#, fuzzy
+msgid "Container"
+msgstr "Containrar"
+
+#: templates/base.jinja2:27
+#, fuzzy
+msgid "Trap Type"
+msgstr "Typ av fälla"
+
+#: templates/base.jinja2:28
+#, fuzzy
+msgid "SSC Calculation"
+msgstr "SSC-beräkningar"
+
+#: templates/base.jinja2:29
+#, fuzzy
+msgid "Trapping Liquid"
+msgstr "Fångning av vätskor"
+
+#: templates/base.jinja2:30
+#, fuzzy
+msgid "Trap Extra"
+msgstr "Typ av fälla"
+
+#: templates/base.jinja2:31 templates/fragments/effort-record.html:14
+#: templates/fragments/effort-record.html:34 templates/list_effort.jinja2:40
+msgid "Site"
+msgstr "Webbplats"
+
+#: templates/base.jinja2:32
+#, fuzzy
+msgid "Response"
+msgstr "Svar"
+
+#: templates/base.jinja2:33
+#, fuzzy
+msgid "Planned SSC"
+msgstr "Planerade SSC"
+
+#: templates/base.jinja2:34
+#, fuzzy
+msgid "Dart Plate"
+msgstr "Dart-plattor"
+
 #: templates/base.jinja2:35
+#, fuzzy
+msgid "Dart Submission"
+msgstr "dART Inlämningar"
+
+#: templates/base.jinja2:36 templates/fragments/container-record.html:7
+#: templates/fragments/response-record.html:21
+#: templates/list_container.jinja2:34 templates/list_response.jinja2:34
+#: templates/list_species.jinja2:16 templates/list_species.jinja2:23
+#: templates/list_species.jinja2:33
+msgid "Species"
+msgstr "Arter"
+
+#: templates/base.jinja2:37 templates/fragments/genus-record.html:11
+#: templates/list_genus.jinja2:32 templates/list_species.jinja2:34
+msgid "Genus"
+msgstr "Släkte"
+
+#: templates/base.jinja2:39 templates/fragments/field-record-record.html:23
+msgid "Person"
+msgstr "Person"
+
+#: templates/base.jinja2:40 templates/fragments/dart-submission-record.html:17
+#: templates/fragments/person-record.html:19
+#: templates/fragments/response-record.html:19
+#: templates/list_dart-submission.jinja2:34 templates/list_person.jinja2:34
+#: templates/list_project.jinja2:33
+msgid "Institution"
+msgstr "Institution"
+
+#: templates/base.jinja2:41
+#, fuzzy
+msgid "OTU"
+msgstr "OTU: er"
+
+#: templates/base.jinja2:42
+#, fuzzy
+msgid "Identification OTU"
+msgstr "OTU: er för identifiering"
+
+#: templates/base.jinja2:56
 msgid "Base"
 msgstr "Bas"
 
@@ -125,14 +214,6 @@ msgstr "Använd sökfältet nedan för att filtrera de visade behållarna"
 msgid "Name"
 msgstr "Namn"
 
-#: templates/fragments/container-record.html:7
-#: templates/fragments/response-record.html:21
-#: templates/list_container.jinja2:34 templates/list_response.jinja2:34
-#: templates/list_species.jinja2:16 templates/list_species.jinja2:23
-#: templates/list_species.jinja2:33
-msgid "Species"
-msgstr "Arter"
-
 #: templates/fragments/container-record.html:10
 #: templates/list_container.jinja2:35
 msgid "Preservation method"
@@ -193,14 +274,6 @@ msgstr "Använd sökfältet nedan för att filtrera de visade dArT-inlämningarn
 msgid "Service"
 msgstr "Tjänsten"
 
-#: templates/fragments/dart-submission-record.html:17
-#: templates/fragments/person-record.html:19
-#: templates/fragments/response-record.html:19
-#: templates/list_dart-submission.jinja2:34 templates/list_person.jinja2:34
-#: templates/list_project.jinja2:33
-msgid "Institution"
-msgstr "Institution"
-
 #: templates/list_dart-submission.jinja2:35
 msgid "Date submitted"
 msgstr "Datum inlämnat"
@@ -226,11 +299,6 @@ msgstr "Använd sökfältet nedan för att filtrera de visade ansträngningarna"
 #: templates/list_trap.jinja2:36
 msgid "ID"
 msgstr "ID"
-
-#: templates/fragments/effort-record.html:14
-#: templates/fragments/effort-record.html:34 templates/list_effort.jinja2:40
-msgid "Site"
-msgstr "Webbplats"
 
 #: templates/fragments/container-record.html:8
 #: templates/fragments/effort-record.html:17
@@ -282,11 +350,6 @@ msgstr "Släkten"
 #: templates/list_genus.jinja2:26
 msgid "Use the search bar below to filter the displayed genera"
 msgstr "Använd sökfältet nedan för att filtrera de visade släktena"
-
-#: templates/fragments/genus-record.html:11 templates/list_genus.jinja2:32
-#: templates/list_species.jinja2:34
-msgid "Genus"
-msgstr "Släkte"
 
 #: templates/list_genus.jinja2:33 templates/list_species.jinja2:36
 msgid "Order"
@@ -925,10 +988,6 @@ msgstr "Typ av samling"
 msgid "Ex port"
 msgstr "Ex-port"
 
-#: templates/fragments/field-record-record.html:23
-msgid "Person"
-msgstr "Person"
-
 #: templates/fragments/field-record-record.html:26
 msgid "Samples"
 msgstr "Prover"
@@ -1134,3 +1193,4 @@ msgstr "Exportera"
 #: templates/macros/util.jinja2:21
 msgid "Sort by"
 msgstr "Sortera efter"
+
