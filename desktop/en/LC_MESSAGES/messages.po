@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-06-02 11:49+1000\n"
+"POT-Creation-Date: 2023-06-02 13:16+1000\n"
 "PO-Revision-Date: 2023-06-01 13:33+1000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -84,11 +84,11 @@ msgid "Planned SSC"
 msgstr ""
 
 #: templates/base.jinja2:34
-msgid "Dart Plate"
+msgid "DArT Plate"
 msgstr ""
 
 #: templates/base.jinja2:35
-msgid "Dart Submission"
+msgid "DArT Submission"
 msgstr ""
 
 #: templates/base.jinja2:36 templates/fragments/container-record.html:7
@@ -1173,4 +1173,10 @@ msgstr ""
 #: templates/macros/util.jinja2:21
 msgid "Sort by"
 msgstr ""
+
+#~ msgid "Dart Plate"
+#~ msgstr ""
+
+#~ msgid "Dart Submission"
+#~ msgstr ""
 
