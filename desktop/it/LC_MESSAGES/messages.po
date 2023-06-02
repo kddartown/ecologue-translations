@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-06-02 11:49+1000\n"
-"PO-Revision-Date: 2023-06-02 01:17+0000\n"
+"PO-Revision-Date: 2023-06-02 01:57+0000\n"
 "Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
+"Language-Team: Italian <http://translate.diversityarrays.cloud/projects/"
+"ecologue-desktop/values/it/>\n"
 "Language: it\n"
-"Language-Team: Italian <http://translate.diversityarrays.cloud/projects"
-"/ecologue-desktop/values/it/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: templates/account.jinja2:14
@@ -48,34 +49,28 @@ msgid "Personal Notification Settings"
 msgstr "Impostazioni di notifica personali"
 
 #: templates/base.jinja2:25 templates/base.jinja2:38
-#, fuzzy
 msgid "Project"
-msgstr "Progetti"
+msgstr "Progetto"
 
 #: templates/base.jinja2:26
-#, fuzzy
 msgid "Container"
-msgstr "Contenitori"
+msgstr "Contenitore"
 
 #: templates/base.jinja2:27
-#, fuzzy
 msgid "Trap Type"
 msgstr "Tipo di trappola"
 
 #: templates/base.jinja2:28
-#, fuzzy
 msgid "SSC Calculation"
-msgstr "Calcoli SSC"
+msgstr "Calcolo SSC"
 
 #: templates/base.jinja2:29
-#, fuzzy
 msgid "Trapping Liquid"
-msgstr "Liquidi intrappolanti"
+msgstr "Liquido intrappolante"
 
 #: templates/base.jinja2:30
-#, fuzzy
 msgid "Trap Extra"
-msgstr "Tipo di trappola"
+msgstr "Trappola Extra"
 
 #: templates/base.jinja2:31 templates/fragments/effort-record.html:14
 #: templates/fragments/effort-record.html:34 templates/list_effort.jinja2:40
@@ -83,24 +78,20 @@ msgid "Site"
 msgstr "Sito"
 
 #: templates/base.jinja2:32
-#, fuzzy
 msgid "Response"
-msgstr "Risposte"
+msgstr "Risposta"
 
 #: templates/base.jinja2:33
-#, fuzzy
 msgid "Planned SSC"
-msgstr "SSC pianificati"
+msgstr "SSC pianificato"
 
 #: templates/base.jinja2:34
-#, fuzzy
 msgid "Dart Plate"
-msgstr "Piastre DaRT"
+msgstr "Piastra per freccette"
 
 #: templates/base.jinja2:35
-#, fuzzy
 msgid "Dart Submission"
-msgstr "Contributi DaRT"
+msgstr "Invio di freccette"
 
 #: templates/base.jinja2:36 templates/fragments/container-record.html:7
 #: templates/fragments/response-record.html:21
@@ -128,14 +119,12 @@ msgid "Institution"
 msgstr "Istituzione"
 
 #: templates/base.jinja2:41
-#, fuzzy
 msgid "OTU"
-msgstr "TOU"
+msgstr "FUORI"
 
 #: templates/base.jinja2:42
-#, fuzzy
 msgid "Identification OTU"
-msgstr "OTU di identificazione"
+msgstr "Identificazione OTU"
 
 #: templates/base.jinja2:56
 msgid "Base"
@@ -1215,4 +1204,3 @@ msgstr "Esporta"
 #: templates/macros/util.jinja2:21
 msgid "Sort by"
 msgstr "Ordina per"
-
