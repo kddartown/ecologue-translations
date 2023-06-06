@@ -1,2 +1,243 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="filter">फ़िल्टर</string>
+    <string name="msg_at_least_one_collector_is_needed">प्रयास जोड़ने के लिए कम से कम एक कलेक्टर की आवश्यकता होती है</string>
+    <string name="msg_effort_already_synced">यह प्रयास पहले से ही समन्वयित है</string>
+    <string name="msg_at_least_one_collector_is_needed_survey">सर्वेक्षण जोड़ने के लिए कम से कम एक कलेक्टर की आवश्यकता होती है</string>
+    <string name="msg_at_least_one_extra_must_have_value">%1$s को सहेजने से पहले चुना जाना चाहिए</string>
+    <string name="msg_start_date_must_be_before_end_date">प्रारंभ समय समाप्ति समय से पहले होना चाहिए</string>
+    <string name="app_name">ईकोलॉग</string>
+    <string name="mapbox_access_token">sk.EYJ1IJOIZGFUBNLKYXJ0IIWIYSI6IMNRZJI1BXK4BZAWAGCYDGXNNGVQNGDYB3OIFQ.TEH-EB2B-HWFO6QNSZOOYW</string>
+    <string name="error_load_mbtiles">दस्तावेज़/ईकोकोरर फ़ोल्डर में कोई मोबाइल मैप फ़ाइल नहीं मिली</string>
+    <string name="add_a_new_marker">नया मार्कर जोड़ें</string>
+    <string name="confirm">पुष्टि करें</string>
+    <string name="data">फ़ील्ड रिकॉर्ड्स</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="add_trap">ट्रैप जोड़ें</string>
+    <string name="add_effort">प्रयास जोड़ें</string>
+    <string name="add_survey">सर्वे जोड़ें</string>
+    <string name="download_project_information">प्रोजेक्ट की जानकारी डाउनलोड करें</string>
+    <string name="download_project_information_description">जाने से पहले डेटा सेट करें</string>
+    <string name="upload_data">डेटा अपलोड करें</string>
+    <string name="upload_data_description">OneDart पर स्थानीय डेटा अपलोड करें</string>
+    <string name="projects">परियोजनाएँ</string>
+    <string name="fail_to_get_location">स्थान पाने में असफल।</string>
+    <string name="description_map_service">नक्शा और पैदल पथ रिकॉर्डिंग प्रदान करता है</string>
+    <string name="notification_title">ईकोलॉग चल रहा है</string>
+    <string name="notification_message">अपने पैदल पथ को रिकॉर्ड करने के लिए</string>
+    <string name="record_walk_path">वॉकिंग पाथ रिकॉर्ड करें</string>
+    <string name="stop_record_walk_path">वॉकिंग पाथ रिकॉर्डिंग बंद करें</string>
+    <string name="data_management">डेटा प्रबंधन</string>
+    <string name="shapefiles">शेपफाइल्स</string>
+    <string name="shapefiles_description">इसके प्रदर्शन क्रम को दिखाने/छिपाने या बदलने के लिए चुनें</string>
+    <string name="trap_type">ट्रैप टाइप</string>
+    <string name="trap_type_with_for">%1$s के लिए ट्रैप टाइप</string>
+    <string name="latitude">अक्षांश</string>
+    <string name="longitude">लॉन्गीट्यूड</string>
+    <string name="altitude">आल्टिट्यूड</string>
+    <string name="start_date">आरंभ करने की तिथि</string>
+    <string name="end_date">अंतिम तारीख</string>
+    <string name="start_time">शुरू होने का समय</string>
+    <string name="end_time">अंतिम समय</string>
+    <string name="start_date_on_after">आरंभ करने की तिथि को या उसके बाद</string>
+    <string name="end_date_on_before">समाप्ति तिथि को या उससे पहले</string>
+    <string name="habitat">पर्यावास</string>
+    <string name="notes">नोट्स</string>
+    <string name="save">सेव करें</string>
+    <string name="invalid_end_date">अमान्य समाप्ति तिथि</string>
+    <string name="target_group">टारगेट ग्रुप</string>
+    <string name="select_target_group">टारगेट ग्रुप चुनें</string>
+    <string name="logout">लॉगआउट</string>
+    <string name="login">लॉगिन</string>
+    <string name="login_and_select_project">लॉगिन करें और सेटिंग्स में एक प्रोजेक्ट का चयन करें</string>
+    <string name="title_target_groups">टारगेट ग्रुप</string>
+    <string name="cancel">कैंसिल करें</string>
+    <string name="title">टाइटल</string>
+    <string name="value">वैल्यू</string>
+    <string name="description">विवरण</string>
+    <string name="internal_error">इंटरनल एरर</string>
+    <string name="error_encode_metadata_failed">मेटाडेटा एन्कोड करने में विफल</string>
+    <string name="error_add_source_mapbox_mbtiles">mbtiles लोड करने के बाद मानचित्र में स्रोत नहीं जोड़ सकता</string>
+    <string name="error">एरर</string>
+    <string name="dismiss">खारिज करें</string>
+    <string name="permission_needed">अनुमति की ज़रूरत है</string>
+    <string name="permission_denied">अनुमतियां अस्वीकृत</string>
+    <string name="location_explain">EcoLogue को आपके डिवाइस स्थान डेटा का उपयोग यह दिखाने के लिए करना होगा कि आप मानचित्र पर कहां हैं। आप बाद में अपनी डिवाइस सेटिंग में इन अनुमतियों को समायोजित कर सकते हैं।</string>
+    <string name="external_storage_not_granted">इस ऐप को स्थानीय एमबीटाइल्स मैप फ़ाइल लोड करने के लिए स्टोरेज अनुमति की आवश्यकता है</string>
+    <string name="permission_explain">हमें इस अनुमति की आवश्यकता क्यों है\?</string>
+    <string name="custom_map_not_found">कस्टम मैप फ़ाइल नहीं मिली</string>
+    <string name="downloading_dot_dot_dot">डाउनलोड हो रहा है…</string>
+    <string name="downloading">डाउनलोडिंग</string>
+    <string name="connecting">कनेक्ट हो रहा है…</string>
+    <string name="dialog_description_download_map_res">आप ऑफ़लाइन उपयोग के लिए एनोटेशन, शेपफाइल्स और ओपन स्ट्रीट सैटेलाइट मैप जैसे बेसिक मैप रिसोर्स डाउनलोड करने जा रहे हैं। डाउनलोड करने के लिए लगभग 111739 संसाधन हैं, इसमें लगभग एक घंटा लग सकता है जो आपके नेटवर्क पर निर्भर करता है।</string>
+    <string name="sites">साइट्स</string>
+    <string name="site">साइट</string>
+    <string name="download_offline_map">ऑफलाइन नक्शा डाउनलोड करें</string>
+    <string name="download_offline_map_description">कस्टम हवाई चित्र (.mbtiles फ़ाइल) डाउनलोड करें</string>
+    <string name="download_basic_map_res">मूल मानचित्र संसाधन डाउनलोड करें</string>
+    <string name="download_map_res_description">ऑफ़लाइन उपयोग के लिए बैरो आइलैंड एनोटेशन और शेपफाइल्स</string>
+    <string name="field_number">फ़ील्ड नंबर</string>
+    <string name="download_management">प्रबंधन डाउनलोड करें</string>
+    <string name="import_local_project">स्थानीय प्रोजेक्ट आयात करें</string>
+    <string name="import_local_project_description">डेटाबेस से कनेक्ट किए बिना प्रोजेक्ट आयात करें</string>
+    <string name="stop">रुकें</string>
+    <string name="start">शुरू करें</string>
+    <string name="download_offline_map_detail_description">कई ज़ूम स्तरों में अनुकूलित हवाई छवियों के साथ अपनी वैयक्तिकृत एमबीटाइल्स मैप फ़ाइल डाउनलोड करें।</string>
+    <string name="download_map_res_detail_description">मानचित्र संसाधन फ़ाइल डाउनलोड करें जिसमें मानचित्र विवरण जैसे कि शेपफाइल, सड़क, लैंडमार्क और मानचित्र पर नाम शामिल हैं।</string>
+    <string name="mbtiles_file_title">mbTiles फ़ाइल डाउनलोड करना</string>
+    <string name="mbtiles_file_message">एमबीटाइल्स एक बड़ी फाइल है, जिसे तेज गति के इंटरनेट से डाउनलोड करने में 4 घंटे तक का समय लग सकता है।
+\n 
+\nइस Mbtiles फ़ाइल का डाउनलोड आकार %1$s है</string>
+    <string name="available_storage">उपलब्ध स्टोरेज</string>
+    <string name="insufficient_storage_on_device">डिवाइस पर उपलब्ध स्टोरेज %1$s है
+\nइस Mbtiles फ़ाइल का डाउनलोड आकार %2$s है
+\nइस डाउनलोड के लिए और स्टोरेज की जरूरत है</string>
+    <string name="upload_not_synced_with_database">डेटा सिंक नहीं किया गया है</string>
+    <string name="not_synced_data">ऐप प्रोजेक्ट के बीच स्विच करने की अनुमति नहीं देता है जब तक कि आपके सभी डेटा सर्वर के साथ सिंक नहीं हो जाते।
+\n
+\nआपने वर्तमान में %1$s सर्वर पर अपलोड नहीं किया है</string>
+    <plurals name="upload_data_points">
+        <item quantity="one"></item>
+        <item quantity="other">%d डेटा बिंदु</item>
+    </plurals>
+    <string name="upload_data_to_server">अपना डेटा सर्वर पर अपलोड करें।</string>
+    <string name="message_uploading_data">%1$s अपलोड किया जा रहा है</string>
+    <string name="uploading">अपलोड हो रहा है...।</string>
+    <string name="msg_all_traps_are_uploaded">आपके सभी फ़ील्ड रिकॉर्ड पहले से ही सर्वर के साथ सिंक किए गए हैं</string>
+    <string name="switch_server">सर्वर कॉन्फ़िगर करें</string>
+    <string name="switch_server_description">प्रोजेक्ट लाने के लिए सर्वर कॉन्फ़िगर करें</string>
+    <string name="https">https://</string>
+    <string name="api">/एप ी</string>
+    <string name="login_and_add_server">लॉगिन करें और सर्वर जोड़ें</string>
+    <string name="add_a_new_server">नया सर्वर कॉन्फ़िगरेशन जोड़ें</string>
+    <string name="previously_configured_servers">पहले से कॉन्फ़िगर किए गए सर्वर</string>
+    <string name="server">सर्वर</string>
+    <string name="select_value_from_the_list">सूची से मान का चयन करें</string>
+    <string name="species_name">प्रजाति का नाम</string>
+    <string name="genus">जाति</string>
+    <string name="author">लेखक</string>
+    <string name="select_a_species">एक प्रजाति का चयन करें</string>
+    <string name="info">साधारण</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="licenses_developers">कंपनी, लाइसेंस और डेवलपर्स के बारे में जानकारी</string>
+    <string name="all_about_text">"
+\n        उत्पाद का नाम: EcoLogue
+\n संस्करण: %1$s
+\n
+\n कॉपीराइट © 2021 डायवर्सिटी एरेज़ टेक्नोलॉजी
+\n (डार्ट)
+\n
+\n ईमेल: ecologue@diversityarrays.com
+\n
+\n डेवलपर्स:
+\n - मनिल चौधरी
+\n - डैनी फेंग
+\n - माइकल किर्क
+\n - टेलर पोलिच
+\n
+\n अस्वीकरण: सॉफ़्टवेयर किसी भी प्रकार की वारंटी के बिना, व्यक्त या निहित “जैसा है” प्रदान किया गया है।
+\n
+\n किसी भी स्थिति में लेखक या योगदान करने वाले संगठन किसी भी प्रत्यक्ष, अप्रत्यक्ष, आकस्मिक, विशेष, अनुकरणीय या परिणामी नुकसान के लिए उत्तरदायी नहीं होंगे (जिसमें उपयोग की हानि, डेटा, लाभ, या व्यावसायिक रुकावट शामिल है, लेकिन यह तक सीमित नहीं है), हालांकि इस सॉफ़्टवेयर के उपयोग से उत्पन्न होने वाली देयता के किसी भी सिद्धांत पर, चाहे अनुबंध में, सख्त देयता, या अत्याचार (लापरवाही या अन्यथा सहित), भले ही सलाह दी गई हो इस तरह के नुकसान की संभावना पर।
+\n
+\n -----------
+\n स्क्रीन का आकार: सामान्य
+\n -----------
+\n
+\n फ़ाइल स्थान:
+\n एंड्रॉइड 11+ के लिए: /स्टोरेज/एमुलेटेड/एंड्रॉइड/डेटा/com.diversitArrays.ecologue/फ़ाइलें/दस्तावेज़
+\n एंड्रॉइड 10 और उससे नीचे के लिए: /स्टोरेज/एमुलेटेड//0/दस्तावेज़/ईकोलॉग"</string>
+    <string name="about">हमारे बारे में</string>
+    <string name="server_address">सर्वर का पता</string>
+    <string name="new_server_address">नया सर्वर पता</string>
+    <string name="msg_active_url">"सक्रिय यूआरएल: "</string>
+    <string name="msg_configure_your_server_first">कृपया पहले अपने सर्वर को कॉन्फ़िगर करें</string>
+    <string name="title_configure_server">सर्वर कॉन्फ़िगर करें</string>
+    <string name="cant_switch_server">सर्वर स्विच नहीं कर सकता</string>
+    <string name="field_records_are_not_uploaded">आपके सभी फ़ील्ड रिकॉर्ड सर्वर के साथ सिंक नहीं किए गए हैं</string>
+    <string name="stopped">रुका हुआ</string>
+    <string name="error_cannot_stop_report_to_dart">इसे रोक नहीं सकते, कृपया DART को रिपोर्ट करें</string>
+    <string name="starting_download_please_wait">डाउनलोड शुरू हो रहा है, कृपया प्रतीक्षा करें…</string>
+    <string name="stopping_download_please_wait">डाउनलोड रोकना, कृपया प्रतीक्षा करें…</string>
+    <string name="dialog_description_login_to_download">आप लॉग आउट हैं। कृपया डाउनलोड करने से पहले लॉगिन करें।</string>
+    <string name="done">हो गया</string>
+    <string name="dialog_title_edit_field_record">फ़ील्ड रिकॉर्ड संपादित करें</string>
+    <string name="dialog_description_cant_edit_uploaded_field_record">आप अपलोड किए गए फ़ील्ड रिकॉर्ड को संपादित नहीं कर सकते।</string>
+    <string name="error_message_readonly_fieldrecord">यह फ़ील्ड रिकॉर्ड केवल पढ़ने योग्य है क्योंकि इसे सर्वर पर अपलोड किया गया है।</string>
+    <string name="title_location_permission">अपने स्थान का उपयोग करें</string>
+    <string name="permission_denied_location_permission_explaination">EcoLogue को आपके डिवाइस स्थान डेटा का उपयोग यह दिखाने के लिए करना होगा कि आप मानचित्र पर कहां हैं। यदि आप भविष्य में इस सुविधा का उपयोग करना चाहते हैं, तो आप अपनी डिवाइस सेटिंग में जा सकते हैं और eCologue के लिए स्थान सक्षम कर सकते हैं।</string>
+    <string name="list_view">सूची दृश्य</string>
+    <string name="map_view">नक्शा दृश्य</string>
+    <string name="empty_bracket">(खाली)</string>
+    <string name="end_date_colon">अंतिम तारीख:</string>
+    <string name="start_date_colon">आरंभ करने की तिथि:</string>
+    <string name="field_number_colon">फ़ील्ड नंबर:</string>
+    <string name="trap_type_colon">ट्रैप टाइप:</string>
+    <string name="location">लोकेशन</string>
+    <string name="collector">कलेक्टर</string>
+    <string name="trap_collected">ट्रैप कलेक्टेड</string>
+    <string name="trap_exposed">ट्रैप एक्सपोज्ड</string>
+    <string name="filter_results">फ़िल्टर परिणाम</string>
+    <string name="msg_any_selection">कोई भी</string>
+    <string name="reset">रीसेट करें</string>
+    <string name="select_trap_type">ट्रैप के प्रकार का चयन करें</string>
+    <string name="select_site">साइट का चयन करें</string>
+    <string name="select_start_date">शुरू होने की तारीख चुनें</string>
+    <string name="select_end_date">समाप्ति तिथि का चयन करें</string>
+    <string name="enter_field_number">फ़ील्ड नंबर दर्ज करें</string>
+    <string name="submit">सबमिट करें</string>
+    <string name="clear">क्लियर</string>
+    <string name="debug_generic_item">डिबग सेटिंग्स</string>
+    <string name="debug_generic_item_description">कृपया डेटा का बैकअप/अपलोड करें</string>
+    <string name="use_debug_database">परीक्षण डेटाबेस का उपयोग करें</string>
+    <string name="nuke_database">Nuke डेटाबेस</string>
+    <string name="use_test_database">टेस्ट डेटाबेस का उपयोग करें</string>
+    <string name="switch_on_test_database">परीक्षण के लिए परीक्षण डेटाबेस पर स्विच करें</string>
+    <string name="reset_test_database">टेस्ट डेटाबेस को रीसेट करें</string>
+    <string name="reinitialize_database">डेटाबेस को फिर से शुरू करें</string>
+    <string name="msg_want_to_reset_test_database">क्या आप वाकई परीक्षण डेटाबेस को रीसेट करना चाहते हैं\? यह आपके उत्पादन डेटाबेस को प्रभावित नहीं करेगा।</string>
+    <string name="msg_only_test_database_reset">केवल परीक्षण डेटाबेस को रीसेट किया जा सकता है</string>
+    <string name="error_dialog">सर्वर त्रुटि</string>
+    <string name="msg_error_dialog">आपको सर्वर त्रुटि का सामना करना पड़ा है। कृपया फिर से कोशिश करें, या ecologue@diversityarrays.com पर हमारी टीम से संपर्क करें</string>
+    <string name="title_no_field_record">उम्म.। कोई जाल नहीं मिला</string>
+    <string name="msg_no_field_record">ट्रैप को शामिल करने के लिए कृपया अपने फ़िल्टर बदलें या मानचित्र को स्थानांतरित करें</string>
+    <string name="field_records">फ़ील्ड रिकॉर्ड्स</string>
+    <string name="collectors">संग्रहकर्ता</string>
+    <string name="expand_the_list">अधिक जानकारी के लिए सूची का विस्तार करें</string>
+    <string name="add_efforts">प्रयास जोड़ें</string>
+    <string name="efforts">प्रयास</string>
+    <string name="button_text_add">जोड़ें</string>
+    <string name="field_record">फ़ील्ड रिकॉर्ड</string>
+    <string name="search">सर्च</string>
+    <string name="add_collectors">संग्राहक जोड़ें</string>
+    <string name="responses">प्रतिक्रियाएँ</string>
+    <string name="traps">ट्रैप्स</string>
+    <string name="effort_details">प्रयास का विवरण</string>
+    <string name="open">खोलें</string>
+    <string name="field_record_details">फ़ील्ड रिकॉर्ड का विवरण</string>
+    <string name="number_of_efforts">प्रयासों की संख्या:</string>
+    <string name="select_response">प्रतिक्रिया का चयन करें</string>
+    <string name="show_open_traps">खुले ट्रैप दिखाएं</string>
+    <string name="title_warning">चेतावनी</string>
+    <string name="title_complete_walkpath">पूर्ण पैदल पथ</string>
+    <string name="msg_clear_walk_path">यह एकत्रित फ़ील्ड रिकॉर्ड के साथ सभी स्थान डेटा को साफ़ कर देगा\? क्या आप वाकई आगे बढ़ना चाहते हैं\?</string>
+    <string name="msg_complete_walk_path">यह आपके चलने के प्रयास को पूरा करेगा, क्या आप आगे बढ़ना चाहते हैं\?</string>
+    <string name="show_altitude">ऊंचाई दिखाएं</string>
+    <string name="switch_on_setting_to_see_altitude">ऊंचाई देखने के लिए इस सेटिंग को चालू करें</string>
+    <string name="title_error_file_not_found">आवश्यक फ़ाइलें अनुपलब्ध</string>
+    <string name="message_error_file_not_found">कृपया मान्य इकोलॉग फ़ाइल के लिए विविधता सरणियों से संपर्क करें।</string>
+    <string name="warning_previous_data_will_delete">यदि आप आगे बढ़ते हैं तो पिछला डेटा हटा दिया जाएगा।</string>
+    <string name="import_successful">आयात सफल</string>
+    <string name="message_can_start_using_app">अब आप अपने नए प्रोजेक्ट के साथ ऐप का उपयोग शुरू कर सकते हैं</string>
+    <string name="barcode">बारकोड</string>
+    <string name="select">चुनें</string>
+    <string name="msg_scan_barcode_before_selecting">कृपया चुनने से पहले बारकोड स्कैन करें</string>
+    <string name="capture_image">कैप्चर</string>
+    <string name="scanned_barcode">स्कैन किया गया बारकोड</string>
+    <string name="image_capture_result">इमेज कैप्चर रिजल्ट</string>
+    <string name="close">बंद करें</string>
+    <string name="title_are_you_sure">आप किसी संपत्ति को हटा रहे हैं।</string>
+    <string name="msg_delete_picture">चित्र हटाएं %1$s</string>
+    <string name="title_surveys">सर्वे</string>
+    <string name="survey_details">सर्वे का विवरण</string>
+    <string name="update">अपडेट करें</string>
+</resources>
