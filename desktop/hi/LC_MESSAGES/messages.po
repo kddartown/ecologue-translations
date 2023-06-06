@@ -8,87 +8,90 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-06-02 11:49+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-06 06:19+0000\n"
+"Last-Translator: Weblate Admin <zaynetomlins@diversityarrays.com>\n"
+"Language-Team: Hindi <http://translate.diversityarrays.cloud/projects/"
+"ecologue-desktop/values/hi/>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: templates/account.jinja2:14
 msgid "Account"
-msgstr ""
+msgstr "अकाउंट"
 
 #: templates/account.jinja2:23 templates/account.jinja2:42
 msgid "Personal Details"
-msgstr ""
+msgstr "वैयक्तिक विवरण"
 
 #: templates/account.jinja2:24
 msgid "Institution Settings"
-msgstr ""
+msgstr "संस्थान की सेटिंग"
 
 #: templates/account.jinja2:25
 msgid "Notification Settings"
-msgstr ""
+msgstr "सूचना सेटिंग"
 
 #: templates/account.jinja2:33
 msgid "Account Details for:"
-msgstr ""
+msgstr "के लिए खाता विवरण:"
 
 #: templates/account.jinja2:46
 msgid "Personal Institution Settings"
-msgstr ""
+msgstr "व्यक्तिगत संस्थान की सेटिंग"
 
 #: templates/account.jinja2:50
 msgid "Personal Notification Settings"
-msgstr ""
+msgstr "व्यक्तिगत सूचना सेटिंग"
 
 #: templates/base.jinja2:25 templates/base.jinja2:38
 msgid "Project"
-msgstr ""
+msgstr "प्रोजेक्ट"
 
 #: templates/base.jinja2:26
 msgid "Container"
-msgstr ""
+msgstr "कन्टेनर"
 
 #: templates/base.jinja2:27
 msgid "Trap Type"
-msgstr ""
+msgstr "ट्रैप टाइप"
 
 #: templates/base.jinja2:28
 msgid "SSC Calculation"
-msgstr ""
+msgstr "SSC कैलकुलेशन"
 
 #: templates/base.jinja2:29
 msgid "Trapping Liquid"
-msgstr ""
+msgstr "ट्रैपिंग लिक्विड"
 
 #: templates/base.jinja2:30
 msgid "Trap Extra"
-msgstr ""
+msgstr "ट्रैप एक्स्ट्रा"
 
 #: templates/base.jinja2:31 templates/fragments/effort-record.html:14
 #: templates/fragments/effort-record.html:34 templates/list_effort.jinja2:40
 msgid "Site"
-msgstr ""
+msgstr "साइट"
 
 #: templates/base.jinja2:32
 msgid "Response"
-msgstr ""
+msgstr "रिस्पांस"
 
 #: templates/base.jinja2:33
 msgid "Planned SSC"
-msgstr ""
+msgstr "योजनाबद्ध SSC"
 
 #: templates/base.jinja2:34
 msgid "Dart Plate"
-msgstr ""
+msgstr "डार्ट प्लेट"
 
 #: templates/base.jinja2:35
 msgid "Dart Submission"
-msgstr ""
+msgstr "डार्ट सबमिशन"
 
 #: templates/base.jinja2:36 templates/fragments/container-record.html:7
 #: templates/fragments/response-record.html:21
@@ -96,16 +99,16 @@ msgstr ""
 #: templates/list_species.jinja2:16 templates/list_species.jinja2:23
 #: templates/list_species.jinja2:33
 msgid "Species"
-msgstr ""
+msgstr "प्रजातियाँ"
 
 #: templates/base.jinja2:37 templates/fragments/genus-record.html:11
 #: templates/list_genus.jinja2:32 templates/list_species.jinja2:34
 msgid "Genus"
-msgstr ""
+msgstr "जाति"
 
 #: templates/base.jinja2:39 templates/fragments/field-record-record.html:23
 msgid "Person"
-msgstr ""
+msgstr "व्यक्ति"
 
 #: templates/base.jinja2:40 templates/fragments/dart-submission-record.html:17
 #: templates/fragments/person-record.html:19
@@ -113,78 +116,79 @@ msgstr ""
 #: templates/list_dart-submission.jinja2:34 templates/list_person.jinja2:34
 #: templates/list_project.jinja2:33
 msgid "Institution"
-msgstr ""
+msgstr "संस्था"
 
 #: templates/base.jinja2:41
 msgid "OTU"
-msgstr ""
+msgstr "बाहर"
 
 #: templates/base.jinja2:42
 msgid "Identification OTU"
-msgstr ""
+msgstr "पहचान OTU"
 
 #: templates/base.jinja2:56
 msgid "Base"
-msgstr ""
+msgstr "बेस"
 
 #: templates/field.jinja2:4
 msgid "Field Lot"
-msgstr ""
+msgstr "फ़ील्ड लॉट"
 
 #: templates/form.jinja2:97
 msgid "Are you sure you want to delete this record?"
-msgstr ""
+msgstr "क्या आप वाकई इस रिकॉर्ड को मिटाना चाहते हैं?"
 
 #: templates/form.jinja2:101
 msgid "Record deleted"
-msgstr ""
+msgstr "रिकॉर्ड डिलीट किया गया"
 
 #: templates/form.jinja2:104
 msgid "Failed to delete record. Reason: "
-msgstr ""
+msgstr "रिकॉर्ड मिटाने में असफल। कारण: "
 
 #: templates/help.jinja2:3
 msgid "Help"
-msgstr ""
+msgstr "मदद"
 
 #: templates/help.jinja2:6
 msgid "Hello"
-msgstr ""
+msgstr "नमस्ते"
 
 #: templates/help.jinja2:6
 msgid " how can we help "
-msgstr ""
+msgstr " हम कैसे मदद कर सकते हैं "
 
 #: templates/home.jinja2:3
 msgid "Home"
-msgstr ""
+msgstr "होम"
 
 #: templates/home.jinja2:6
 msgid "Select a project"
-msgstr ""
+msgstr "एक प्रोजेक्ट का चयन करें"
 
 #: templates/list_container.jinja2:13
 msgid "+ Create container"
-msgstr ""
+msgstr "+ कंटेनर बनाएं"
 
 #: templates/list_container.jinja2:14
 msgid "Search containers"
-msgstr ""
+msgstr "कंटेनर खोजें"
 
 #: templates/list_container.jinja2:16 templates/list_container.jinja2:23
 msgid "Containers"
-msgstr ""
+msgstr "कंटेनर्स"
 
 #: templates/list_container.jinja2:24 templates/list_dart-plate.jinja2:24
 #: templates/list_dart-submission.jinja2:24 templates/list_effort.jinja2:30
 #: templates/list_field.jinja2:39 templates/list_genus.jinja2:24
 #: templates/list_identification.jinja2:30 templates/list_institution.jinja2:24
 msgid "Short description here"
-msgstr ""
+msgstr "संक्षिप्त विवरण यहाँ"
 
 #: templates/list_container.jinja2:26
 msgid "Use the search bar below to filter the displayed containers"
 msgstr ""
+"प्रदर्शित कंटेनरों को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग करें"
 
 #: templates/fragments/container-record.html:6
 #: templates/fragments/project-permission-record.html:7
@@ -198,12 +202,12 @@ msgstr ""
 #: templates/list_site.jinja2:33 templates/list_ssc-calculation.jinja2:33
 #: templates/list_traptype.jinja2:32
 msgid "Name"
-msgstr ""
+msgstr "नाम"
 
 #: templates/fragments/container-record.html:10
 #: templates/list_container.jinja2:35
 msgid "Preservation method"
-msgstr ""
+msgstr "संरक्षण विधि"
 
 #: templates/list_container.jinja2:36 templates/list_dart-plate.jinja2:35
 #: templates/list_dart-submission.jinja2:36 templates/list_field.jinja2:47
@@ -214,77 +218,81 @@ msgstr ""
 #: templates/list_trap-extra-attribute.jinja2:39
 #: templates/list_trapping-liquid.jinja2:33 templates/list_traptype.jinja2:36
 msgid "Created"
-msgstr ""
+msgstr "बनाया गया"
 
 #: templates/list_dart-plate.jinja2:13
 msgid "+ Create new plate"
-msgstr ""
+msgstr "+ नई प्लेट बनाएं"
 
 #: templates/list_dart-plate.jinja2:14
 msgid "Search plates"
-msgstr ""
+msgstr "खोज प्लेटें"
 
 #: templates/list_dart-plate.jinja2:16 templates/list_dart-plate.jinja2:23
 msgid "DArT Plates"
-msgstr ""
+msgstr "डार्ट प्लेट्स"
 
 #: templates/list_dart-plate.jinja2:26
 msgid "Use the search bar below to filter the displayed plates"
 msgstr ""
+"प्रदर्शित प्लेटों को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग करें"
 
 #: templates/list_dart-plate.jinja2:33
 msgid "Submission"
-msgstr ""
+msgstr "सबमिशन"
 
 #: templates/list_dart-plate.jinja2:34
 msgid "Success rate"
-msgstr ""
+msgstr "सफलता दर"
 
 #: templates/list_dart-submission.jinja2:13
 msgid "+ Create new submission"
-msgstr ""
+msgstr "+ नया सबमिशन बनाएं"
 
 #: templates/list_dart-submission.jinja2:14
 msgid "Search DArT Submissions"
-msgstr ""
+msgstr "डार्ट सबमिशन खोजें"
 
 #: templates/list_dart-submission.jinja2:23
 msgid "DArT Submissions"
-msgstr ""
+msgstr "डार्ट सबमिशन"
 
 #: templates/list_dart-submission.jinja2:26
 msgid "Use the search bar below to filter the displayed DArT Submissions"
 msgstr ""
+"प्रदर्शित डार्ट सबमिशन को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग "
+"करें"
 
 #: templates/list_dart-submission.jinja2:33
 msgid "Service"
-msgstr ""
+msgstr "सर्विस"
 
 #: templates/list_dart-submission.jinja2:35
 msgid "Date submitted"
-msgstr ""
+msgstr "सबमिट की गई तारीख"
 
 #: templates/list_effort.jinja2:13
 msgid "+ Create effort"
-msgstr ""
+msgstr "+ प्रयास बनाएं"
 
 #: templates/list_effort.jinja2:14
 msgid "Search efforts"
-msgstr ""
+msgstr "खोज के प्रयास"
 
 #: templates/list_effort.jinja2:22 templates/list_effort.jinja2:29
 msgid "Efforts"
-msgstr ""
+msgstr "प्रयास"
 
 #: templates/list_effort.jinja2:32
 msgid "Use the search bar below to filter the displayed efforts"
 msgstr ""
+"प्रदर्शित प्रयासों को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग करें"
 
 #: templates/list_effort.jinja2:39 templates/list_identification-otu.jinja2:33
 #: templates/list_multimedia.jinja2:39 templates/list_survey.jinja2:36
 #: templates/list_trap.jinja2:36
 msgid "ID"
-msgstr ""
+msgstr "आईडी"
 
 #: templates/fragments/container-record.html:8
 #: templates/fragments/effort-record.html:17
@@ -292,71 +300,74 @@ msgstr ""
 #: templates/list_genus.jinja2:35 templates/list_otu.jinja2:35
 #: templates/list_traptype.jinja2:34
 msgid "Comment"
-msgstr ""
+msgstr "कमेंट"
 
 #: templates/list_field.jinja2:13
 msgid "+ Create field record"
-msgstr ""
+msgstr "+ फ़ील्ड रिकॉर्ड बनाएं"
 
 #: templates/list_field.jinja2:14
 msgid "Search field records"
-msgstr ""
+msgstr "फ़ील्ड रिकॉर्ड खोजें"
 
 #: templates/fragments/effort-record.html:8
 #: templates/fragments/survey-record.html:24 templates/list_field.jinja2:31
 #: templates/list_field.jinja2:38
 msgid "Field records"
-msgstr ""
+msgstr "फ़ील्ड रिकॉर्ड"
 
 #: templates/list_field.jinja2:41
 msgid "Use the search bar below to filter the displayed field records"
 msgstr ""
+"प्रदर्शित फ़ील्ड रिकॉर्ड को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग "
+"करें"
 
 #: templates/list_field.jinja2:48
 msgid "Receiver (person)"
-msgstr ""
+msgstr "रिसीवर (व्यक्ति)"
 
 #: templates/fragments/field-record-record.html:21
 #: templates/list_field.jinja2:49
 msgid "Collection time"
-msgstr ""
+msgstr "कलेक्शन का समय"
 
 #: templates/list_genus.jinja2:13
 msgid "+ Add genus"
-msgstr ""
+msgstr "+ जीनस जोड़ें"
 
 #: templates/list_genus.jinja2:14
 msgid "Search genera"
-msgstr ""
+msgstr "खोज जेनेरा"
 
 #: templates/list_genus.jinja2:23
 msgid "Genera"
-msgstr ""
+msgstr "जेनेरा"
 
 #: templates/list_genus.jinja2:26
 msgid "Use the search bar below to filter the displayed genera"
 msgstr ""
+"प्रदर्शित जेनेरा को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग करें"
 
 #: templates/list_genus.jinja2:33 templates/list_species.jinja2:36
 msgid "Order"
-msgstr ""
+msgstr "आर्डर"
 
 #: templates/list_genus.jinja2:34 templates/list_species.jinja2:35
 msgid "Family"
-msgstr ""
+msgstr "फ़ैमिली"
 
 #: templates/list_identification-otu.jinja2:13
 msgid "+ Create Identification OTU"
-msgstr ""
+msgstr "+ आइडेंटिफिकेशन OTU बनाएं"
 
 #: templates/list_identification-otu.jinja2:14
 msgid "Search Identification OTUs"
-msgstr ""
+msgstr "खोज पहचान ओटीयू"
 
 #: templates/list_identification-otu.jinja2:16
 #: templates/list_identification-otu.jinja2:23
 msgid "Identification OTUs"
-msgstr ""
+msgstr "आइडेंटिफिकेशन ओटीयू"
 
 #: templates/list_identification-otu.jinja2:24
 #: templates/list_multimedia.jinja2:28 templates/list_otu.jinja2:24
@@ -368,253 +379,262 @@ msgstr ""
 #: templates/list_trapping-liquid.jinja2:24 templates/list_traptype.jinja2:24
 #: templates/plate-wells-table.jinja2:15
 msgid "Short description here."
-msgstr ""
+msgstr "संक्षिप्त विवरण यहां दिया गया है।"
 
 #: templates/list_identification-otu.jinja2:26
 msgid "Use the search bar below to filter the displayed Identification OTUs"
 msgstr ""
+"प्रदर्शित पहचान OTU को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग करें"
 
 #: templates/fragments/identification-otu-record.html:7
 #: templates/list_identification-otu.jinja2:34 templates/list_otu.jinja2:34
 msgid "Vial ID"
-msgstr ""
+msgstr "वायल आईडी"
 
 #: templates/fragments/identification-otu-record.html:8
 #: templates/fragments/otu-record.html:6
 #: templates/list_identification-otu.jinja2:35 templates/list_otu.jinja2:33
 msgid "OTU ID"
-msgstr ""
+msgstr "आउट आईडी"
 
 #: templates/fragments/identification-otu-record.html:9
 #: templates/list_identification-otu.jinja2:36
 msgid "Identified by"
-msgstr ""
+msgstr "द्वारा पहचाना गया"
 
 #: templates/fragments/identification-otu-record.html:10
 #: templates/list_identification-otu.jinja2:37
 msgid "Date identified"
-msgstr ""
+msgstr "तारीख की पहचान की गई"
 
 #: templates/list_identification.jinja2:13
 msgid "+ Create identification"
-msgstr ""
+msgstr "+ पहचान बनाएं"
 
 #: templates/list_identification.jinja2:14
 msgid "Search identifications"
-msgstr ""
+msgstr "पहचान खोजें"
 
 #: templates/list_identification.jinja2:22
 #: templates/list_identification.jinja2:29
 msgid "Identifications"
-msgstr ""
+msgstr "पहचानें"
 
 #: templates/list_identification.jinja2:32
 msgid "Use the search bar below to filter the displayed identifications"
 msgstr ""
+"प्रदर्शित पहचानों को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग करें"
 
 #: templates/fragments/identification-record.html:6
 #: templates/list_identification.jinja2:39
 msgid "N-reference"
-msgstr ""
+msgstr "n- संदर्भ"
 
 #: templates/fragments/identification-record.html:10
 #: templates/list_identification.jinja2:40
 msgid "Identification"
-msgstr ""
+msgstr "पहचान"
 
 #: templates/list_identification.jinja2:41
 msgid "Males"
-msgstr ""
+msgstr "नर"
 
 #: templates/list_identification.jinja2:42
 msgid "Females"
-msgstr ""
+msgstr "महिलाएँ"
 
 #: templates/list_identification.jinja2:43
 msgid "Juveniles"
-msgstr ""
+msgstr "किशोर"
 
 #: templates/list_identification.jinja2:44
 msgid "Adults (indet. sex)"
-msgstr ""
+msgstr "वयस्क (सेक्स में)"
 
 #: templates/list_identification.jinja2:45
 msgid "Alates"
-msgstr ""
+msgstr "अलटेस"
 
 #: templates/list_identification.jinja2:46
 msgid "Stage + sex indet."
-msgstr ""
+msgstr "स्टेज + सेक्स इंडेट।"
 
 #: templates/list_institution.jinja2:13
 msgid "+ Add institution"
-msgstr ""
+msgstr "+ संस्था जोड़ें"
 
 #: templates/list_institution.jinja2:14
 msgid "Search institutions"
-msgstr ""
+msgstr "संस्थानों को खोजें"
 
 #: templates/list_institution.jinja2:16 templates/list_institution.jinja2:23
 msgid "Institutions"
-msgstr ""
+msgstr "संस्थाएं"
 
 #: templates/list_institution.jinja2:26
 msgid "Use the search bar below to filter the displayed institutions"
 msgstr ""
+"प्रदर्शित संस्थानों को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग करें"
 
 #: templates/list_institution.jinja2:34
 msgid "Total projects"
-msgstr ""
+msgstr "कुल परियोजनाएँ"
 
 #: templates/fragments/field-record-record.html:27
 #: templates/fragments/identification-record.html:8
 #: templates/fragments/survey-record.html:25
 #: templates/list_multimedia.jinja2:20 templates/list_multimedia.jinja2:27
 msgid "Multimedia"
-msgstr ""
+msgstr "मल्टीमीडिया"
 
 #: templates/list_multimedia.jinja2:30
 msgid "Use the search bar below to filter the displayed multimedia."
 msgstr ""
+"प्रदर्शित मल्टीमीडिया को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग "
+"करें।"
 
 #: templates/list_multimedia.jinja2:32
 msgid "Import Multimedia"
-msgstr ""
+msgstr "मल्टीमीडिया आयात करें"
 
 #: templates/list_multimedia.jinja2:53
 msgid "\"Uploading multimedia records is not availble in the current build.\""
-msgstr ""
+msgstr "“वर्तमान बिल्ड में मल्टीमीडिया रिकॉर्ड अपलोड करना उपलब्ध नहीं है।”"
 
 #: templates/list_multimedia.jinja2:56
 msgid "\"Are you sure you want to upload this record?\""
-msgstr ""
+msgstr "“क्या आप वाकई इस रिकॉर्ड को अपलोड करना चाहते हैं?”"
 
 #: templates/list_multimedia.jinja2:101
 msgid "\"Failed to find Field record.\""
-msgstr ""
+msgstr "“फ़ील्ड रिकॉर्ड ढूंढने में असफल.”"
 
 #: templates/list_multimedia.jinja2:121
 msgid "\"Successfully uploaded records: \""
-msgstr ""
+msgstr "“सफलतापूर्वक अपलोड किए गए रिकॉर्ड:”"
 
 #: templates/list_multimedia.jinja2:121
 msgid "\"Unsuccessfully uploaded records: \""
-msgstr ""
+msgstr "“असफल रूप से अपलोड किए गए रिकॉर्ड:”"
 
 #: templates/list_multimedia.jinja2:125
 msgid "\"Failed to link Field and Multimedia record.\""
-msgstr ""
+msgstr "“फ़ील्ड और मल्टीमीडिया रिकॉर्ड को लिंक करने में विफल.”"
 
 #: templates/list_otu.jinja2:13
 msgid "+ Create OTU"
-msgstr ""
+msgstr "+ OTU बनाएं"
 
 #: templates/list_otu.jinja2:14
 msgid "Search OTUs"
-msgstr ""
+msgstr "OTU खोजें"
 
 #: templates/list_otu.jinja2:16 templates/list_otu.jinja2:23
 msgid "OTUs"
-msgstr ""
+msgstr "ओटीयू"
 
 #: templates/list_otu.jinja2:26
 msgid "Use the search bar below to filter the displayed OTUs."
-msgstr ""
+msgstr "प्रदर्शित OTU को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग करें।"
 
 #: templates/list_person.jinja2:13
 msgid "+ Add a person"
-msgstr ""
+msgstr "+ एक व्यक्ति को जोड़ें"
 
 #: templates/list_person.jinja2:14 templates/list_project-permissions.jinja2:14
 msgid "Search people"
-msgstr ""
+msgstr "लोगों को खोजें"
 
 #: templates/list_person.jinja2:16 templates/list_person.jinja2:23
 msgid "People"
-msgstr ""
+msgstr "लोग"
 
 #: templates/list_person.jinja2:26
 msgid "Use the search bar below to filter the displayed people."
 msgstr ""
+"प्रदर्शित लोगों को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग करें।"
 
 #: templates/list_person.jinja2:32
 msgid "First name"
-msgstr ""
+msgstr "पहला नाम"
 
 #: templates/list_person.jinja2:33
 msgid "Surname"
-msgstr ""
+msgstr "उपनाम"
 
 #: templates/list_planned-ssc.jinja2:13
 msgid "+ Add a planned SSC"
-msgstr ""
+msgstr "+ एक योजनाबद्ध SSC जोड़ें"
 
 #: templates/list_planned-ssc.jinja2:14
 msgid "Search planned SSCs"
-msgstr ""
+msgstr "योजनाबद्ध SSC खोजें"
 
 #: templates/list_planned-ssc.jinja2:16 templates/list_planned-ssc.jinja2:23
 msgid "Planned SSCs"
-msgstr ""
+msgstr "नियोजित SSC"
 
 #: templates/list_planned-ssc.jinja2:26
 msgid "Use the search bar below to filter the displayed planned SSCs."
 msgstr ""
+"प्रदर्शित योजनाबद्ध SSC को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग "
+"करें।"
 
 #: templates/fragments/trap-extra-attribute-record.html:17
 #: templates/fragments/trap-record.html:19 templates/list_planned-ssc.jinja2:32
 #: templates/list_trap-extra-attribute.jinja2:35 templates/list_trap.jinja2:37
 msgid "Trap type"
-msgstr ""
+msgstr "ट्रैप टाइप"
 
 #: templates/list_planned-ssc.jinja2:33
 msgid "Start date"
-msgstr ""
+msgstr "आरंभ करने की तिथि"
 
 #: templates/list_planned-ssc.jinja2:34
 msgid "End date"
-msgstr ""
+msgstr "अंतिम तारीख"
 
 #: templates/list_planned-ssc.jinja2:35
 msgid "Projected SSC total"
-msgstr ""
+msgstr "अनुमानित SSC टोटल"
 
 #: templates/list_project-permissions.jinja2:13
 msgid "+ Add person to project"
-msgstr ""
+msgstr "+ प्रोजेक्ट में व्यक्ति जोड़ें"
 
 #: templates/list_project-permissions.jinja2:20
 msgid "Project access"
-msgstr ""
+msgstr "प्रोजेक्ट एक्सेस"
 
 #: templates/list_project-permissions.jinja2:27
 msgid "Project permissions"
-msgstr ""
+msgstr "प्रोजेक्ट अनुमतियां"
 
 #: templates/list_project-permissions.jinja2:30
 msgid "Use the search bar below to filter the displayed permissions."
 msgstr ""
+"प्रदर्शित अनुमतियों को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग करें।"
 
 #: templates/fragments/project-permission-record.html:8
 #: templates/list_project-permissions.jinja2:38
 msgid "Permission level"
-msgstr ""
+msgstr "अनुमति का स्तर"
 
 #: templates/list_project-permissions.jinja2:39
 msgid "Date added"
-msgstr ""
+msgstr "तारीख जोड़ी गई"
 
 #: templates/list_project.jinja2:13
 msgid "+ Create new project"
-msgstr ""
+msgstr "+ नया प्रोजेक्ट बनाएं"
 
 #: templates/list_project.jinja2:14
 msgid "Search projects"
-msgstr ""
+msgstr "प्रोजेक्ट खोजें"
 
 #: templates/list_project.jinja2:16 templates/list_project.jinja2:23
 msgid "Projects"
-msgstr ""
+msgstr "परियोजनाएँ"
 
 #: templates/list_project.jinja2:24
 msgid ""
@@ -622,553 +642,575 @@ msgid ""
 "cards i.e. why a project image might not exist (no trap location data) or"
 " look inaccurate (outlier trap data)"
 msgstr ""
+"परियोजनाओं के बारे में संक्षिप्त विवरण, और कार्ड पर प्रदर्शित जानकारी यानी "
+"प्रोजेक्ट छवि क्यों मौजूद नहीं हो सकती है (कोई ट्रैप स्थान डेटा नहीं) या गलत "
+"दिखता है (आउटलियर ट्रैप डेटा)"
 
 #: templates/list_project.jinja2:26
 msgid "Use the search bar below to filter the displayed projects."
 msgstr ""
+"प्रदर्शित परियोजनाओं को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग "
+"करें।"
 
 #: templates/list_response.jinja2:13
 msgid "+ Add a response"
-msgstr ""
+msgstr "+ एक प्रतिक्रिया जोड़ें"
 
 #: templates/list_response.jinja2:14
 msgid "Search responses"
-msgstr ""
+msgstr "प्रतिक्रियाएँ खोजें"
 
 #: templates/list_response.jinja2:16 templates/list_response.jinja2:23
 msgid "Responses"
-msgstr ""
+msgstr "प्रतिक्रियाएँ"
 
 #: templates/list_response.jinja2:26
 msgid "Use the search bar below to filter the displayed responses."
 msgstr ""
+"प्रदर्शित प्रतिक्रियाओं को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग "
+"करें।"
 
 #: templates/list_response.jinja2:33
 msgid "Incursion date"
-msgstr ""
+msgstr "घुसपैठ की तारीख"
 
 #: templates/list_site.jinja2:13
 msgid "+ Create new site"
-msgstr ""
+msgstr "+ नई साइट बनाएं"
 
 #: templates/list_site.jinja2:14
 msgid "Search sites"
-msgstr ""
+msgstr "साइट खोजें"
 
 #: templates/list_site.jinja2:16 templates/list_site.jinja2:23
 msgid "Sites"
-msgstr ""
+msgstr "साइट्स"
 
 #: templates/list_site.jinja2:26
 msgid "Use the search bar below to filter the displayed sites."
 msgstr ""
+"प्रदर्शित साइटों को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग करें।"
 
 #: templates/list_species.jinja2:13
 msgid "+ Add species"
-msgstr ""
+msgstr "+ प्रजाति जोड़ें"
 
 #: templates/list_species.jinja2:14
 msgid "Search species"
-msgstr ""
+msgstr "प्रजातियों की खोज करें"
 
 #: templates/list_species.jinja2:26
 msgid "Use the search bar below to filter the displayed species."
 msgstr ""
+"प्रदर्शित प्रजातियों को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग "
+"करें।"
 
 #: templates/fragments/species-record.html:11 templates/list_species.jinja2:32
 msgid "Common name"
-msgstr ""
+msgstr "सामान्य नाम"
 
 #: templates/fragments/genus-record.html:15
 #: templates/fragments/species-record.html:15 templates/list_species.jinja2:37
 msgid "Author"
-msgstr ""
+msgstr "लेखक"
 
 #: templates/list_ssc-calculation.jinja2:13
 msgid "+ Create SSC calculation"
-msgstr ""
+msgstr "+ SSC गणना बनाएं"
 
 #: templates/list_ssc-calculation.jinja2:14
 msgid "Search SSC calculations"
-msgstr ""
+msgstr "SSC गणनाएं खोजें"
 
 #: templates/list_ssc-calculation.jinja2:16
 #: templates/list_ssc-calculation.jinja2:23
 msgid "SSC Calculations"
-msgstr ""
+msgstr "SSC गणनाएं"
 
 #: templates/list_ssc-calculation.jinja2:26
 msgid "Use the search bar below to filter the displayed SSC calculations."
 msgstr ""
+"प्रदर्शित SSC गणनाओं को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग "
+"करें।"
 
 #: templates/fragments/ssc-calculation-record.html:7
 #: templates/fragments/ssc-calculation-record.html:29
 #: templates/list_ssc-calculation.jinja2:34
 #: templates/list_trap-extra-attribute.jinja2:38
 msgid "Datatype"
-msgstr ""
+msgstr "डेटाटाइप"
 
 #: templates/fragments/ssc-calculation-record.html:8
 #: templates/list_ssc-calculation.jinja2:35
 msgid "Unit size"
-msgstr ""
+msgstr "यूनिट का आकार"
 
 #: templates/list_ssc-calculation.jinja2:36
 msgid "Max units"
-msgstr ""
+msgstr "अधिकतम इकाइयां"
 
 #: templates/fragments/ssc-calculation-record.html:11
 #: templates/list_ssc-calculation.jinja2:37
 msgid "Unit value"
-msgstr ""
+msgstr "यूनिट वैल्यू"
 
 #: templates/list_survey.jinja2:13
 msgid "+ Create new survey"
-msgstr ""
+msgstr "+ नया सर्वेक्षण बनाएं"
 
 #: templates/list_survey.jinja2:14
 msgid "Search surveys"
-msgstr ""
+msgstr "सर्वेक्षणों को खोजें"
 
 #: templates/fragments/project-record.html:34 templates/list_survey.jinja2:20
 #: templates/list_survey.jinja2:27
 msgid "Surveys"
-msgstr ""
+msgstr "सर्वे"
 
 #: templates/list_survey.jinja2:30
 msgid "Use the search bar below to filter the displayed surveys."
 msgstr ""
+"प्रदर्शित सर्वेक्षणों को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग "
+"करें।"
 
 #: templates/list_survey.jinja2:37
 msgid "Survey type"
-msgstr ""
+msgstr "सर्वे का प्रकार"
 
 #: templates/fragments/survey-record.html:19 templates/list_survey.jinja2:38
 msgid "Location"
-msgstr ""
+msgstr "लोकेशन"
 
 #: templates/list_trap-extra-attribute.jinja2:13
 msgid "+ Create extra attribute"
-msgstr ""
+msgstr "+ अतिरिक्त विशेषता बनाएं"
 
 #: templates/list_trap-extra-attribute.jinja2:14
 msgid "Search Trap Extra Attributes"
-msgstr ""
+msgstr "ट्रैप एक्स्ट्रा एट्रिब्यूट्स खोजें"
 
 #: templates/list_trap-extra-attribute.jinja2:17
 msgid "Additional trap attributes"
-msgstr ""
+msgstr "अतिरिक्त ट्रैप विशेषताएँ"
 
 #: templates/list_trap-extra-attribute.jinja2:24
 msgid "Additional Trap Attributes"
-msgstr ""
+msgstr "अतिरिक्त ट्रैप विशेषताएँ"
 
 #: templates/list_trap-extra-attribute.jinja2:25
 msgid ""
 "Sometimes extra data is required for a particular trap that doesn't fit "
 "into the normal schema. Here you can add/view these \"extra attributes\"."
 msgstr ""
+"कभी-कभी किसी विशेष ट्रैप के लिए अतिरिक्त डेटा की आवश्यकता होती है जो सामान्य "
+"स्कीमा में फिट नहीं होता है। यहां आप इन “अतिरिक्त विशेषताओं” को जोड़/देख सकते"
+" हैं।"
 
 #: templates/list_trap-extra-attribute.jinja2:27
 msgid "Use the search bar below to filter the displayed extra attributes."
 msgstr ""
+"प्रदर्शित अतिरिक्त विशेषताओं को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का "
+"उपयोग करें।"
 
 #: templates/list_trap-extra-attribute.jinja2:34
 msgid "Attribute name"
-msgstr ""
+msgstr "गुण का नाम"
 
 #: templates/list_trap-extra-attribute.jinja2:36
 msgid "Description"
-msgstr ""
+msgstr "विवरण"
 
 #: templates/list_trap-extra-attribute.jinja2:37
 msgid "Mandatory"
-msgstr ""
+msgstr "अनिवार्य"
 
 #: templates/list_trap.jinja2:13
 msgid "+ Create new trap"
-msgstr ""
+msgstr "+ नया ट्रैप बनाएं"
 
 #: templates/list_trap.jinja2:14
 msgid "Search traps"
-msgstr ""
+msgstr "खोज के जाल"
 
 #: templates/fragments/project-record.html:33 templates/list_trap.jinja2:20
 #: templates/list_trap.jinja2:27
 msgid "Traps"
-msgstr ""
+msgstr "ट्रैप्स"
 
 #: templates/list_trap.jinja2:30
 msgid "Use the search bar below to filter the displayed traps"
 msgstr ""
+"प्रदर्शित ट्रैप को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का उपयोग करें"
 
 #: templates/list_trapping-liquid.jinja2:13
 msgid "+ Add trapping liquid"
-msgstr ""
+msgstr "+ फँसाने वाला तरल जोड़ें"
 
 #: templates/list_trapping-liquid.jinja2:14
 msgid "Search trapping liquids"
-msgstr ""
+msgstr "ट्रैपिंग लिक्विड खोजें"
 
 #: templates/list_trapping-liquid.jinja2:16
 msgid "Trapping Liquids"
-msgstr ""
+msgstr "ट्रैपिंग लिक्विड"
 
 #: templates/list_trapping-liquid.jinja2:23
 msgid "Trapping liquids"
-msgstr ""
+msgstr "तरल पदार्थ फँसाना"
 
 #: templates/list_trapping-liquid.jinja2:26
 msgid "Use the search bar below to filter the displayed trapping liquids."
 msgstr ""
+"प्रदर्शित ट्रैपिंग तरल पदार्थों को फ़िल्टर करने के लिए नीचे दिए गए खोज बार का"
+" उपयोग करें।"
 
 #: templates/fragments/trapping-liquid-record.html:5
 #: templates/list_trapping-liquid.jinja2:32
 msgid "Liquid"
-msgstr ""
+msgstr "लिक्विड"
 
 #: templates/list_traptype.jinja2:13
 msgid "+ New trap type"
-msgstr ""
+msgstr "+ नया ट्रैप टाइप"
 
 #: templates/list_traptype.jinja2:14
 msgid "Search trap types"
-msgstr ""
+msgstr "ट्रैप के प्रकार खोजें"
 
 #: templates/list_traptype.jinja2:16 templates/list_traptype.jinja2:23
 msgid "Trap types"
-msgstr ""
+msgstr "ट्रैप के प्रकार"
 
 #: templates/list_traptype.jinja2:33
 msgid "Target groups"
-msgstr ""
+msgstr "लक्षित समूह"
 
 #: templates/list_traptype.jinja2:35
 msgid "SSC method"
-msgstr ""
+msgstr "एसएससी मेथड"
 
 #: templates/map.jinja2:8
 msgid "Zoom to Bounds"
-msgstr ""
+msgstr "ज़ूम टू बाउंड्स"
 
 #: templates/map.jinja2:9
 msgid "Back to Previous Page"
-msgstr ""
+msgstr "पिछले पेज पर वापस जाएं"
 
 #: templates/map.jinja2:11
 msgid "Project map"
-msgstr ""
+msgstr "प्रोजेक्ट मैप"
 
 #: templates/plate-wells-table.jinja2:9 templates/plate-wells-table.jinja2:14
 msgid "Plate wells"
-msgstr ""
+msgstr "प्लेट वेल्स"
 
 #: templates/fragments/container-record.html:9
 msgid "Qualifier"
-msgstr ""
+msgstr "क्वालिफायर"
 
 #: templates/fragments/container-record.html:11
 msgid "Container type"
-msgstr ""
+msgstr "कंटेनर का प्रकार"
 
 #: templates/fragments/container-record.html:12
 msgid "Full?"
-msgstr ""
+msgstr "पूरा हुआ?"
 
 #: templates/fragments/container-record.html:13
 msgid "Needs label?"
-msgstr ""
+msgstr "लेबल चाहिए?"
 
 #: templates/fragments/dart-plate-record.html:11
 msgid "DArT Plate #"
-msgstr ""
+msgstr "डार्ट प्लेट #"
 
 #: templates/fragments/dart-plate-record.html:15
 msgid "Submission reference"
-msgstr ""
+msgstr "सबमिशन का संदर्भ"
 
 #: templates/fragments/dart-plate-record.html:17
 msgid "success rate"
-msgstr ""
+msgstr "सफलता दर"
 
 #: templates/fragments/dart-plate-record.html:18
 #: templates/fragments/dart-submission-record.html:20
 #: templates/fragments/effort-record.html:39
 #: templates/fragments/site-record.html:21
 msgid "Comment: "
-msgstr ""
+msgstr "टिप्पणी: "
 
 #: templates/fragments/dart-plate-record.html:21
 msgid "Wells"
-msgstr ""
+msgstr "वेल्स"
 
 #: templates/fragments/dart-submission-record.html:12
 msgid "DArT Service"
-msgstr ""
+msgstr "डार्ट सर्विस"
 
 #: templates/fragments/dart-submission-record.html:19
 msgid "Submitted on: "
-msgstr ""
+msgstr "पर सबमिट किया गया: "
 
 #: templates/fragments/dart-submission-record.html:21
 msgid "Submitted by: "
-msgstr ""
+msgstr "द्वारा सबमिट किया गया: "
 
 #: templates/fragments/dart-submission-record.html:22
 msgid "Courier ref: "
-msgstr ""
+msgstr "कूरियर रेफरी: "
 
 #: templates/fragments/effort-record.html:6
 msgid "Effort ID"
-msgstr ""
+msgstr "एफर्ट आईडी"
 
 #: templates/fragments/effort-record.html:13
 msgid "SSC value"
-msgstr ""
+msgstr "एसएससी वैल्यू"
 
 #: templates/fragments/effort-record.html:15
 msgid "Collectors"
-msgstr ""
+msgstr "संग्रहकर्ता"
 
 #: templates/fragments/effort-record.html:16
 msgid "Related responses"
-msgstr ""
+msgstr "संबंधित प्रतिक्रियाएँ"
 
 #: templates/fragments/effort-record.html:30
 msgid "Effort name"
-msgstr ""
+msgstr "प्रयास का नाम"
 
 #: templates/fragments/effort-record.html:36
 #: templates/fragments/survey-record.html:21
 msgid "Collected by: "
-msgstr ""
+msgstr "द्वारा एकत्रित: "
 
 #: templates/fragments/effort-record.html:37
 msgid "Responses: "
-msgstr ""
+msgstr "प्रतिक्रियाएँ: "
 
 #: templates/fragments/effort-record.html:38
 msgid "SSC value: "
-msgstr ""
+msgstr "SSC मान: "
 
 #: templates/fragments/field-map-popup.html:12
 msgid "Samples: "
-msgstr ""
+msgstr "नमूने: "
 
 #: templates/fragments/field-record-record.html:15
 msgid "Field number"
-msgstr ""
+msgstr "फ़ील्ड नंबर"
 
 #: templates/fragments/field-record-record.html:19
 msgid "Collection type"
-msgstr ""
+msgstr "कलेक्शन का प्रकार"
 
 #: templates/fragments/field-record-record.html:22
 msgid "Ex port"
-msgstr ""
+msgstr "एक्स पोर्ट"
 
 #: templates/fragments/field-record-record.html:26
 msgid "Samples"
-msgstr ""
+msgstr "नमूने"
 
 #: templates/fragments/identification-otu-record.html:6
 msgid "Identification OTU ID"
-msgstr ""
+msgstr "पहचान OTU आईडी"
 
 #: templates/fragments/identification-record.html:11
 msgid "# Males"
-msgstr ""
+msgstr "# पुरुष"
 
 #: templates/fragments/identification-record.html:12
 msgid "# Females"
-msgstr ""
+msgstr "# महिलाएं"
 
 #: templates/fragments/identification-record.html:13
 msgid "# Juveniles"
-msgstr ""
+msgstr "# किशोर"
 
 #: templates/fragments/identification-record.html:14
 msgid "# Adults indet. sex"
-msgstr ""
+msgstr "# सेक्स में वयस्क"
 
 #: templates/fragments/identification-record.html:15
 msgid "# Alates"
-msgstr ""
+msgstr "# अल्टेस"
 
 #: templates/fragments/identification-record.html:16
 msgid "# Stage/sex indet."
-msgstr ""
+msgstr "# स्टेज/सेक्स इंडेट।"
 
 #: templates/fragments/institution-record.html:15
 msgid "Institution name"
-msgstr ""
+msgstr "संस्था का नाम"
 
 #: templates/fragments/institution-record.html:19
 #: templates/fragments/trap-type-record.html:19
 msgid "Abbreviation"
-msgstr ""
+msgstr "संक्षिप्त नाम"
 
 #: templates/fragments/otu-record.html:7
 msgid "Ref vial ID"
-msgstr ""
+msgstr "रेफ शीशी आईडी"
 
 #: templates/fragments/otu-record.html:8
 msgid "comment"
-msgstr ""
+msgstr "टिप्पणी"
 
 #: templates/fragments/person-record.html:15
 msgid "Person name"
-msgstr ""
+msgstr "व्यक्ति का नाम"
 
 #: templates/fragments/person-record.html:21
 msgid "Job title"
-msgstr ""
+msgstr "नौकरी का शीर्षक"
 
 #: templates/fragments/person-record.html:22
 msgid "Email"
-msgstr ""
+msgstr "ईमेल"
 
 #: templates/fragments/person-record.html:23
 #: templates/fragments/planned-ssc-record.html:19
 msgid "Roles list"
-msgstr ""
+msgstr "भूमिकाओं की सूची"
 
 #: templates/fragments/planned-ssc-record.html:11
 msgid "Planned SSC ID"
-msgstr ""
+msgstr "योजनाबद्ध SSC ID"
 
 #: templates/fragments/planned-ssc-record.html:15
 msgid "Project Name"
-msgstr ""
+msgstr "प्रोजेक्ट का नाम"
 
 #: templates/fragments/planned-ssc-record.html:18
 msgid "Start"
-msgstr ""
+msgstr "शुरू करें"
 
 #: templates/fragments/planned-ssc-record.html:18
 msgid "End"
-msgstr ""
+msgstr "अंत"
 
 #: templates/fragments/project-permission-record.html:6
 msgid "Edit"
-msgstr ""
+msgstr "संपादित करें"
 
 #: templates/fragments/project-record.html:23
 msgid "Project name"
-msgstr ""
+msgstr "प्रोजेक्ट का नाम"
 
 #: templates/fragments/project-record.html:27
 msgid "Subtitle"
-msgstr ""
+msgstr "उपशीर्षक"
 
 #: templates/fragments/project-record.html:35
 msgid "Access"
-msgstr ""
+msgstr "ऐक्सेस"
 
 #: templates/fragments/response-record.html:15
 msgid "Response name"
-msgstr ""
+msgstr "प्रतिक्रिया का नाम"
 
 #: templates/fragments/site-record.html:15
 msgid "Site name"
-msgstr ""
+msgstr "साइट का नाम"
 
 #: templates/fragments/site-record.html:18
 msgid "GPS projection: "
-msgstr ""
+msgstr "GPS प्रोजेक्शन: "
 
 #: templates/fragments/site-record.html:19
 msgid "GPS accuracy: "
-msgstr ""
+msgstr "GPS सटीकता: "
 
 #: templates/fragments/site-record.html:20
 msgid "Geosource: "
-msgstr ""
+msgstr "जियोसोर्स: "
 
 #: templates/fragments/species-record.html:17
 msgid "Order: "
-msgstr ""
+msgstr "ऑर्डर: "
 
 #: templates/fragments/species-record.html:18
 msgid "Family: "
-msgstr ""
+msgstr "परिवार: "
 
 #: templates/fragments/species-record.html:19
 msgid "Genus: "
-msgstr ""
+msgstr "जाति: "
 
 #: templates/fragments/species-record.html:20
 msgid "Species: "
-msgstr ""
+msgstr "प्रजातियाँ: "
 
 #: templates/fragments/ssc-calculation-record.html:9
 msgid "Unit Limit"
-msgstr ""
+msgstr "यूनिट लिमिट"
 
 #: templates/fragments/ssc-calculation-record.html:10
 msgid "Hard limit?"
-msgstr ""
+msgstr "हार्ड लिमिट?"
 
 #: templates/fragments/ssc-calculation-record.html:31
 msgid "Unit size: "
-msgstr ""
+msgstr "यूनिट का आकार: "
 
 #: templates/fragments/ssc-calculation-record.html:32
 msgid "Max units: "
-msgstr ""
+msgstr "अधिकतम इकाइयां: "
 
 #: templates/fragments/ssc-calculation-record.html:33
 msgid "Unit value: "
-msgstr ""
+msgstr "यूनिट वैल्यू: "
 
 #: templates/fragments/survey-record.html:15
 msgid "Survey name"
-msgstr ""
+msgstr "सर्वे का नाम"
 
 #: templates/fragments/survey-record.html:15
 msgid "Type"
-msgstr ""
+msgstr "टाइप करें"
 
 #: templates/fragments/trap-extra-attribute-record.html:12
 msgid "Attribute"
-msgstr ""
+msgstr "गुण"
 
 #: templates/fragments/trap-extra-attribute-record.html:19
 msgid "Mandatory: "
-msgstr ""
+msgstr "अनिवार्य: "
 
 #: templates/fragments/trap-extra-attribute-record.html:20
 msgid "Description: "
-msgstr ""
+msgstr "विवरण: "
 
 #: templates/fragments/trap-extra-attribute-record.html:21
 msgid "Datatype: "
-msgstr ""
+msgstr "डेटाटाइप: "
 
 #: templates/fragments/trap-record.html:15
 msgid "Trap name"
-msgstr ""
+msgstr "ट्रैप का नाम"
 
 #: templates/fragments/trap-record.html:22
 msgid "Latitude"
-msgstr ""
+msgstr "अक्षांश"
 
 #: templates/fragments/trap-record.html:23
 msgid "Longitude"
-msgstr ""
+msgstr "लॉन्गीट्यूड"
 
 #: templates/fragments/trap-type-record.html:21
 msgid "List"
-msgstr ""
+msgstr "सूची"
 
 #: templates/fragments/trap-type-record.html:22
 msgid "description"
-msgstr ""
+msgstr "विवरण"
 
 #: templates/macros/buttons.jinja2:8
 msgid "Export"
-msgstr ""
+msgstr "एक्सपोर्ट करें"
 
 #: templates/macros/util.jinja2:21
 msgid "Sort by"
-msgstr ""
+msgstr "इसके अनुसार क्रमबद्ध करें"
